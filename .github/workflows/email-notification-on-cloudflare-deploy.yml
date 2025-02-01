@@ -22,7 +22,7 @@ jobs:
 
       - name: Send email notification via Zoho Mail
         env:
-          ZOHO_SMTP_SERVER: "smtppro.zoho.com"
+          ZOHO_SMTP_SERVER: "smtp.zoho.com"
           ZOHO_SMTP_PORT: "465"
           ZOHO_EMAIL_ADDRESS: ${{ secrets.ZOHO_EMAIL_ADDRESS }}
           ZOHO_APP_PASSWORD: ${{ secrets.ZOHO_APP_PASSWORD }}

@@ -2,6 +2,7 @@ import { defineConfig } from "astro/config";
 
 import tailwind from "@astrojs/tailwind";
 
+// TODO: usar ssr
 // https://astro.build/config
 export default defineConfig({
   integrations: [tailwind()],
