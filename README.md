@@ -1,5 +1,5 @@
 # Astro Starter Kit: Basics
-
+<!-- TODO: armar readme -->
 ```sh
 npm create astro@latest -- --template basics
 ```

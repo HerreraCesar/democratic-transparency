@@ -1,0 +1,127 @@
+---
+import { getLangFromUrl, useTranslations } from "@internationalization";
+import { Image } from "astro:assets";
+import { getCollection } from "astro:content";
+import type { defaultLang, dictionary } from "src/i18n/dictionary";
+import { speedometer } from "@assets/icons";
+
+//TODO: extraer interfaces
+type Category =
+  | "government"
+  | "ministry"
+  | "secretary"
+  | "undersecretary"
+  | "directorate"
+  | "subdirectorate"
+  | "entity"
+  | "organism"
+  | "consulting";
+
+interface Authority {
+  name: string;
+  position: string;
+  email: string;
+  phone: string;
+}
+
+interface Entity {
+  name: string;
+  category: Category;
+  authority: Authority;
+  dependencies: Entity[];
+}
+
+const lang = getLangFromUrl(Astro.url);
+const t = useTranslations(lang);
+
+// TODO: extraer funcion
+async function getFlattenedEntities() {
+  const entitiesCollection = await getCollection("entities", ({ id }) =>
+    id.startsWith(`${lang}/`)
+  );
+
+  function flattenEntities(entities: Entity[]): Entity[] {
+    const flattened: Entity[] = [];
+
+    function flat(ents: Entity[]) {
+      ents.forEach((entity) => {
+        flattened.push(entity);
+        if (entity.dependencies && entity.dependencies.length > 0) {
+          flat(entity.dependencies);
+        }
+      });
+    }
+
+    entitiesCollection.forEach((file) => flat(file.data));
+
+    return flattened;
+  }
+
+  const allEntities: Entity[] = [];
+  entitiesCollection.forEach((file) => allEntities.push(...file.data));
+
+  return flattenEntities(allEntities);
+}
+
+const flattenedEntities = await getFlattenedEntities();
+
+type DictionaryKey = keyof (typeof dictionary)[typeof defaultLang];
+type Statistics = Partial<Record<DictionaryKey, number>>;
+
+// TODO: armar funcion
+const statistics: Statistics = {
+  ministries: flattenedEntities.filter(
+    (entity) => entity.category == "ministry"
+  ).length,
+  secretaries: flattenedEntities.filter(
+    (entity) => entity.category == "secretary"
+  ).length,
+  undersecretaries: flattenedEntities.filter(
+    (entity) => entity.category == "undersecretary"
+  ).length,
+  directorates: flattenedEntities.filter(
+    (entity) => entity.category == "directorate"
+  ).length,
+  others: flattenedEntities.filter(
+    (entity) =>
+      entity.category != "ministry" &&
+      entity.category != "secretary" &&
+      entity.category != "undersecretary" &&
+      entity.category != "directorate"
+  ).length,
+  authorities: flattenedEntities.length,
+};
+---
+
+<header class="flex flex-col lg:flex-row justify-between mb-10 gap-2">
+  <div class="flex flex-col gap-4 mb-4">
+    <h2 class="text-custom-white/80 text-xl lg:text-4xl">
+      {t("header_title")}
+    </h2>
+    <h1 class="text-custom-white font-bold text-6xl lg:text-8xl">
+      {t("header_subtitle")}
+    </h1>
+  </div>
+  <div
+    class="shadow-sm border border-custom-red bg-custom-red/20 rounded-md flex flex-col gap-1 py-3 px-4 relative"
+  >
+    {
+      Object.entries(statistics).map(([key, value]) => (
+        <p class="text-white/80 text-sm italic">
+          {t(key as DictionaryKey)}
+          <strong class="text-white/80 text-base bold">{value}</strong>
+        </p>
+      ))
+    }
+    <!-- TODO: animar svg -->
+    <Image
+      src={speedometer}
+      alt={"Loupe"}
+      width={100}
+      class="absolute right-8 bottom-2 opacity-50 stroke-custom-red text-custom-red fill-custom-red"
+      color={"#e84d5b"}
+    />
+  </div>
+  <!-- TODO: usar collection y diccionario -->
+  <span class="text-gray-500 text-sm text-end">Updated at: 29/01/2025</span>
+</header>

@@ -1,0 +1,6306 @@
+[
+  {
+    "name": "Gobernación",
+    "category": "government",
+    "authority": {
+      "name": "LIC. MAXIMILIANO NICOLÁS PULLARO",
+      "position": "Gobernador",
+      "email": "privadagobernador@santafe.gov.ar",
+      "phone": "Conmutador: 0342 - 4506600, 4506700, 4506800; Privada Int.: 1401 - 1444"
+    },
+    "dependencies": [
+      {
+        "name": "Secretaría Privada",
+        "category": "secretary",
+        "authority": {
+          "name": "ALEJANDRO DANIEL GARIBOLDI",
+          "position": "Secretario Privado",
+          "email": "privadagobernador@santafe.gov.ar",
+          "phone": "TE: 0342 – 4506651; Conmutador: 0342 - 4506600, 4506700, 4506800 – Interno: 1401"
+        },
+        "dependencies": []
+      },
+      {
+        "name": "Secretaría General",
+        "category": "secretary",
+        "authority": {
+          "name": "JUAN CRUZ CÁNDIDO",
+          "position": "Secretario",
+          "email": "privadagobernador@santafe.gov.ar",
+          "phone": "TE: 0342 – 4506651; Conmutador: 0342 - 4506600, 4506700, 4506800 – Interno: 1401"
+        },
+        "dependencies": [
+          {
+            "name": "Dirección de Relaciones Públicas y Ceremonial",
+            "category": "directorate",
+            "authority": {
+              "name": "Mg. MARIANA HAEDO",
+              "position": "Directora",
+              "email": "ceremonial@santafe.gov.ar",
+              "phone": "TE: 0342 - 4573553, 4573563, 4506714 - 4571909; Conmutador: 0342 – 4506600/6700/6800 – Ints.: 1306, 1308, 1508, 1295 – Fax: 1509"
+            },
+            "dependencies": []
+          },
+          {
+            "name": "Dirección Provincial de la Delegación Rosario",
+            "category": "directorate",
+            "authority": {
+              "name": "Abog. ANDREA CELESTE SORIA",
+              "position": "Directora Provincial",
+              "email": "",
+              "phone": "TE: 0341 – 4772525; Conmutador: 0341 – 4721813 al 4721820 – Internos: 45751 - 45741"
+            },
+            "dependencies": []
+          },
+          {
+            "name": "Dirección Provincial de Gestión Federal",
+            "category": "directorate",
+            "authority": {
+              "name": "RAÚL SEBASTIÁN DE LUCA",
+              "position": "Director Provincial",
+              "email": "",
+              "phone": ""
+            },
+            "dependencies": []
+          }
+        ]
+      },
+      {
+        "name": "Secretaría de Vinculación Institucional",
+        "category": "secretary",
+        "authority": {
+          "name": "JULIÁN GALDEANO",
+          "position": "Secretario",
+          "email": "vinculacioninstitucional@santafe.gov.ar; juliangaldeano@santafe.gov.ar",
+          "phone": "Conmutador: 0342 - 4506600, 4506700, 4506800 – Internos: 1436"
+        },
+        "dependencies": []
+      },
+      {
+        "name": "Secretaría de Cooperación",
+        "category": "secretary",
+        "authority": {
+          "name": "Mg. CRISTIAN OSCAR CUNHA",
+          "position": "Secretario",
+          "email": "",
+          "phone": "Conmutador: 0342 - 4506600, 4506700, 4506800 – Internos: 1189"
+        },
+        "dependencies": []
+      },
+      {
+        "name": "Secretaría de Coordinación de Transformación Digital",
+        "category": "secretary",
+        "authority": {
+          "name": "Sr. MAURICIO JOSÉ BASSO",
+          "position": "Secretario",
+          "email": "mbasso@santafe.gov.ar",
+          "phone": ""
+        },
+        "dependencies": []
+      },
+      {
+        "name": "Secretaría de Derechos Humanos",
+        "category": "secretary",
+        "authority": {
+          "name": "Lic. RAÚL EMILIO JATÓN",
+          "position": "Secretario",
+          "email": "secretariaddhh@santafe.gov.ar",
+          "phone": "TELEFAX: 0342 – 4574918/16/17 - 0-800-555-3348"
+        },
+        "dependencies": [
+          {
+            "name": "Dirección Provincial de Memoria Democrática",
+            "category": "directorate",
+            "authority": {
+              "name": "RAMÓN AQUILES VERÓN",
+              "position": "Director Provincial",
+              "email": "secretariaddhh@santafe.gov.ar",
+              "phone": "TELEFAX: 0342 – 4574918/16/17 - 0-800-555-3348"
+            },
+            "dependencies": []
+          },
+          {
+            "name": "Dirección Provincial de Protección de Derechos Humanos",
+            "category": "directorate",
+            "authority": {
+              "name": "Abog. MILAGROS RIVADERA MUÑÓZ",
+              "position": "Directora Provincial",
+              "email": "secretariaddhh@santafe.gov.ar",
+              "phone": "TELEFAX: 0342 – 4574918/16/17 - 0-800-555-3348"
+            },
+            "dependencies": []
+          }
+        ]
+      },
+      {
+        "name": "Secretaría de Comunicación",
+        "category": "secretary",
+        "authority": {
+          "name": "LUIS MARCIAL PERSELLO",
+          "position": "Secretario",
+          "email": "",
+          "phone": "TE: 0342 – 4506786/87- Conmutador: 0342 -4506600/6700/6800– Internos: 1144 – 1388"
+        },
+        "dependencies": [
+          {
+            "name": "Subsecretaría de Planificación Publicitaria",
+            "category": "undersecretary",
+            "authority": {
+              "name": "ANDRÉS BARTOLINI",
+              "position": "Subsecretario",
+              "email": "",
+              "phone": "TE: 0342 - 4506786 – 4506787\nConmutador: 0342 – 4506600/6700/6800 - Int. 1144 – 1388"
+            },
+            "dependencies": [
+              {
+                "name": "Dirección Provincial de Planificación, Imagen y Análisis de la Opinión Pública",
+                "category": "directorate",
+                "authority": {
+                  "name": "EDELVEIS BERGESIO",
+                  "position": "Directora Provincial",
+                  "email": "",
+                  "phone": "TE: 0342 - 4506786 – 4506787\nConmutador: 0342 – 4506600/6700/6800 - Int. 1144 – 1388"
+                },
+                "dependencies": []
+              }
+            ]
+          },
+          {
+            "name": "Subsecretaría de Comunicación y Prensa",
+            "category": "undersecretary",
+            "authority": {
+              "name": "PABLO PIZZI",
+              "position": "Subsecretario",
+              "email": "",
+              "phone": "TE: 0342 - 4506786 – 4506787\nConmutador: 0342 – 4506600/6700/6800 - Int. 1144 – 1388"
+            },
+            "dependencies": [
+              {
+                "name": "Dirección Provincial de Prensa",
+                "category": "directorate",
+                "authority": {
+                  "name": "FERNANDO ARREDONDO",
+                  "position": "Director Provincial",
+                  "email": "",
+                  "phone": "TE: 0342 - 4506786 – 4506787\nConmutador: 0342 – 4506600/6700/6800 - Int. 1144 – 1388"
+                },
+                "dependencies": []
+              },
+              {
+                "name": "Dirección Provincial de Contenidos",
+                "category": "directorate",
+                "authority": {
+                  "name": "JUAN MARTÍN ALFIERI",
+                  "position": "Director Provincial",
+                  "email": "",
+                  "phone": "TE: 0342 - 4506786 – 4506787\nConmutador: 0342 – 4506600/6700/6800 - Int. 1144 – 1388"
+                },
+                "dependencies": []
+              },
+              {
+                "name": "Dirección Provincial de Redes y Comunicación Digital",
+                "category": "directorate",
+                "authority": {
+                  "name": "ANELLI ORESTES",
+                  "position": "Director Provincial",
+                  "email": "",
+                  "phone": "TE: 0342 - 4506786 – 4506787\nConmutador: 0342 – 4506600/6700/6800 - Int. 1144 – 1388"
+                },
+                "dependencies": []
+              },
+              {
+                "name": "Dirección Provincial de Producción y Desarrollo Audiovisual",
+                "category": "directorate",
+                "authority": {
+                  "name": "JOAQUÍN SALAZAR",
+                  "position": "Director Provincial",
+                  "email": "",
+                  "phone": "TE: 0342 - 4506786 – 4506787\nConmutador: 0342 – 4506600/6700/6800 - Int. 1144 – 1388"
+                },
+                "dependencies": []
+              },
+              {
+                "name": "Dirección Provincial de Difusión y Vínculo Territorial",
+                "category": "directorate",
+                "authority": {
+                  "name": "SALVADOR PILATTI",
+                  "position": "Director Provincial",
+                  "email": "",
+                  "phone": "TE: 0342 - 4506786 – 4506787\nConmutador: 0342 – 4506600/6700/6800 - Int. 1144 – 1388"
+                },
+                "dependencies": []
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Subsecretaría de Lucha contra la Corrupción, Transparencia y Ética del Sector Público",
+        "category": "undersecretary",
+        "authority": {
+          "name": "MARCELO FERNANDO TRUCCO",
+          "position": "Subsecretario",
+          "email": "subsetransparencia@santafe.gov.ar",
+          "phone": "TE: 0342 - 4572444"
+        },
+        "dependencies": []
+      },
+      {
+        "name": "Dirección Provincial de Gestión de Espacios Estratégicos",
+        "category": "directorate",
+        "authority": {
+          "name": "JORGELINA INES PANIAGUA",
+          "position": "Directora",
+          "email": "",
+          "phone": ""
+        },
+        "dependencies": []
+      },
+      {
+        "name": "Asesor General del Poder Ejecutivo",
+        "category": "consulting",
+        "authority": {
+          "name": "CP JORGE ÁLVAREZ",
+          "position": "Asesor General",
+          "email": "",
+          "phone": "0342 – 4506651"
+        },
+        "dependencies": []
+      },
+      {
+        "name": "Secretaría de Unidad Ejecutora",
+        "category": "secretary",
+        "authority": {
+          "name": "Ing. DIEGO LEONEL LEONE",
+          "position": "Secretario",
+          "email": "",
+          "phone": ""
+        },
+        "dependencies": [
+          {
+            "name": "Subsecretaría Legal",
+            "category": "undersecretary",
+            "authority": {
+              "name": "Dra. LUCIANA BEATRÍZ ELENA",
+              "position": "Subsecretaria",
+              "email": "",
+              "phone": ""
+            },
+            "dependencies": []
+          },
+          {
+            "name": "Subsecretaría de Administración",
+            "category": "undersecretary",
+            "authority": {
+              "name": "C.P NADIA BELÉN MOAMED",
+              "position": "Subsecretaria",
+              "email": "",
+              "phone": ""
+            },
+            "dependencies": []
+          },
+          {
+            "name": "Subsecretaría Técnica",
+            "category": "undersecretary",
+            "authority": {
+              "name": "Arq. FRANCISCO MIGUEL QUIJANO",
+              "position": "Subsecretaria",
+              "email": "",
+              "phone": ""
+            },
+            "dependencies": []
+          },
+          {
+            "name": "Dirección Provincial Jurídica",
+            "category": "directorate",
+            "authority": {
+              "name": "Dr. GUILLERMO TURRIN",
+              "position": "Director Provincial",
+              "email": "",
+              "phone": ""
+            },
+            "dependencies": []
+          },
+          {
+            "name": "Dirección Provincial de Obras",
+            "category": "directorate",
+            "authority": {
+              "name": "Ing. FEDERICO HERNÁN ZEGNA RATA",
+              "position": "Director Provincial",
+              "email": "",
+              "phone": ""
+            },
+            "dependencies": []
+          },
+          {
+            "name": "Dirección Provincial de Proyectos",
+            "category": "directorate",
+            "authority": {
+              "name": "Arq. JORGE PABLO GIUNTA",
+              "position": "Director Provincial",
+              "email": "",
+              "phone": ""
+            },
+            "dependencies": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Vicegobernación",
+    "category": "government",
+    "authority": {
+      "name": "LIC. GISELA SCAGLIA",
+      "position": "Vicegobernadora",
+      "email": "presidencia@senadosantafe.gov.ar",
+      "phone": "0342 – 4844260 – Int. 1340 – 1341"
+    },
+    "dependencies": [
+      {
+        "name": "Secretario Privado de la Vicegobernadora",
+        "category": "secretary",
+        "authority": {
+          "name": "IGNACIO MARTÍN RAINERO",
+          "position": "Secretario Privado",
+          "email": "",
+          "phone": "0341 – 4721571, 4721574 – 4721857"
+        },
+        "dependencies": []
+      },
+      {
+        "name": "Secretaria Privada Cámara de Senadores",
+        "category": "secretary",
+        "authority": {
+          "name": "GUILLERMINA PIERONI",
+          "position": "Secretaria Privada",
+          "email": "presidencia@senadosantafe.gov.ar; vicegobernacion@senadosantafe.gob.ar",
+          "phone": "0342 – 4844200 – Int. 1340 – 1341"
+        },
+        "dependencies": []
+      }
+    ]
+  },
+  {
+    "name": "Ministerio de Gobierno e Innovación Pública",
+    "category": "ministry",
+    "authority": {
+      "name": "Abog. FABIÁN LIONEL BASTIA",
+      "position": "Ministro",
+      "email": "privadagobiernoeinp@santafe.gov.ar",
+      "phone": "0342 - 4573038, 4573039 – FAX: 4573041"
+    },
+    "dependencies": [
+      {
+        "name": "Secretaria Privada",
+        "category": "secretary",
+        "authority": {
+          "name": "DELFINA CAROTTI",
+          "position": "Secretaria Privada",
+          "email": "privadagobiernoeinp@santafe.gov.ar",
+          "phone": "0342 - 4506659, 4506661"
+        },
+        "dependencies": []
+      },
+      {
+        "name": "Secretaría de Coordinación Administrativa y Financiera",
+        "category": "secretary",
+        "authority": {
+          "name": "CPN FERNANDO ARIEL LÓPEZ",
+          "position": "Secretario",
+          "email": "",
+          "phone": "0342 - 4506910 – 4506603"
+        },
+        "dependencies": []
+      },
+      {
+        "name": "Secretaría Legal y Técnico",
+        "category": "secretary",
+        "authority": {
+          "name": "Abog. MARIA JULIA TONERO",
+          "position": "Secretario",
+          "email": "",
+          "phone": "0342 – 4506600/6700/6800 – Internos: 31360"
+        },
+        "dependencies": []
+      },
+      {
+        "name": "Secretaría de Asuntos Electorales y Vinculación Regional",
+        "category": "secretary",
+        "authority": {
+          "name": "ROBERTO VERGÉ",
+          "position": "Secretario",
+          "email": "",
+          "phone": "0342 – 4506600/6700/6800 – Internos: 1215, 1216"
+        },
+        "dependencies": []
+      },
+      {
+        "name": "Secretaría de Asuntos Legislativos",
+        "category": "secretary",
+        "authority": {
+          "name": "Abog. GABRIEL EDGARDO REAL",
+          "position": "Secretario",
+          "email": "asuntoslegislativos@santafe.gov.ar; greal@santafe.gov.ar",
+          "phone": "0342 – 4506600/6700/6800 - Interno: 1426"
+        },
+        "dependencies": []
+      },
+      {
+        "name": "Secretaría de Gobierno, Municipios y Comunas",
+        "category": "secretary",
+        "authority": {
+          "name": "HORACIO WALTER CIANCIO",
+          "position": "Secretario",
+          "email": "",
+          "phone": "0342 - 4506748"
+        },
+        "dependencies": []
+      },
+      {
+        "name": "Secretaría de Delegación Federal CABA",
+        "category": "secretary",
+        "authority": {
+          "name": "HERNÁN ABEL ROSSI",
+          "position": "Secretario",
+          "email": "secretariadsf@santafe.gov.ar",
+          "phone": "011 - 43420408 / 0421 / 0425 / 0454 – Int. 405 - Celular: 011-1525750415"
+        },
+        "dependencies": []
+      },
+      {
+        "name": "Secretaría de Gestión de Registros Provinciales",
+        "category": "secretary",
+        "authority": {
+          "name": "Abog. MATÍAS EZEQUIEL FIGUEROA ESCAURIZA",
+          "position": "Secretario",
+          "email": "",
+          "phone": "0342 – 4506600/6700/6800 – Internos: 1215 - 1216"
+        },
+        "dependencies": []
+      },
+      {
+        "name": "Secretaría de Protección Civil y Gestión de Riesgos",
+        "category": "secretary",
+        "authority": {
+          "name": "Med. MARCOS ENRIQUE ESCAJADILLO GROSSO",
+          "position": "Secretario",
+          "email": "",
+          "phone": "0342 - 4573054 – Centrex *3054\nTE: 0342 - 4573048, 4573049, 4506703 – TELEFAX: 4573054"
+        },
+        "dependencies": []
+      },
+      {
+        "name": "Secretaría de Tecnologías para la Gestión",
+        "category": "secretary",
+        "authority": {
+          "name": "Ing. IGNACIO TABARES",
+          "position": "Secretario",
+          "email": "privadastg@santafe.gov.ar",
+          "phone": "0342 - 4574891 – Fax: 4574892\nConmutador: 0342- 4508700 – Ints.: 35001 - 35002 – 35134 - 35244"
+        },
+        "dependencies": []
+      },
+      {
+        "name": "Secretaría de Gestión Pública",
+        "category": "secretary",
+        "authority": {
+          "name": "Lic. NATALIA VERÓNICA GALANO",
+          "position": "Secretaria",
+          "email": "",
+          "phone": "0342 – 4506600/6700/6800 – Internos: 1214"
+        },
+        "dependencies": []
+      },
+      {
+        "name": "Secretaría de Relaciones Internacionales",
+        "category": "secretary",
+        "authority": {
+          "name": "Abog. CLAUDIO RUBÉN DÍAZ",
+          "position": "Secretario",
+          "email": "coopinternacional@santafe.gov.ar",
+          "phone": "0342 - 4506600, 4506700, 4506800 – Internos: 1277 /1278 /1279\nSede del Gobierno - Santa Fe 1950 – Rosario (S2000AUF)\nTel: 0341 – 4772540"
+        },
+        "dependencies": []
+      },
+      {
+        "name": "Subsecretaría de Legal y Técnica",
+        "category": "undersecretary",
+        "authority": {
+          "name": "Abog. GERÓNIMO LEANDRO PEÑALVA",
+          "position": "Subsecretario",
+          "email": "",
+          "phone": "0342 – 4506600/6700/6800 – Internos: 31360"
+        },
+        "dependencies": []
+      },
+      {
+        "name": "Subsecretaría de Asuntos Electorales",
+        "category": "undersecretary",
+        "authority": {
+          "name": "Abog. JULIANA VANESA CAILLAT",
+          "position": "Subsecretaria",
+          "email": "",
+          "phone": "0342 – 4506600/6700/6800 – Internos: 1402"
+        },
+        "dependencies": []
+      },
+      {
+        "name": "Subsecretaría Región Centro e Integración Regional",
+        "category": "undersecretary",
+        "authority": {
+          "name": "Lic. CLAUDIA ALEJANDRA GIACCONE",
+          "position": "Subsecretaria",
+          "email": "",
+          "phone": "0342 - 4573554\nConmutador: 0342 – 4506600/6700/6800 – Internos: 1277, 1278, 1279"
+        },
+        "dependencies": []
+      },
+      {
+        "name": "Subsecretaría Desarrollo Territorial e Institucional",
+        "category": "undersecretary",
+        "authority": {
+          "name": "EMILIO RACHED",
+          "position": "Subsecretario",
+          "email": "",
+          "phone": "Conmutador: 0342 – 4506600/6700/6800 – Internos: 1215, 1216"
+        },
+        "dependencies": []
+      },
+      {
+        "name": "Subsecretaría de Municipios y Comunas",
+        "category": "undersecretary",
+        "authority": {
+          "name": "MARINA BORDIGONI",
+          "position": "Subsecretaria",
+          "email": "",
+          "phone": "0342 - 4506748\nConmutador: 0342 – 4506600/6700/6800 - Internos: 1111, 1112"
+        },
+        "dependencies": []
+      },
+      {
+        "name": "Subsecretaría de Cooperación Internacional",
+        "category": "undersecretary",
+        "authority": {
+          "name": "Abog. GONZALO JAVIER MANSILLA",
+          "position": "Subsecretario",
+          "email": "coopinternacional@santafe.gov.ar",
+          "phone": "0342 - 4506600, 4506700, 4506800 – Internos: 1016\nSede del Gobierno - Santa Fe 1950 – Rosario (S2000AUF)\nTel: 0341 – 4772540"
+        },
+        "dependencies": []
+      },
+      {
+        "name": "Subsecretaría de Proyectos Especiales",
+        "category": "undersecretary",
+        "authority": {
+          "name": "JOSÉ RAMÓN HERRERA",
+          "position": "Subsecretario",
+          "email": "",
+          "phone": "0342 - 4506748\nConmutador: 0342 – 4506600/6700/6800 - Internos: 1111, 1112"
+        },
+        "dependencies": []
+      },
+      {
+        "name": "Subsecretaría de Relaciones Institucionales",
+        "category": "undersecretary",
+        "authority": {
+          "name": "Lic. JUAN JOSÉ RODIL",
+          "position": "Subsecretario",
+          "email": "",
+          "phone": ""
+        },
+        "dependencies": []
+      },
+      {
+        "name": "Subsecretaría de Inspección General de Personas Jurídicas - IGPJ",
+        "category": "undersecretary",
+        "authority": {
+          "name": "Abog. FEDERICO EDUARDO CUTRUNEO",
+          "position": "Subsecretario",
+          "email": "igpjrosario@santafe.gov.ar",
+          "phone": "Te: 0342 – 4573917\nEn Rosario: Sargento Cabral 575 (S2000CCU)\nTel: (54) 341 - 4721367 / 4721349"
+        },
+        "dependencies": []
+      },
+      {
+        "name": "Agencia Provincial de Registro, Administración y Destino de Bienes y Derechos Patrimoniales (APRAD)",
+        "category": "undersecretary",
+        "authority": {
+          "name": "Abog. HERNÁN PABLO MATICH",
+          "position": "Subsecretario",
+          "email": "",
+          "phone": "Conmutador: 0342 – 4506600/6700/6800 – Internos: 1220"
+        },
+        "dependencies": []
+      },
+      {
+        "name": "Subsecretaría de Protección Civil y Gestión de Riesgos",
+        "category": "undersecretary",
+        "authority": {
+          "name": "DANIEL MIGUEL BASILE",
+          "position": "Subsecretario",
+          "email": "",
+          "phone": "TEL/FAX: 0342 - 4573054 – Centrex *3054\nTE: 0342 - 4573048, 4573049, 4506703 – TELEFAX: 4573054\nConmutador: 0342 – 4506600 Internos: 1556, 1557"
+        },
+        "dependencies": []
+      },
+      {
+        "name": "Subsecretaría de Innovación Pública",
+        "category": "undersecretary",
+        "authority": {
+          "name": "Abog. JUAN MARTÍN ATENCIO",
+          "position": "Subsecretario",
+          "email": "",
+          "phone": "Conmutador: 0342 – 4506600/6700/6800 – Interno: 1214"
+        },
+        "dependencies": []
+      },
+      {
+        "name": "Subsecretaría de Gestión Estratégica",
+        "category": "undersecretary",
+        "authority": {
+          "name": "Lic. GEORGINA MARÍA PAZ GUTIÉRREZ",
+          "position": "Subsecretaria",
+          "email": "",
+          "phone": "Conmutador: 0342 – 4506600/6700/6800 – Interno: 1214"
+        },
+        "dependencies": []
+      },
+      {
+        "name": "Subsecretaría de Programas y Proyectos",
+        "category": "undersecretary",
+        "authority": {
+          "name": "Lic. VICTORIA CALLONEGO",
+          "position": "Subsecretaria",
+          "email": "privadastg@santafe.gov.ar",
+          "phone": "TE: 0342 - 4574891 – Fax: 4574892\nConmutador: 0342- 4508700 – Ints.: 35001 - 35002 – 35134 - 35244"
+        },
+        "dependencies": []
+      },
+      {
+        "name": "Subsecretaría de Vinculación Estratégica",
+        "category": "undersecretary",
+        "authority": {
+          "name": "Pr. MARTÍN MIGUEL PULLARO",
+          "position": "Subsecretario",
+          "email": "privadastg@santafe.gov.ar",
+          "phone": "TE: 0342 - 4574891 – Fax: 4574892\nConmutador: 0342- 4508700 – Ints.: 35001 - 35002 – 35134 - 35244"
+        },
+        "dependencies": []
+      },
+      {
+        "name": "Subsecretaría de Infraestructura Tecnológica y Comunicaciones",
+        "category": "undersecretary",
+        "authority": {
+          "name": "A.S. ANALIA VERÓNICA WÜST",
+          "position": "Subsecretaria",
+          "email": "privadastg@santafe.gov.ar",
+          "phone": "TE: 0342 - 4574891 – Fax: 4574892\nConmutador: 0342- 4508700 – Ints.: 35001 - 35002 – 35134 - 35244"
+        },
+        "dependencies": []
+      },
+      {
+        "name": "Subsecretaría de Gobernanza de Datos",
+        "category": "undersecretary",
+        "authority": {
+          "name": "Ing. SANTIAGO AGUSTÍN MARNETTO",
+          "position": "Subsecretario",
+          "email": "privadastg@santafe.gov.ar",
+          "phone": "TE: 0342 - 4574891 – Fax: 4574892\nConmutador: 0342- 4508700 – Ints.: 35001 - 35002 – 35134 - 35244"
+        },
+        "dependencies": []
+      },
+      {
+        "name": "Subsecretaría de Transformación Digital",
+        "category": "undersecretary",
+        "authority": {
+          "name": "",
+          "position": "Subsecretario",
+          "email": "privadastg@santafe.gov.ar",
+          "phone": "TE: 0342 - 4574891 – Fax: 4574892\nConmutador: 0342- 4508700 – Ints.: 35001 - 35002 – 35134 - 35244"
+        },
+        "dependencies": []
+      },
+      {
+        "name": "Subsecretaría de Coordinación Institucional",
+        "category": "undersecretary",
+        "authority": {
+          "name": "Lic. MANUELA LINARI",
+          "position": "Subsecretaria",
+          "email": "",
+          "phone": ""
+        },
+        "dependencies": []
+      },
+      {
+        "name": "Dirección Provincial de Coordinación, Logística y Administrativa",
+        "category": "directorate",
+        "authority": {
+          "name": "Lic. RAÚL OCHOA Y GÓMEZ",
+          "position": "Director Provincial",
+          "email": "",
+          "phone": "TE: 0342 - 4506910 – 4506603\nConmutador: 0342 – 4506600/6700/6800 – Internos: Int. 1267- 1692- 1760"
+        },
+        "dependencies": []
+      },
+      {
+        "name": "Dirección Provincial de Movilidad y Aeronáutica",
+        "category": "directorate",
+        "authority": {
+          "name": "ALEX MARTÍN SABBATINI",
+          "position": "Director Provincial",
+          "email": "",
+          "phone": ""
+        },
+        "dependencies": []
+      },
+      {
+        "name": "Dirección Provincial de Asuntos Jurídicos",
+        "category": "directorate",
+        "authority": {
+          "name": "Abog. VALENTINA PÍA DUQUEZ",
+          "position": "Directora Provincial",
+          "email": "",
+          "phone": "Conmutador: 0342 – 4506600/6700/6800 – Internos: 31360"
+        },
+        "dependencies": []
+      },
+      {
+        "name": "Dirección Provincial de Asuntos Electorales",
+        "category": "directorate",
+        "authority": {
+          "name": "Esc. DANIEL HORACIO AQUINO",
+          "position": "Director Provincial",
+          "email": "",
+          "phone": "Conmutador: 0342 – 4506600/6700/6800 – Internos: 1215, 1216"
+        },
+        "dependencies": []
+      },
+      {
+        "name": "Dirección Provincial de Áreas Metropolitanas",
+        "category": "directorate",
+        "authority": {
+          "name": "Abog. ARÍSTIDES JAVIER LASARTE",
+          "position": "Director Provincial",
+          "email": "",
+          "phone": ""
+        },
+        "dependencies": []
+      },
+      {
+        "name": "Dirección Provincial de la Delegación Regional Venado Tuerto",
+        "category": "directorate",
+        "authority": {
+          "name": "",
+          "position": "Director Provincial",
+          "email": "",
+          "phone": ""
+        },
+        "dependencies": []
+      },
+      {
+        "name": "Dirección Provincial de la Delegación Regional Rafaela",
+        "category": "directorate",
+        "authority": {
+          "name": "VICTORIA SOLEDAD CIBALERO",
+          "position": "Directora Provincial",
+          "email": "",
+          "phone": ""
+        },
+        "dependencies": []
+      },
+      {
+        "name": "Dirección Provincial de la Delegación Regional Reconquista",
+        "category": "directorate",
+        "authority": {
+          "name": "Docente OSCAR ALEJANDRO DUARTE",
+          "position": "Director Provincial",
+          "email": "",
+          "phone": ""
+        },
+        "dependencies": []
+      },
+      {
+        "name": "Dirección Provincial de Asuntos Legislativos",
+        "category": "directorate",
+        "authority": {
+          "name": "Abog. MARTÍN IGNACIO MANCINI MONTAGNA",
+          "position": "Director Provincial",
+          "email": "asuntoslegislativos@santafe.gov.ar; mmancinimontagna@santafe.gov.ar",
+          "phone": "Conmutador: 0342 – 4506600/6700/6800 - Interno: 1426"
+        },
+        "dependencies": []
+      },
+      {
+        "name": "Dirección Provincial de Proyectos Especiales Centro - Norte",
+        "category": "directorate",
+        "authority": {
+          "name": "MARCELO JAVIER AIRALDO",
+          "position": "Director Provincial",
+          "email": "",
+          "phone": "TE: 0342 - 4506748\nConmutador: 0342 – 4506600/6700/6800 - Internos: 1111, 1112"
+        },
+        "dependencies": []
+      },
+      {
+        "name": "Dirección Provincial de Proyectos Especiales Sur",
+        "category": "directorate",
+        "authority": {
+          "name": "SERGIO OSVALDO CASADO",
+          "position": "Director Provincial",
+          "email": "",
+          "phone": ""
+        },
+        "dependencies": []
+      },
+      {
+        "name": "Dirección Provincial de Obras Menores",
+        "category": "directorate",
+        "authority": {
+          "name": "DARÍO RIVA CLASE",
+          "position": "Director Provincial",
+          "email": "",
+          "phone": ""
+        },
+        "dependencies": []
+      },
+      {
+        "name": "Dirección Provincial de Asuntos Federales",
+        "category": "directorate",
+        "authority": {
+          "name": "FEDERICO TOMÁS WORTLEY",
+          "position": "Director Provincial",
+          "email": "",
+          "phone": ""
+        },
+        "dependencies": []
+      },
+      {
+        "name": "Dirección Provincial de Inspección General de Personas Jurídicas Zona Norte",
+        "category": "directorate",
+        "authority": {
+          "name": "Abog. DANILO ARMANDO",
+          "position": "Director Provincial",
+          "email": "",
+          "phone": "TE: 0342 – 4573917"
+        },
+        "dependencies": []
+      },
+      {
+        "name": "Dirección Provincial de Inspección General de Personas Jurídicas Zona Sur",
+        "category": "directorate",
+        "authority": {
+          "name": "Abog. FRANCO TOSTO",
+          "position": "Director Provincial",
+          "email": "igpjrosario@santafe.gov.ar",
+          "phone": "TE: (54) 341 - 4721367 / 4721349"
+        },
+        "dependencies": []
+      },
+      {
+        "name": "Dirección Provincial de la Agencia Provincial de Registro, Administración y Destino de Bienes y Derechos Patrimoniales APRAD",
+        "category": "directorate",
+        "authority": {
+          "name": "Abog. MARTÍN JESÚS DOMENE",
+          "position": "Director Provincial",
+          "email": "",
+          "phone": "Conmutador: 0342 – 4506600/6700/6800 – Internos: 1220"
+        },
+        "dependencies": []
+      },
+      {
+        "name": "Dirección Provincial del Registro de la Propiedad",
+        "category": "directorate",
+        "authority": {
+          "name": "Abog. FERNANDO RUBÉN SIRK MAREZCA",
+          "position": "Director Provincial",
+          "email": "computosrgr@yahoo.com.ar",
+          "phone": "TE: 0342 – 4577032, 4577054, 4577053, 4564383\nRosario: Urquiza 1172 - S2000ANH\nTE: 0341 – 4721763, 4721763, 4721764, 4721766, 4721848\nVenado Tuerto: San Martín 715 - S2600KUO\nTE: 03462 - 408869\nReconquista: Belgrano 1006 - S3560AXV\nTE: 03482 – 438893"
+        },
+        "dependencies": []
+      },
+      {
+        "name": "Dirección Provincial de Registro Civil",
+        "category": "directorate",
+        "authority": {
+          "name": "Abog. SERGIO DUARTE",
+          "position": "Director Provincial",
+          "email": "",
+          "phone": "TE: 0342 - 4572796, 4572893, 4572898, 4572895, 4572862, 4573333, 4573334, 4572863 – FAX: 4577031\nEn Rosario: Salta 2752 – 0341- 4724600/4274593"
+        },
+        "dependencies": []
+      },
+      {
+        "name": "Dirección Provincial del Registro de Desarmadero",
+        "category": "directorate",
+        "authority": {
+          "name": "GERARDO JAVIER RODRIGUEZ",
+          "position": "Director Provincial",
+          "email": "desarmaderos@santafe.gov.ar",
+          "phone": "Tel: 0341 - 4772589"
+        },
+        "dependencies": []
+      },
+      {
+        "name": "Dirección Provincial Zona Norte",
+        "category": "directorate",
+        "authority": {
+          "name": "DANIEL IGLESIAS",
+          "position": "Director Provincial",
+          "email": "",
+          "phone": ""
+        },
+        "dependencies": []
+      },
+      {
+        "name": "Dirección Provincial Zona Sur",
+        "category": "directorate",
+        "authority": {
+          "name": "Prof. PEDRO EUGENIO OBULJEN",
+          "position": "Director Provincial",
+          "email": "",
+          "phone": ""
+        },
+        "dependencies": []
+      },
+      {
+        "name": "Dirección Provincial de Gestión del Cambio Digital",
+        "category": "directorate",
+        "authority": {
+          "name": "Lic. GUILLERMINA CURTI",
+          "position": "Directora Provincial",
+          "email": "",
+          "phone": ""
+        },
+        "dependencies": []
+      },
+      {
+        "name": "Dirección Provincial de Planificación Estrategia",
+        "category": "directorate",
+        "authority": {
+          "name": "Lic. MARÍA MARGARITA FLORENCIA NORMAN",
+          "position": "Directora Provincial",
+          "email": "",
+          "phone": "Conmutador: 0342 – 4506600/6700/6800 – Interno: 1214"
+        },
+        "dependencies": []
+      },
+      {
+        "name": "Dirección Provincial de Evaluación de Políticas Públicas",
+        "category": "directorate",
+        "authority": {
+          "name": "Lic. FACUNDO EZEQUIEL BONBONI",
+          "position": "Director Provincial",
+          "email": "",
+          "phone": ""
+        },
+        "dependencies": []
+      },
+      {
+        "name": "Dirección Provincial de Capacitación para la Innovación",
+        "category": "directorate",
+        "authority": {
+          "name": "Abog. JUAN PABLO MAGNIN",
+          "position": "Director Provincial",
+          "email": "",
+          "phone": ""
+        },
+        "dependencies": []
+      },
+      {
+        "name": "Dirección Provincial de Programas y Proyectos",
+        "category": "directorate",
+        "authority": {
+          "name": "JUAN CRUZ TECCO",
+          "position": "Director Provincial",
+          "email": "privadastg@santafe.gov.ar",
+          "phone": "TE: 0342 - 4574891 – Fax: 4574892\nConmutador: 0342- 4508700 – Ints.: 35001 - 35002 - 35134 - 35244"
+        },
+        "dependencies": []
+      },
+      {
+        "name": "Dirección Provincial de Sistemas Interjurisdiccionales",
+        "category": "directorate",
+        "authority": {
+          "name": "Ing. ALFREDO ROBERTO MONINI",
+          "position": "Director Provincial",
+          "email": "privadastg@santafe.gov.ar",
+          "phone": "TE: 0342 - 4574891 – Fax: 4574892\nConmutador: 0342- 4508700 – Ints.: 35001 - 35002 - 35134 - 35244"
+        },
+        "dependencies": []
+      },
+      {
+        "name": "Dirección Provincial de Coordinación Tecnológica Interjurisdiccional",
+        "category": "directorate",
+        "authority": {
+          "name": "DAMIÁN CIAMPORCERO",
+          "position": "Director Provincial",
+          "email": "privadastg@santafe.gov.ar",
+          "phone": "TE: 0342 - 4574891 – Fax: 4574892\nConmutador: 0342- 4508700 – Ints.: 35001 - 35002 – 35134 - 35244"
+        },
+        "dependencies": []
+      },
+      {
+        "name": "Dirección Provincial de Gestión Tecnológica",
+        "category": "directorate",
+        "authority": {
+          "name": "Abog. FACUNDO GOMEZ LUCERO",
+          "position": "Director Provincial",
+          "email": "privadastg@santafe.gov.ar",
+          "phone": "TE: 0342 - 4574891 – Fax: 4574892\nConmutador: 0342- 4508700 – Ints.: 35001 - 35002 – 35134 - 35244"
+        },
+        "dependencies": []
+      },
+      {
+        "name": "Dirección Provincial de Infraestructura Tecnológica",
+        "category": "directorate",
+        "authority": {
+          "name": "A.S. CARLOS DAMIÁN HERNÁNDEZ",
+          "position": "Director Provincial",
+          "email": "privadastg@santafe.gov.ar",
+          "phone": "TE: 0342 - 4574891 – Fax: 4574892\nConmutador: 0342- 4508700 – Ints.: 35001 - 35002 – 35134 - 35244"
+        },
+        "dependencies": []
+      },
+      {
+        "name": "Dirección Provincial de Conectividad",
+        "category": "directorate",
+        "authority": {
+          "name": "A. S. HERNÁN MENNA",
+          "position": "Director Provincial",
+          "email": "privadastg@santafe.gov.ar",
+          "phone": "TE: 0342 - 4574891 – Fax: 4574892\nConmutador: 0342- 4508700 – Ints.: 35001 - 35002 – 35134 - 35244"
+        },
+        "dependencies": []
+      },
+      {
+        "name": "Dirección Provincial de Integración de Datos y Tecnologías Emergentes",
+        "category": "directorate",
+        "authority": {
+          "name": "A. S. VALENTINA LENCINA",
+          "position": "Directora Provincial",
+          "email": "privadastg@santafe.gov.ar",
+          "phone": "TE: 0342 - 4574891 – Fax: 4574892\nConmutador: 0342- 4508700 – Ints.: 35001 - 35002 – 35134 - 35244"
+        },
+        "dependencies": []
+      },
+      {
+        "name": "Dirección Provincial de Desarrollo de Software",
+        "category": "directorate",
+        "authority": {
+          "name": "Ing. CESAR ROGELIO HEIN",
+          "position": "Director Provincial",
+          "email": "privadastg@santafe.gov.ar",
+          "phone": "TE: 0342 - 4574891 – Fax: 4574892\nConmutador: 0342- 4508700 – Ints.: 35001 - 35002 – 35134 - 35244"
+        },
+        "dependencies": []
+      },
+      {
+        "name": "Dirección Provincial de Gestión de Riesgos AMR (Área Metropolitana Rosario)",
+        "category": "directorate",
+        "authority": {
+          "name": "CARLOS DOLCE",
+          "position": "Director Provincial",
+          "email": "",
+          "phone": "TEL/FAX: 0342 - 4573054 – Centrex *3054\nTE: 0342 - 4573048, 4573049, 4506703 – TELEFAX: 4573054\nConmutador: 0342 – 4506600 Internos: 1556, 1557"
+        },
+        "dependencies": []
+      },
+
+      {
+        "name": "Dirección Provincial de Compactaciones y Sustentabilidad",
+        "category": "directorate",
+        "authority": {
+          "name": "ENZO CARLOS MARIANO RICCI",
+          "position": "Director Provincial",
+          "email": "",
+          "phone": ""
+        },
+        "dependencies": []
+      },
+      {
+        "name": "Dirección Provincial de Gestión Territorial",
+        "category": "directorate",
+        "authority": {
+          "name": "LUCIANO CARLOS JAEGGI",
+          "position": "Director Provincial",
+          "email": "",
+          "phone": ""
+        },
+        "dependencies": []
+      },
+      {
+        "name": "Dirección Provincial de Optimización de Procesos",
+        "category": "directorate",
+        "authority": {
+          "name": "FERNANDO HUSEF ALI",
+          "position": "Director Provincial",
+          "email": "",
+          "phone": ""
+        },
+        "dependencies": []
+      },
+      {
+        "name": "Ente de Coordinación Área Metropolitana Rafaela",
+        "category": "entity",
+        "authority": {
+          "name": "VICTORIA SOLEDAD CIVALERO",
+          "position": "Representante",
+          "email": "",
+          "phone": ""
+        },
+        "dependencies": []
+      },
+      {
+        "name": "Ente de Coordinación Área Metropolitana Santa Fe",
+        "category": "entity",
+        "authority": {
+          "name": "",
+          "position": "Representante",
+          "email": "",
+          "phone": ""
+        },
+        "dependencies": []
+      },
+      {
+        "name": "Ente de Coordinación Área Metropolitana Rosario",
+        "category": "entity",
+        "authority": {
+          "name": "ARISTIDES JAVIER LASARTE",
+          "position": "Representante",
+          "email": "",
+          "phone": ""
+        },
+        "dependencies": []
+      },
+      {
+        "name": "Radio y Televisión Santafesina Sociedad del Estado",
+        "category": "organism",
+        "authority": {
+          "name": "HORACIO JAVIER RÍOS",
+          "position": "Presidente del Directorio",
+          "email": "",
+          "phone": ""
+        },
+        "dependencies": []
+      }
+    ]
+  },
+  {
+    "name": "Ministerio de Economía",
+    "category": "ministry",
+    "authority": {
+      "name": "Dr. PABLO ANDRÉS OLIVARES",
+      "position": "Ministro",
+      "email": "N/A",
+      "phone": "0342 - 4506600, 4506700, 4506800"
+    },
+    "dependencies": [
+      {
+        "name": "Secretaría Privada",
+        "category": "secretary",
+        "authority": {
+          "name": "Abog. NICOLAS MAXIMILIANO SANDAZA ITURRASPE",
+          "position": "Secretario Privado",
+          "email": "privadaeconomia@santafe.gov.ar",
+          "phone": "0342 – 4506600/6700/6800 – Internos: 1240, 1241,1524 – FAX: 1588"
+        },
+        "dependencies": []
+      },
+      {
+        "name": "Secretaría Legal y Técnica",
+        "category": "secretary",
+        "authority": {
+          "name": "Abog. PABLO RANGEL",
+          "position": "Secretario",
+          "email": "N/A",
+          "phone": "0342 – 4506600/6700/6800 – Internos: 1240, 1241,1524 – FAX: 1588"
+        },
+        "dependencies": []
+      },
+      {
+        "name": "Secretaría de Coordinación",
+        "category": "secretary",
+        "authority": {
+          "name": "CP. HUGO GABRIEL ROSTI",
+          "position": "Secretario",
+          "email": "N/A",
+          "phone": "0342 - 4506807, 4506836 – Fax: 4506874 – Interno: 2512 – Fax: 2561"
+        },
+        "dependencies": []
+      },
+      {
+        "name": "Secretaría de Política Económica",
+        "category": "secretary",
+        "authority": {
+          "name": "Lic. PABLO GORBAN",
+          "position": "Secretario",
+          "email": "N/A",
+          "phone": "0342 - 4506802, 4506803 – Fax Int. 2554 – Internos: 2344, 2346"
+        },
+        "dependencies": []
+      },
+      {
+        "name": "Secretaría de Finanzas",
+        "category": "secretary",
+        "authority": {
+          "name": "Lic. ADRIANO MANDOLESI",
+          "position": "Secretario",
+          "email": "ssip@santafe.gov.ar",
+          "phone": "0342 – 4506600/6700/6800 – Internos: 2147"
+        },
+        "dependencies": []
+      },
+      {
+        "name": "Secretaría de Hacienda",
+        "category": "secretary",
+        "authority": {
+          "name": "CPN. MARIA BELEN RITA ETCHEVARRIA",
+          "position": "Secretaria",
+          "email": "N/A",
+          "phone": "0342 - 4506802, 4506803 – Fax Int. 2554 – Internos: 2344, 2346"
+        },
+        "dependencies": []
+      },
+      {
+        "name": "Secretaría de Recursos Humanos y Función Pública",
+        "category": "secretary",
+        "authority": {
+          "name": "Abog. MALENA ROSANA AZARIO",
+          "position": "Secretaria",
+          "email": "rrhh-funcionpublica@santafe.gov.ar",
+          "phone": "0342 - 4573575, 4573576, 4573912 – Interno: 1149 – Fax: 1542"
+        },
+        "dependencies": []
+      },
+
+      {
+        "name": "Secretaría de Economía para la Salud",
+        "category": "secretary",
+        "authority": {
+          "name": "MIGUEL CIRO DARÍO GABRIEL GONZALEZ",
+          "position": "Secretario",
+          "email": "N/A",
+          "phone": "N/A"
+        },
+        "dependencies": []
+      },
+      {
+        "name": "Agencia de Cooperación Económica y Financiamiento Externo",
+        "category": "directorate",
+        "authority": {
+          "name": "Lic. GONZALO MIGUEL SAGLIONE",
+          "position": "Director",
+          "email": "N/A",
+          "phone": "N/A"
+        },
+        "dependencies": []
+      },
+      {
+        "name": "Subsecretaría de Contrataciones y Gestión de Bienes",
+        "category": "undersecretary",
+        "authority": {
+          "name": "Abog. MARIA LAURA CESCUT",
+          "position": "Subsecretaria",
+          "email": "scygb@santafe.gov.ar",
+          "phone": "0342 – 4506800 – Internos 39471 - 39453"
+        },
+        "dependencies": []
+      },
+      {
+        "name": "Subsecretaría de Recursos Humanos y la Función Pública",
+        "category": "undersecretary",
+        "authority": {
+          "name": "Abog. HORACIO ANDRÉS COUTAZ",
+          "position": "Subsecretario",
+          "email": "rrhh-funcionpublica@santafe.gov.ar",
+          "phone": "0342 - 4573575, 4573576, 4573912"
+        },
+        "dependencies": []
+      },
+      {
+        "name": "Subsecretaría de Ingresos Públicos",
+        "category": "undersecretary",
+        "authority": {
+          "name": "CPN. FLORENCIO GALINDEZ",
+          "position": "Subsecretario",
+          "email": "N/A",
+          "phone": "0342 - 4506864, 0800-8883722 – Interno: 30402"
+        },
+        "dependencies": []
+      },
+      {
+        "name": "Subsecretaría de Planeamiento y Articulación Interinstitucional de IAPOS",
+        "category": "undersecretary",
+        "authority": {
+          "name": "SILVIO ALEJANDRO GONZALEZ",
+          "position": "Subsecretario",
+          "email": "N/A",
+          "phone": "N/A"
+        },
+        "dependencies": []
+      },
+      {
+        "name": "Subsecretaría de Higiene y Salud de los Trabajadores",
+        "category": "undersecretary",
+        "authority": {
+          "name": "ADRIÁN ALEJANDRO RASCON",
+          "position": "Subsecretario",
+          "email": "N/A",
+          "phone": "N/A"
+        },
+        "dependencies": []
+      },
+      {
+        "name": "Dirección Provincial de Administración y Coordinación Técnica",
+        "category": "directorate",
+        "authority": {
+          "name": "CPN. ELOY MATIAS PAGURA",
+          "position": "Director Provincial",
+          "email": "N/A",
+          "phone": "0342 – 4506878, 4506873 – Interno: 2625 – 2341"
+        },
+        "dependencies": []
+      },
+      {
+        "name": "Dirección Provincial de Programación Financiera",
+        "category": "directorate",
+        "authority": {
+          "name": "CLAUDIA ALEJANDRA PASCUAL",
+          "position": "Directora Provincial",
+          "email": "N/A",
+          "phone": "N/A"
+        },
+        "dependencies": []
+      },
+      {
+        "name": "Dirección Provincial de Programación y Seguimiento del Gasto Público",
+        "category": "directorate",
+        "authority": {
+          "name": "CPN BARBARA GSCHWIND",
+          "position": "Directora Provincial",
+          "email": "N/A",
+          "phone": "N/A"
+        },
+        "dependencies": []
+      },
+      {
+        "name": "Dirección Provincial de Recursos Humanos y Función Pública",
+        "category": "directorate",
+        "authority": {
+          "name": "N/A",
+          "position": "Director Provincial",
+          "email": "rrhh-funcionpublica@santafe.gov.ar",
+          "phone": "0342 - 4573575, 4573576, 4573912"
+        },
+        "dependencies": []
+      },
+
+      {
+        "name": "Dirección Provincial de Control del Agente Financiero",
+        "category": "directorate",
+        "authority": {
+          "name": "Lic. PABLO JAVIER DOMINGO",
+          "position": "Director Provincial",
+          "email": "",
+          "phone": ""
+        },
+        "dependencies": []
+      },
+      {
+        "name": "Dirección Provincial de Ingresos Públicos",
+        "category": "directorate",
+        "authority": {
+          "name": "CP EDUARDO JAVIER GUITIERREZ KLIEBS",
+          "position": "Director Provincial",
+          "email": "",
+          "phone": ""
+        },
+        "dependencies": []
+      },
+      {
+        "name": "Coordinador Operativo de la Agencia de Cooperación Económica y Financiamiento Externo",
+        "category": "organism",
+        "authority": {
+          "name": "CPN NICOLÁS DANIEL AIMAR",
+          "position": "Coordinador",
+          "email": "",
+          "phone": ""
+        },
+        "dependencies": []
+      },
+      {
+        "name": "Administrador Regional - Rosario",
+        "category": "organism",
+        "authority": {
+          "name": "Agrim. GABRIEL OMAR FRICKX",
+          "position": "Administrador",
+          "email": "",
+          "phone": ""
+        },
+        "dependencies": []
+      },
+
+      {
+        "name": "Caja de Asistencia Social – Lotería de Santa Fe",
+        "category": "organism",
+        "authority": {
+          "name": "Dr. PABLO OLIVARES",
+          "position": "Presidente",
+          "email": "",
+          "phone": "0342 – 4815660/69 – Int.: 39702 - 39605"
+        },
+        "dependencies": [
+          {
+            "name": "Subsecretaría Coordinadora de Direcciones Generales",
+            "category": "undersecretary",
+            "authority": {
+              "name": "Lic. WALTER HÉCTOR ROSSI COBO",
+              "position": "Subsecretario",
+              "email": "",
+              "phone": ""
+            },
+            "dependencies": []
+          },
+          {
+            "name": "Dirección Provincial Legal y Técnico",
+            "category": "directorate",
+            "authority": {
+              "name": "Dr. JAVIER EDUARDO SIGNORINI",
+              "position": "Director Provincial",
+              "email": "",
+              "phone": ""
+            },
+            "dependencies": []
+          },
+          {
+            "name": "Dirección Provincial de Administración Financiera",
+            "category": "directorate",
+            "authority": {
+              "name": "CPN JOSÉ IGNACIO QUARTUCCI",
+              "position": "Director Provincial",
+              "email": "",
+              "phone": ""
+            },
+            "dependencies": []
+          }
+        ]
+      },
+      {
+        "name": "Servicio de Catastro e Información Territorial – SCIT",
+        "category": "organism",
+        "authority": {
+          "name": "Agrim. RAÚL DANIEL ÁLVAREZ",
+          "position": "Administrador Provincial",
+          "email": "secretaria_scit@santafe.gov.ar",
+          "phone": "0342 -4573757, 4573772, 4574787"
+        },
+        "dependencies": [
+          {
+            "name": "Administrador Regional Santa Fe SCIT",
+            "category": "organism",
+            "authority": {
+              "name": "CPN OSCAR ANDRÉS DRIUSSI",
+              "position": "Administrador Regional",
+              "email": "",
+              "phone": "0342 - 4573772, 4574787 - Interno: 106 - 107"
+            },
+            "dependencies": []
+          },
+          {
+            "name": "Administrador Regional Rosario SCIT",
+            "category": "organism",
+            "authority": {
+              "name": "Agrim. GABRIEL OMAR FRICKX",
+              "position": "Administrador Regional",
+              "email": "scit_arr_consultas@santafe.gov.ar",
+              "phone": "0341 – 4721329, 4721336, 4721337, 4467231"
+            },
+            "dependencies": []
+          }
+        ]
+      },
+      {
+        "name": "Administración Provincial de Impuestos – API",
+        "category": "organism",
+        "authority": {
+          "name": "CP DANIELA MARÍA DE LUJÁN BOSCO",
+          "position": "Administradora Provincial de Impuestos",
+          "email": "privada_api@santafe.gov.ar",
+          "phone": "0800-8883722 (interno 30402)"
+        },
+        "dependencies": [
+          {
+            "name": "Subadministrador Provincial de Planificación y Coordinación Tributaria",
+            "category": "organism",
+            "authority": {
+              "name": "MP ARIEL RUBÉN CASADEI",
+              "position": "Subadministrador",
+              "email": "",
+              "phone": ""
+            },
+            "dependencies": []
+          },
+          {
+            "name": "Administrador Regional - Santa Fe",
+            "category": "organism",
+            "authority": {
+              "name": "CP SEBASTIÁN ALBERTO ESTRUBIA",
+              "position": "Administrador Regional",
+              "email": "",
+              "phone": "0800-8883722 (interno 30469)"
+            },
+            "dependencies": []
+          },
+          {
+            "name": "Administradora Regional - Rosario",
+            "category": "organism",
+            "authority": {
+              "name": "CP MARÍA EUGENIA ÁLVAREZ",
+              "position": "Administradora Regional",
+              "email": "",
+              "phone": "0341-4721486- Fax: 0341-4721486"
+            },
+            "dependencies": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Ministerio de Desarrollo Productivo",
+    "category": "ministry",
+    "authority": {
+      "name": "Lic. GUSTAVO JOSÉ PUCCINI",
+      "position": "Ministro",
+      "email": "ministro@santafe.gov.ar",
+      "phone": "0342 - 4505300"
+    },
+    "dependencies": [
+      {
+        "name": "Secretaría Privada",
+        "category": "secretary",
+        "authority": {
+          "name": "MARÍA CECILIA CINQUEGRANI",
+          "position": "Secretaria Privada",
+          "email": "",
+          "phone": "0342 - 4505316, 4505317"
+        },
+        "dependencies": []
+      },
+      {
+        "name": "Secretaría Ejecutiva y de Coordinación General",
+        "category": "secretary",
+        "authority": {
+          "name": "PAOLA GISELA FORCADA",
+          "position": "Secretaria",
+          "email": "",
+          "phone": "0342 - 4505300 (Internos: 4169–4233)"
+        },
+        "dependencies": []
+      },
+      {
+        "name": "Secretaría de Agricultura y Ganadería",
+        "category": "secretary",
+        "authority": {
+          "name": "IGNACIO ALBERTO MÁNTARAS",
+          "position": "Secretario",
+          "email": "",
+          "phone": "0342 – 4505300 (Interno: 4309)"
+        },
+        "dependencies": []
+      },
+      {
+        "name": "Secretaría de Desarrollo Industrial",
+        "category": "secretary",
+        "authority": {
+          "name": "GUILLERMO RAÚL BECCANI",
+          "position": "Secretario",
+          "email": "",
+          "phone": "0342 – 4505300 (Interno: 4166)"
+        },
+        "dependencies": []
+      },
+      {
+        "name": "Secretaría de Comercio Exterior",
+        "category": "secretary",
+        "authority": {
+          "name": "GEORGINA LOSADA",
+          "position": "Secretaria",
+          "email": "",
+          "phone": "0342 – 4505300 (Internos: 4172 - 4174)"
+        },
+        "dependencies": []
+      },
+      {
+        "name": "Secretaría de Cooperativas, Mutuales y Emprendedorismo",
+        "category": "secretary",
+        "authority": {
+          "name": "GONZALO ROBERTO CEFERINO TOSSELI",
+          "position": "Secretario",
+          "email": "",
+          "phone": "0342 - 4505354"
+        },
+        "dependencies": []
+      },
+      {
+        "name": "Secretaría de Turismo",
+        "category": "secretary",
+        "authority": {
+          "name": "MARCELA LEONOR AEBERHARD",
+          "position": "Secretaria",
+          "email": "turismo@santafe.gov.ar",
+          "phone": "0342 - 4589475/9478/9877"
+        },
+        "dependencies": []
+      },
+
+      {
+        "name": "Secretaría de Transporte y Logística",
+        "category": "secretary",
+        "authority": {
+          "name": "RENATA ROBERTA GHILOTTI",
+          "position": "Secretaria",
+          "email": "",
+          "phone": "0342 – 4815715 – Int. 34516"
+        },
+        "dependencies": []
+      },
+      {
+        "name": "Secretaría de Comercio Interior y Servicios",
+        "category": "secretary",
+        "authority": {
+          "name": "GUSTAVO PABLO REZZOAGLIO",
+          "position": "Secretario",
+          "email": "",
+          "phone": "0342 – 4505300 – Internos: 4309"
+        },
+        "dependencies": []
+      },
+      {
+        "name": "Secretaría de Energía",
+        "category": "secretary",
+        "authority": {
+          "name": "VERÓNICA GEESE",
+          "position": "Secretaria",
+          "email": "",
+          "phone": "0342 – 4505300 – Internos: 4166"
+        },
+        "dependencies": []
+      },
+      {
+        "name": "Secretaría de Ciencia, Tecnología e Innovación",
+        "category": "secretary",
+        "authority": {
+          "name": "ERICA RUT HYNES",
+          "position": "Secretaria",
+          "email": "",
+          "phone": "0342 – 4815715 – Int. 34527"
+        },
+        "dependencies": []
+      },
+      {
+        "name": "Subsecretaría de Comercio Interior",
+        "category": "undersecretary",
+        "authority": {
+          "name": "MATÍAS ANDRÉS SCHMÜTH",
+          "position": "Subsecretario",
+          "email": "",
+          "phone": "0342 – 4505300 – Internos: 4309"
+        },
+        "dependencies": []
+      },
+      {
+        "name": "Subsecretaría de Energías Renovables y Eficiencia Energética",
+        "category": "undersecretary",
+        "authority": {
+          "name": "MARÍA CECILIA MIJICH",
+          "position": "Subsecretaria",
+          "email": "",
+          "phone": ""
+        },
+        "dependencies": []
+      },
+      {
+        "name": "Subsecretaría de Coordinación Territorial e Infraestructura Industrial",
+        "category": "undersecretary",
+        "authority": {
+          "name": "MARIO ENRIQUE MIGNO",
+          "position": "Subsecretario",
+          "email": "",
+          "phone": ""
+        },
+        "dependencies": []
+      },
+      {
+        "name": "Subsecretaría de Ciencia, Tecnología e Innovación",
+        "category": "undersecretary",
+        "authority": {
+          "name": "MARINA JUDITH FLORES",
+          "position": "Subsecretaria",
+          "email": "",
+          "phone": "0342 – 4815715 – Int. 34527"
+        },
+        "dependencies": []
+      },
+      {
+        "name": "Subsecretaría de Conocimiento para el Desarrollo",
+        "category": "undersecretary",
+        "authority": {
+          "name": "ERNESTO CARLOS TURCATO",
+          "position": "Subsecretario",
+          "email": "",
+          "phone": ""
+        },
+        "dependencies": []
+      },
+      {
+        "name": "Subsecretaría de Transporte y Logística",
+        "category": "undersecretary",
+        "authority": {
+          "name": "MÓNICA ALVARADO",
+          "position": "Subsecretaria",
+          "email": "",
+          "phone": "0342 – 4815715 – Int. 34516"
+        },
+        "dependencies": []
+      },
+
+      {
+        "name": "Subsecretaría de Coordinación Administrativa",
+        "category": "undersecretary",
+        "authority": {
+          "name": "SEBASTIÁN EDUARDO BARBONA",
+          "position": "Subsecretario",
+          "email": "",
+          "phone": ""
+        },
+        "dependencies": []
+      },
+      {
+        "name": "Dirección Provincial de Administración y Finanzas",
+        "category": "directorate",
+        "authority": {
+          "name": "JUAN PABLO BATISTELLI",
+          "position": "Director Provincial",
+          "email": "",
+          "phone": "0342 - 4505300 – Conmutador - Internos: 4309"
+        },
+        "dependencies": []
+      },
+      {
+        "name": "Dirección Provincial de Asuntos Legales",
+        "category": "directorate",
+        "authority": {
+          "name": "LEILA WIDDER",
+          "position": "Directora Provincial",
+          "email": "",
+          "phone": ""
+        },
+        "dependencies": []
+      },
+      {
+        "name": "Dirección Provincial de Relaciones Institucionales",
+        "category": "directorate",
+        "authority": {
+          "name": "",
+          "position": "Director Provincial",
+          "email": "",
+          "phone": ""
+        },
+        "dependencies": []
+      },
+      {
+        "name": "Dirección Provincial de Comunicación",
+        "category": "directorate",
+        "authority": {
+          "name": "LEANDRO XAVIER AZCUAGA",
+          "position": "Director Provincial",
+          "email": "",
+          "phone": ""
+        },
+        "dependencies": []
+      },
+      {
+        "name": "Dirección Provincial de Lechería",
+        "category": "directorate",
+        "authority": {
+          "name": "CARLOS RODOLFO DE LORENZI",
+          "position": "Director Provincial",
+          "email": "",
+          "phone": "0342 – 4505300 – Internos: 4160, 4161"
+        },
+        "dependencies": []
+      },
+      {
+        "name": "Dirección Provincial de Ganadería y Sanidad Animal",
+        "category": "directorate",
+        "authority": {
+          "name": "FACUNDO MATÍAS MÉNDEZ",
+          "position": "Director Provincial",
+          "email": "",
+          "phone": ""
+        },
+        "dependencies": []
+      },
+      {
+        "name": "Dirección Provincial de Innovación y de Vinculación con Gobiernos Locales",
+        "category": "directorate",
+        "authority": {
+          "name": "FEDERICO ALEJANDRO CARBALLERIA",
+          "position": "Director Provincial",
+          "email": "",
+          "phone": ""
+        },
+        "dependencies": []
+      },
+      {
+        "name": "Dirección Provincial de Desarrollo Territorial Agropecuario",
+        "category": "directorate",
+        "authority": {
+          "name": "DIETER EVERARDO VON PANNWITZ",
+          "position": "Director Provincial",
+          "email": "",
+          "phone": ""
+        },
+        "dependencies": []
+      },
+      {
+        "name": "Dirección Provincial de Agricultura, Sanidad Vegetal y Desarrollo Forestal",
+        "category": "directorate",
+        "authority": {
+          "name": "DAMiÁN SALVADOR SCARABOTTI",
+          "position": "Director Provincial",
+          "email": "",
+          "phone": ""
+        },
+        "dependencies": []
+      },
+      {
+        "name": "Dirección Provincial de Infraestructura y Fortalecimiento Industrial",
+        "category": "directorate",
+        "authority": {
+          "name": "PABLO ANDRÉS BONETTO",
+          "position": "Director Provincial",
+          "email": "",
+          "phone": ""
+        },
+        "dependencies": []
+      },
+      {
+        "name": "Dirección Provincial de Tecnología de Industria 4.0",
+        "category": "directorate",
+        "authority": {
+          "name": "RAMIRO VIO",
+          "position": "Director Provincial",
+          "email": "",
+          "phone": ""
+        },
+        "dependencies": []
+      },
+      {
+        "name": "Dirección Provincial de Promoción de Exportaciones",
+        "category": "directorate",
+        "authority": {
+          "name": "DANIEL AGUSTÍN GALAVERNA",
+          "position": "Director Provincial",
+          "email": "",
+          "phone": ""
+        },
+        "dependencies": []
+      },
+      {
+        "name": "Dirección Provincial de Inteligencia Comercial",
+        "category": "directorate",
+        "authority": {
+          "name": "MANOLO CONTINI",
+          "position": "Director Provincial",
+          "email": "",
+          "phone": ""
+        },
+        "dependencies": []
+      },
+      {
+        "name": "Dirección Provincial de Emprendedorismo",
+        "category": "directorate",
+        "authority": {
+          "name": "SANTIAGO ANDRÉS SAUCO",
+          "position": "Director Provincial",
+          "email": "",
+          "phone": ""
+        },
+        "dependencies": []
+      },
+      {
+        "name": "Dirección Provincial de Cooperativas y Mutuales",
+        "category": "directorate",
+        "authority": {
+          "name": "CARLOS DANIEL VOLPATO",
+          "position": "Director Provincial",
+          "email": "",
+          "phone": ""
+        },
+        "dependencies": []
+      },
+      {
+        "name": "Dirección Provincial de Turismo Zona Litoral Norte",
+        "category": "directorate",
+        "authority": {
+          "name": "SAMUEL SEBASTIÁN SAGER",
+          "position": "Director Provincial",
+          "email": "",
+          "phone": ""
+        },
+        "dependencies": []
+      },
+      {
+        "name": "Dirección Provincial de Turismo Zona Litoral Centro",
+        "category": "directorate",
+        "authority": {
+          "name": "FRANCO ANTONIO ARONE",
+          "position": "Director Provincial",
+          "email": "",
+          "phone": ""
+        },
+        "dependencies": []
+      },
+      {
+        "name": "Dirección Provincial de Turismo Zona Sur",
+        "category": "directorate",
+        "authority": {
+          "name": "CLAUDIA ROSENTHAL",
+          "position": "Directora Provincial",
+          "email": "",
+          "phone": ""
+        },
+        "dependencies": []
+      },
+      {
+        "name": "Dirección Provincial de Transporte de Pasajeros",
+        "category": "directorate",
+        "authority": {
+          "name": "JOSÉ VICENTE ROURA",
+          "position": "Director Provincial",
+          "email": "",
+          "phone": ""
+        },
+        "dependencies": []
+      },
+      {
+        "name": "Dirección Provincial de Transporte de Carga",
+        "category": "directorate",
+        "authority": {
+          "name": "JUAN MANUEL AGOSTINI",
+          "position": "Director Provincial",
+          "email": "",
+          "phone": ""
+        },
+        "dependencies": []
+      },
+      {
+        "name": "Dirección Provincial de la Unidad Especial de Gestión Ferroviaria",
+        "category": "directorate",
+        "authority": {
+          "name": "JUAN PÍO TOMÁS DROVETTA",
+          "position": "Director Provincial",
+          "email": "",
+          "phone": ""
+        },
+        "dependencies": []
+      },
+      {
+        "name": "Dirección Provincial de Fortalecimiento Centros de Comercios a Cielo Abierto",
+        "category": "directorate",
+        "authority": {
+          "name": "ALEJANDRO DANIEL PASTORE",
+          "position": "Director Provincial",
+          "email": "",
+          "phone": ""
+        },
+        "dependencies": []
+      },
+      {
+        "name": "Direccion Provincial de Defensa al Consumidor",
+        "category": "directorate",
+        "authority": {
+          "name": "CHRISTIAN RODOLFO GALINDO",
+          "position": "Director Provincial",
+          "email": "",
+          "phone": ""
+        },
+        "dependencies": []
+      },
+      {
+        "name": "Dirección Provincial de Eficiencia Energética",
+        "category": "directorate",
+        "authority": {
+          "name": "MARCO AGUSTÍN MASSACESI",
+          "position": "Director Provincial",
+          "email": "",
+          "phone": ""
+        },
+        "dependencies": []
+      },
+      {
+        "name": "Dirección Provincial de Infraestructura Rural",
+        "category": "directorate",
+        "authority": {
+          "name": "ROBERTO CAYETANO TION",
+          "position": "Director Provincial",
+          "email": "",
+          "phone": "0342 - 4505354 – Int.: 4015"
+        },
+        "dependencies": []
+      },
+      {
+        "name": "Dirección Provincial de Infraestructura Industrial y Servicios",
+        "category": "directorate",
+        "authority": {
+          "name": "CAMILA MONTANARO",
+          "position": "Directora Provincial",
+          "email": "",
+          "phone": ""
+        },
+        "dependencies": []
+      },
+      {
+        "name": "Dirección Provincial de Infraestructura Portuaria",
+        "category": "directorate",
+        "authority": {
+          "name": "SANTIAGO ANGEL CARLONI",
+          "position": "Director Provincial",
+          "email": "",
+          "phone": ""
+        },
+        "dependencies": []
+      },
+      {
+        "name": "Dirección Provincial de Proyectos Especiales",
+        "category": "directorate",
+        "authority": {
+          "name": "BÁRBARA AYLÉN BERCOVICH",
+          "position": "Directora Provincial",
+          "email": "",
+          "phone": ""
+        },
+        "dependencies": []
+      },
+      {
+        "name": "Dirección Provincial de Plataforma de Innovación",
+        "category": "directorate",
+        "authority": {
+          "name": "ALEJANDRO JOSÉ CAPPADORO",
+          "position": "Director Provincial",
+          "email": "",
+          "phone": ""
+        },
+        "dependencies": []
+      },
+      {
+        "name": "Dirección Provincial de Innovación en el Sistema Productivo",
+        "category": "directorate",
+        "authority": {
+          "name": "ÁNGEL MARIO ELÍAS",
+          "position": "Director Provincial",
+          "email": "",
+          "phone": ""
+        },
+        "dependencies": []
+      },
+      {
+        "name": "Dirección Provincial de Nuevas Economías",
+        "category": "directorate",
+        "authority": {
+          "name": "GONZALO AGUSTÍN CRISTINI",
+          "position": "Director Provincial",
+          "email": "",
+          "phone": ""
+        },
+        "dependencies": []
+      },
+      {
+        "name": "Dirección Provincial de Plataformas de Innovación",
+        "category": "directorate",
+        "authority": {
+          "name": "ALEJANDRO JOSÉ CAPPADORO",
+          "position": "Director Provincial",
+          "email": "",
+          "phone": ""
+        },
+        "dependencies": []
+      },
+      {
+        "name": "Dirección Provincial de Relaciones Institucionales, Feria y Eventos",
+        "category": "directorate",
+        "authority": {
+          "name": "ENRICO GASPAR LIVEROTTI",
+          "position": "Director Provincial",
+          "email": "",
+          "phone": ""
+        },
+        "dependencies": []
+      },
+      {
+        "name": "Dirección Provincial de Gestión de Recursos Humanos",
+        "category": "directorate",
+        "authority": {
+          "name": "LAURA SOLEDAD PEZZUTTI",
+          "position": "Directora Provincial",
+          "email": "",
+          "phone": ""
+        },
+        "dependencies": []
+      },
+
+      {
+        "name": "Empresa Provincial de la Energía – EPESF",
+        "category": "entity",
+        "authority": {
+          "name": "HUGO MARÍA MARCUCCI",
+          "position": "Presidente",
+          "email": "",
+          "phone": "0342 – 4505896"
+        },
+        "dependencies": []
+      },
+      {
+        "name": "Aeropuerto Internacional de Rosario “Islas Malvinas”",
+        "category": "entity",
+        "authority": {
+          "name": "ESTEBAN ADRIÁN BRETTO",
+          "position": "Presidente",
+          "email": "privadadirectorio@airosario.com.ar",
+          "phone": "0341 – 4516300, 4512997, 4511226, 4513220"
+        },
+        "dependencies": []
+      },
+      {
+        "name": "Aeropuerto Sauce Viejo",
+        "category": "entity",
+        "authority": {
+          "name": "GISELA JAQUELINA RIULI",
+          "position": "Presidenta",
+          "email": "",
+          "phone": "0342 - 4995061, 4995064"
+        },
+        "dependencies": []
+      },
+      {
+        "name": "Ente Interprovincial del “Túnel Subfluvial Raúl Uranga-Carlos Sylvestre Begnis”",
+        "category": "entity",
+        "authority": {
+          "name": "LISANDRO NELSON VILLAR",
+          "position": "Director Representante de la Provincia de Santa Fe",
+          "email": "info@tunelsubfluvial.gov.ar; mesadeentradas@tunelsubfluvial.gov.ar",
+          "phone": "0343 - 4200400, 4200421, 4200406"
+        },
+        "dependencies": []
+      },
+      {
+        "name": "Ente Administrador del Puerto de Santa Fe",
+        "category": "entity",
+        "authority": {
+          "name": "DANIEL OSCAR CURA",
+          "position": "Representante de la provincia",
+          "email": "secretaria@puertosfe.com",
+          "phone": "0342 - 4558400 - Int. 101"
+        },
+        "dependencies": []
+      },
+      {
+        "name": "Ente Administrador del Puerto de Rosario (ENAPRO)",
+        "category": "entity",
+        "authority": {
+          "name": "GRACIELA BEATRÍZ ALTOMONTE",
+          "position": "Representante de la provincia",
+          "email": "rrii@enapro.com.ar",
+          "phone": "0341 –4481206 Int. 105"
+        },
+        "dependencies": []
+      },
+      {
+        "name": "Ente Administrador del Puerto de Villa Constitución",
+        "category": "entity",
+        "authority": {
+          "name": "GRISELDA MÓNICA CAFFARATTI",
+          "position": "Representante de la provincia",
+          "email": "",
+          "phone": "03400 – 475012"
+        },
+        "dependencies": []
+      },
+      {
+        "name": "Ente Administrador del Puerto de Reconquista",
+        "category": "entity",
+        "authority": {
+          "name": "JUAN CARLOS LÓPEZ CANDIOTTI",
+          "position": "Representante de la provincia",
+          "email": "",
+          "phone": "03482 – 499706/707"
+        },
+        "dependencies": []
+      },
+      {
+        "name": "ENERFE – SANTA FE GAS Y ENERGÍAS RENOVABLES S.A.P.E.M",
+        "category": "entity",
+        "authority": {
+          "name": "RODOLFO ANDRÉS GIACOSA",
+          "position": "Presidente",
+          "email": "info@enerfe.com.ar",
+          "phone": "+54 (0342) 481-5793"
+        },
+        "dependencies": []
+      }
+    ]
+  },
+  {
+    "name": "Ministerio de Justicia y Seguridad",
+    "category": "ministry",
+    "authority": {
+      "name": "Abog. PABLO COCOCCIONI",
+      "position": "Ministro",
+      "email": "",
+      "phone": "0342 – 4505100/5200 - 4572797, 4572798, 4572799 - Internos: 6401, 6402"
+    },
+    "dependencies": [
+      {
+        "name": "Secretaría Privada",
+        "category": "secretary",
+        "authority": {
+          "name": "Abog. BLANCA MARÍA DIAKAKI",
+          "position": "Secretaria",
+          "email": "secprivseguridad@santafe.gov.ar",
+          "phone": "0342 – 4572815 - FAX: 0342 – 4505113 - Conmutador: 4505100/5200, 4572799 - Internos: 6401, 6402"
+        },
+        "dependencies": []
+      },
+      {
+        "name": "Secretaría de Coordinación Técnica y Administración Financiera",
+        "category": "secretary",
+        "authority": {
+          "name": "Abog. GEORGINA LUZ ORCIANI",
+          "position": "Secretaria",
+          "email": "gorciani@santafe.gov.ar",
+          "phone": "0342 – 4572777 – Conmutador: 4505100, 4505200 - Int.: 6428"
+        },
+        "dependencies": []
+      },
+      {
+        "name": "Secretaría de Asuntos Penales",
+        "category": "secretary",
+        "authority": {
+          "name": "Abog. LUCÍA MASNERI CALDERARI",
+          "position": "Secretaria",
+          "email": "",
+          "phone": "0342- 4572999"
+        },
+        "dependencies": []
+      },
+      {
+        "name": "Secretaría de Análisis y Gestión de Información",
+        "category": "secretary",
+        "authority": {
+          "name": "Lic. ESTEBAN FRANCO SANTANTINO",
+          "position": "Secretario",
+          "email": "",
+          "phone": "0342- 4505100 – Int.: 6421, 6422, 6424"
+        },
+        "dependencies": []
+      },
+      {
+        "name": "Secretaría de Gestión Institucional",
+        "category": "secretary",
+        "authority": {
+          "name": "Lic. MARÍA VIRGINIA COUDANNES",
+          "position": "Secretaria",
+          "email": "",
+          "phone": "0342 - 4572669, 4572671, 4572672, 4572674 – FAX: 4572663"
+        },
+        "dependencies": []
+      },
+      {
+        "name": "Secretaría de Seguridad Pública",
+        "category": "secretary",
+        "authority": {
+          "name": "Comandante Gral. (R) OMAR GUSTAVO PEREIRA",
+          "position": "Secretario",
+          "email": "",
+          "phone": "0342 – 4505100/5200– Internos: 6452"
+        },
+        "dependencies": []
+      },
+      {
+        "name": "Secretaría de Justicia",
+        "category": "secretary",
+        "authority": {
+          "name": "Abog. SANTIAGO ÁNGEL MASCHERONI",
+          "position": "Secretario",
+          "email": "",
+          "phone": "0342 – 4572777 – Conmutador: 4505100, 4505200 - Int.: 6421"
+        },
+        "dependencies": []
+      },
+      {
+        "name": "Secretaría de la Agencia Provincial de Seguridad Vial",
+        "category": "secretary",
+        "authority": {
+          "name": "Médico CARLOS TORRES",
+          "position": "Secretario",
+          "email": "seguridadvial@santafe.gov.ar",
+          "phone": "0342 – 4815573, 4815574, 4815575"
+        },
+        "dependencies": []
+      },
+      {
+        "name": "Subsecretaría de Legal y Técnica",
+        "category": "undersecretary",
+        "authority": {
+          "name": "Abog. ESTANISLAO PARREÑO",
+          "position": "Subsecretario",
+          "email": "",
+          "phone": "0342 – 4572777 – Conmutador: 4505100, 4505200 - Int.: 6428"
+        },
+        "dependencies": []
+      },
+      {
+        "name": "Subsecretaría de Tecnología y Equipamiento",
+        "category": "undersecretary",
+        "authority": {
+          "name": "ARMANDO NICOLÁS FARAONI",
+          "position": "Subsecretario",
+          "email": "",
+          "phone": "Conmutador: 0342- 4505100, 4505200 - Int.: 6240"
+        },
+        "dependencies": []
+      },
+      {
+        "name": "Subsecretaría de Formación y Carrera Policial",
+        "category": "undersecretary",
+        "authority": {
+          "name": "Director Gral. ® MARCELO VILLANÚA",
+          "position": "Subsecretario",
+          "email": "",
+          "phone": "0342– 4505100/5200 – Int: 6240"
+        },
+        "dependencies": []
+      },
+      {
+        "name": "Subsecretaría de Cooperación Judicial",
+        "category": "undersecretary",
+        "authority": {
+          "name": "Lic. DAVID RENÉ RAMÓN RENIERO",
+          "position": "Subsecretario",
+          "email": "",
+          "phone": ""
+        },
+        "dependencies": []
+      },
+      {
+        "name": "Subsecretaría de Inteligencia Criminal",
+        "category": "undersecretary",
+        "authority": {
+          "name": "Lic. MARÍA VIRGINIA VILLAR",
+          "position": "Subsecretaria",
+          "email": "",
+          "phone": ""
+        },
+        "dependencies": []
+      },
+      {
+        "name": "Subsecretaría de Análisis Criminal",
+        "category": "undersecretary",
+        "authority": {
+          "name": "Abog. RUBÉN SEBASTIÁN MONTENOTTE",
+          "position": "Subsecretario",
+          "email": "",
+          "phone": "0342- 4505100/200 – Int. 6212"
+        },
+        "dependencies": []
+      },
+      {
+        "name": "Subsecretaría de Monitoreo de Programas Estratégicos",
+        "category": "undersecretary",
+        "authority": {
+          "name": "Abog. JUAN MANUEL MUSURUANA",
+          "position": "Subsecretario",
+          "email": "",
+          "phone": "Conmutador: 0342- 4505100, 4505200"
+        },
+        "dependencies": []
+      },
+      {
+        "name": "Subsecretaría de Comunicación Institucional",
+        "category": "undersecretary",
+        "authority": {
+          "name": "Lic. Jorge Miguel Ceferino Albornóz",
+          "position": "Subsecretario",
+          "email": "",
+          "phone": "0342-4505100, 4505200 - Int.: 6240"
+        },
+        "dependencies": []
+      },
+      {
+        "name": "Subsecretaría de Seguridad Pública",
+        "category": "undersecretary",
+        "authority": {
+          "name": "Cdte. Gral. (R) Roque Omar De Lima",
+          "position": "Subsecretario",
+          "email": "",
+          "phone": "0342 – 4505100/5200– Internos: 6421, 6422, 6424"
+        },
+        "dependencies": []
+      },
+      {
+        "name": "Subsecretaría de Investigación Criminal",
+        "category": "undersecretary",
+        "authority": {
+          "name": "Marcelo Pablo Albornóz",
+          "position": "Subsecretario",
+          "email": "",
+          "phone": "0342-4505100/200 – Int. 6212"
+        },
+        "dependencies": []
+      },
+      {
+        "name": "Subsecretaría de Reforma Judicial",
+        "category": "undersecretary",
+        "authority": {
+          "name": "Abog. Mario César González Rais",
+          "position": "Subsecretario",
+          "email": "",
+          "phone": ""
+        },
+        "dependencies": []
+      },
+      {
+        "name": "Subsecretaría del Centro de Acceso a la Justicia",
+        "category": "undersecretary",
+        "authority": {
+          "name": "Abog. Raúl Marcelo Suárez",
+          "position": "Subsecretario",
+          "email": "",
+          "phone": "0342 – 4506600/6700/6800 – Internos: 1220"
+        },
+        "dependencies": []
+      },
+      {
+        "name": "Subsecretaría de Relaciones con el Poder Judicial",
+        "category": "undersecretary",
+        "authority": {
+          "name": "Abog. María Florencia Blotta",
+          "position": "Subsecretaria",
+          "email": "",
+          "phone": ""
+        },
+        "dependencies": []
+      },
+      {
+        "name": "Subsecretaría de Control",
+        "category": "undersecretary",
+        "authority": {
+          "name": "Abog. Lucas Gabriel Covacich",
+          "position": "Subsecretario",
+          "email": "",
+          "phone": ""
+        },
+        "dependencies": []
+      },
+      {
+        "name": "Dirección Provincial de Administración",
+        "category": "directorate",
+        "authority": {
+          "name": "C.P.N. María Cecilia Fernández Pont",
+          "position": "Directora Provincial",
+          "email": "mariacfernandez@santafe.gov.ar",
+          "phone": "0342 – 4572777 – Conmutador: 4505100, 4505200 - Int.: 6460"
+        },
+        "dependencies": []
+      },
+      {
+        "name": "Dirección Provincial de Asesoría Jurídica",
+        "category": "directorate",
+        "authority": {
+          "name": "Abog. María Laura Spina",
+          "position": "Directora Provincial",
+          "email": "",
+          "phone": ""
+        },
+        "dependencies": []
+      },
+      {
+        "name": "Dirección Provincial de Asesoría en Proyectos Especiales",
+        "category": "directorate",
+        "authority": {
+          "name": "Abog. María Victoria Monteresino",
+          "position": "Directora Provincial",
+          "email": "mmonteresino@santafe.gov.ar",
+          "phone": "0342 – 4572777 – Conmutador: 4505100, 4505200 - Int. 6192"
+        },
+        "dependencies": []
+      },
+      {
+        "name": "Dirección Provincial de Supervisión Logística",
+        "category": "directorate",
+        "authority": {
+          "name": "Claudio Oscar Leonori",
+          "position": "Director Provincial",
+          "email": "",
+          "phone": ""
+        },
+        "dependencies": []
+      },
+      {
+        "name": "Dirección Provincial de Tecnologías para la Seguridad",
+        "category": "directorate",
+        "authority": {
+          "name": "Ing. Gerardo Santinelli",
+          "position": "Director Provincial",
+          "email": "",
+          "phone": ""
+        },
+        "dependencies": []
+      },
+      {
+        "name": "Dirección Provincial de Infraestructura",
+        "category": "directorate",
+        "authority": {
+          "name": "Arq. Ricardo José Méndez",
+          "position": "Director Provincial",
+          "email": "",
+          "phone": ""
+        },
+        "dependencies": []
+      },
+      {
+        "name": "Dirección Provincial de Inspección de Institutos de Formación",
+        "category": "directorate",
+        "authority": {
+          "name": "Dardo Esteban Simil",
+          "position": "Director Provincial",
+          "email": "",
+          "phone": ""
+        },
+        "dependencies": []
+      },
+      {
+        "name": "Dirección Provincial de Bienestar del Personal de las Fuerzas de Seguridad",
+        "category": "directorate",
+        "authority": {
+          "name": "Ignacio Paz",
+          "position": "Director Provincial",
+          "email": "",
+          "phone": "0342-4505100 – Int.: 6213"
+        },
+        "dependencies": []
+      },
+      {
+        "name": "Dirección Provincial de Inspección Penitenciaria",
+        "category": "directorate",
+        "authority": {
+          "name": "Abog. Ricardo Daniel Giusepponi",
+          "position": "Director Provincial",
+          "email": "",
+          "phone": ""
+        },
+        "dependencies": []
+      },
+      {
+        "name": "Dirección Provincial de Industrias Penitenciarias (IAPIP)",
+        "category": "directorate",
+        "authority": {
+          "name": "CPN Rocío Lía Zanón",
+          "position": "Directora Provincial",
+          "email": "secretariaiapip@santafe.gov.ar",
+          "phone": "0342-4910060, 4910056, 4912414, 4572026 - Centrex: *3412, *3413"
+        },
+        "dependencies": []
+      },
+      {
+        "name": "Dirección Provincial de Penal Juvenil",
+        "category": "directorate",
+        "authority": {
+          "name": "María Fernanda Jaime",
+          "position": "Directora Provincial",
+          "email": "",
+          "phone": "0341-4721352"
+        },
+        "dependencies": []
+      },
+      {
+        "name": "Dirección Provincial de Información Patrimonial",
+        "category": "directorate",
+        "authority": {
+          "name": "CPN Natalia María Verónica Corona",
+          "position": "Directora Provincial",
+          "email": "",
+          "phone": "0342-4505100, 4505200 - Int.: 6428"
+        },
+        "dependencies": []
+      },
+      {
+        "name": "Dirección Provincial de Programas de Intervención Barrial",
+        "category": "directorate",
+        "authority": {
+          "name": "Abog. José Felice",
+          "position": "Director Provincial",
+          "email": "",
+          "phone": ""
+        },
+        "dependencies": []
+      },
+      {
+        "name": "Dirección Provincial de Centros Territoriales de Denuncias",
+        "category": "directorate",
+        "authority": {
+          "name": "Elsa Patricia Virili",
+          "position": "Directora Provincial",
+          "email": "",
+          "phone": "0341-4721813 – Ints.: 46081, 46082"
+        },
+        "dependencies": []
+      },
+      {
+        "name": "Dirección Provincial de Seguridad en Eventos Masivos",
+        "category": "directorate",
+        "authority": {
+          "name": "Fernando Luis Peverengo",
+          "position": "Director Provincial",
+          "email": "",
+          "phone": "0342-4505100/200 – Int. 6406"
+        },
+        "dependencies": []
+      },
+      {
+        "name": "Dirección Provincial de Atención de Emergencias",
+        "category": "directorate",
+        "authority": {
+          "name": "Abog. Pablo Martín Polito",
+          "position": "Director Provincial",
+          "email": "",
+          "phone": "0342-4505100, 4505200 / 0341-4721109"
+        },
+        "dependencies": []
+      },
+      {
+        "name": "Dirección Provincial de Formación y Comunicación",
+        "category": "directorate",
+        "authority": {
+          "name": "Lic. Sebastián Kelman",
+          "position": "Director Provincial",
+          "email": "",
+          "phone": "0342-4505100, 4505200 - Int.: 6240"
+        },
+        "dependencies": []
+      },
+      {
+        "name": "Dirección Provincial de Coordinación Interjurisdiccional",
+        "category": "directorate",
+        "authority": {
+          "name": "Mauro Damián Bertorino",
+          "position": "Director Provincial",
+          "email": "",
+          "phone": ""
+        },
+        "dependencies": []
+      },
+      {
+        "name": "Dirección Provincial de Sistemas Técnicos y Administrativos",
+        "category": "directorate",
+        "authority": {
+          "name": "Roberto Bruera",
+          "position": "Director Provincial",
+          "email": "",
+          "phone": ""
+        },
+        "dependencies": []
+      },
+      {
+        "name": "Dirección Provincial de Mediación (A.G.E.M.)",
+        "category": "directorate",
+        "authority": {
+          "name": "Abog. Marcelo Leonardo García",
+          "position": "Director Provincial",
+          "email": "",
+          "phone": ""
+        },
+        "dependencies": []
+      },
+      {
+        "name": "Dirección Provincial de Transformación de Procesos Extrapenales",
+        "category": "directorate",
+        "authority": {
+          "name": "Abog. Ignacio Martín Del Vecchio",
+          "position": "Director Provincial",
+          "email": "",
+          "phone": "0341-4772582 - Int.: 45778"
+        },
+        "dependencies": []
+      },
+      {
+        "name": "Dirección Provincial del Registro Único de Aspirantes a Guarda con fines Adoptivos (R.U.A.G.A)",
+        "category": "directorate",
+        "authority": {
+          "name": "Abog. Adriana Claudia Bonelli",
+          "position": "Directora Provincial",
+          "email": "",
+          "phone": "0341-4721825"
+        },
+        "dependencies": []
+      },
+      {
+        "name": "Dirección Provincial de los Centros de Asistencia Judicial",
+        "category": "directorate",
+        "authority": {
+          "name": "Abog. Juan Manuel Del Cerro",
+          "position": "Director Provincial",
+          "email": "",
+          "phone": ""
+        },
+        "dependencies": []
+      },
+      {
+        "name": "Dirección Provincial del Consejo de la Magistratura",
+        "category": "directorate",
+        "authority": {
+          "name": "Abog. Carlos María Luis Montenegro",
+          "position": "Director Provincial",
+          "email": "",
+          "phone": "0342-4573533 / 0342-4506605"
+        },
+        "dependencies": []
+      },
+      {
+        "name": "Dirección Provincial de Control de Agencias de Seguridad Privada",
+        "category": "directorate",
+        "authority": {
+          "name": "Abog. Karina Chumpitaz Filippone",
+          "position": "Directora Provincial",
+          "email": "",
+          "phone": "0342-4505125"
+        },
+        "dependencies": []
+      },
+      {
+        "name": "Policía de la Provincia de Santa Fe",
+        "category": "entity",
+        "authority": {
+          "name": "LUIS PABLO MARTÍN MALDONADO",
+          "position": "Jefe de Policía de la Provincia",
+          "email": "",
+          "phone": "0342 - 4572854, 4505111, 4505112"
+        },
+        "dependencies": [
+          {
+            "name": "Subjefe de Policía de la Provincia",
+            "category": "entity",
+            "authority": {
+              "name": "DANIEL FERNANDO FILCHEL",
+              "position": "Subjefe de Policía de la Provincia",
+              "email": "",
+              "phone": "0342 - 4573055, 4505117, 4505134"
+            },
+            "dependencies": []
+          },
+          {
+            "name": "Departamento Relaciones Policiales",
+            "category": "entity",
+            "authority": {
+              "name": "",
+              "position": "",
+              "email": "",
+              "phone": "0342 - 4505159, 4505158, 4505163"
+            },
+            "dependencies": []
+          },
+          {
+            "name": "Banda de Música - Santa Fe",
+            "category": "organism",
+            "authority": {
+              "name": "MARCELO FABIAN HUSSER",
+              "position": "Director de la Banda de Música",
+              "email": "bandapolicialsantafe@hotmail.com",
+              "phone": "0342 – 4572891"
+            },
+            "dependencies": []
+          },
+          {
+            "name": "Banda de Música - Rosario",
+            "category": "organism",
+            "authority": {
+              "name": "FELIX JUAN OVIEDO",
+              "position": "Director de la Banda de Música",
+              "email": "",
+              "phone": "0341 – 4657380"
+            },
+            "dependencies": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Ministerio de Obras Públicas",
+    "category": "ministry",
+    "authority": {
+      "name": "LISANDRO RUDY ENRICO",
+      "position": "Ministro",
+      "email": "",
+      "phone": "0342 - 4573570, 4573572, 4573573, 4573574"
+    },
+    "dependencies": [
+      {
+        "name": "Secretaría General",
+        "category": "secretary",
+        "authority": {
+          "name": "MARCOS IGNACIO RENNA",
+          "position": "Secretario General",
+          "email": "privmop@santafe.gov.ar",
+          "phone": "0342 - 4573570, 4573572, 4573573, 4573574"
+        },
+        "dependencies": []
+      },
+      {
+        "name": "Secretaría de Coordinación Técnica",
+        "category": "secretary",
+        "authority": {
+          "name": "ANDREA GABRIELA ARRIETTI",
+          "position": "Secretaria",
+          "email": "",
+          "phone": "0342 – 4506715, 4573570, 4573572, 4573573, 4573574"
+        },
+        "dependencies": []
+      },
+      {
+        "name": "Secretaría de Proyectos Especiales",
+        "category": "secretary",
+        "authority": {
+          "name": "JOSÉ LEÓN GARIBAY",
+          "position": "Secretario",
+          "email": "",
+          "phone": "0342 – 4589456"
+        },
+        "dependencies": []
+      },
+      {
+        "name": "Secretaría de Recursos Hídricos",
+        "category": "secretary",
+        "authority": {
+          "name": "NICOLÁS FRANCISCO MIJICH",
+          "position": "Secretario",
+          "email": "",
+          "phone": "0342 - 4573733, 4573745, 4573732, 4573707, 4573709"
+        },
+        "dependencies": []
+      },
+      {
+        "name": "Secretaría de Obras Públicas",
+        "category": "secretary",
+        "authority": {
+          "name": "MARCELO DARIO PASCUALON",
+          "position": "Secretario",
+          "email": "",
+          "phone": ""
+        },
+        "dependencies": []
+      },
+      {
+        "name": "Secretaría de Agua y Saneamiento",
+        "category": "secretary",
+        "authority": {
+          "name": "LEONEL MARMIROLI",
+          "position": "Secretario",
+          "email": "",
+          "phone": "0342 – 4573030"
+        },
+        "dependencies": []
+      },
+      {
+        "name": "Secretaría de Hábitat y Vivienda",
+        "category": "secretary",
+        "authority": {
+          "name": "LUCAS PEDRO CRIVELLI",
+          "position": "Secretario",
+          "email": "ceremonialdpvyu@santafe.gov.ar",
+          "phone": "0342 – 4815670 – 4815676"
+        },
+        "dependencies": []
+      },
+      {
+        "name": "Subsecretaría de Comunicación",
+        "category": "undersecretary",
+        "authority": {
+          "name": "FERNANDO MANUEL ALONSO",
+          "position": "Subsecretario",
+          "email": "",
+          "phone": "0342 – 4506715, 4573570, 4573572, 4573573, 4573574"
+        },
+        "dependencies": []
+      },
+      {
+        "name": "Subsecretaría de Gestión y Transparencia",
+        "category": "undersecretary",
+        "authority": {
+          "name": "RINA COASSIN",
+          "position": "Subsecretaria",
+          "email": "",
+          "phone": "0342 – 4506715, 4573570, 4573572, 4573573, 4573574"
+        },
+        "dependencies": []
+      },
+      {
+        "name": "Subsecretaría de Planificación Estratégica",
+        "category": "undersecretary",
+        "authority": {
+          "name": "MARCELO FABIÁN MANTARAS",
+          "position": "Subsecretario",
+          "email": "",
+          "phone": "0342 – 4506715, 4573570, 4573572, 4573573, 4573574"
+        },
+        "dependencies": []
+      },
+      {
+        "name": "Subsecretaría de Administración y Control",
+        "category": "undersecretary",
+        "authority": {
+          "name": "MARIA DEL ROSARIO TULA",
+          "position": "Subsecretaria",
+          "email": "",
+          "phone": "0342 – 4506715, 4573570, 4573572, 4573573, 4573574"
+        },
+        "dependencies": []
+      },
+      {
+        "name": "Subsecretaría Legal y Técnica",
+        "category": "undersecretary",
+        "authority": {
+          "name": "MISAEL EDGARDO ALBERTO",
+          "position": "Subsecretario",
+          "email": "",
+          "phone": "0342 – 4506715, 4573570, 4573572, 4573573, 4573574"
+        },
+        "dependencies": []
+      },
+      {
+        "name": "Subsecretaría de Planificación Hídrica",
+        "category": "undersecretary",
+        "authority": {
+          "name": "RICARDO DANIEL RUIZ",
+          "position": "Subsecretario",
+          "email": "",
+          "phone": ""
+        },
+        "dependencies": []
+      },
+      {
+        "name": "Subsecretaría de Obra y Gestión Territorial",
+        "category": "undersecretary",
+        "authority": {
+          "name": "FEDERICO DANIEL SIEBER",
+          "position": "Subsecretario",
+          "email": "",
+          "phone": ""
+        },
+        "dependencies": []
+      },
+      {
+        "name": "Subsecretaría de Proyectos Especiales",
+        "category": "undersecretary",
+        "authority": {
+          "name": "GERVASIO ERNESTO SOLARI",
+          "position": "Subsecretario",
+          "email": "",
+          "phone": "0342 – 4589456"
+        },
+        "dependencies": []
+      },
+      {
+        "name": "Subsecretaría de Desarrollo del Hábitat",
+        "category": "undersecretary",
+        "authority": {
+          "name": "MARIA ANDREA ZORZÓN",
+          "position": "Subsecretaria",
+          "email": "",
+          "phone": ""
+        },
+        "dependencies": []
+      },
+      {
+        "name": "Subsecretaría de Planeamiento de Hábitat",
+        "category": "undersecretary",
+        "authority": {
+          "name": "PABLO HERNÁN ABALOS",
+          "position": "Subsecretario",
+          "email": "",
+          "phone": "0342 – 4815670 – 4815676"
+        },
+        "dependencies": []
+      },
+      {
+        "name": "Subsecretaría de Arquitectura y Obras Públicas",
+        "category": "undersecretary",
+        "authority": {
+          "name": "LUCAS LEANDRO CONDAL",
+          "position": "Subsecretario",
+          "email": "",
+          "phone": ""
+        },
+        "dependencies": []
+      },
+      {
+        "name": "Subsecretaría de Agua y Saneamiento",
+        "category": "undersecretary",
+        "authority": {
+          "name": "VILMA SUSANA OLIVIERI",
+          "position": "Subsecretaria",
+          "email": "",
+          "phone": "0342 – 4573133"
+        },
+        "dependencies": []
+      },
+      {
+        "name": "Dirección Provincial de Vivienda y Urbanismo",
+        "category": "directorate",
+        "authority": {
+          "name": "",
+          "position": "",
+          "email": "ceremonialdpvyu@santafe.gov.ar",
+          "phone": "0342 – 4815670 – 4815676"
+        },
+        "dependencies": []
+      },
+      {
+        "name": "Dirección Provincial de Vialidad",
+        "category": "directorate",
+        "authority": {
+          "name": "JORGE PABLO SEGHEZZO",
+          "position": "Administrador General",
+          "email": "secretariaprivadadpv@santafe.gov.ar",
+          "phone": "0342 – 4573962, 4573963, 4573964, 4573965, 4573966"
+        },
+        "dependencies": [
+          {
+            "name": "Sub-Administracion Zona Norte",
+            "category": "directorate",
+            "authority": {
+              "name": "SERGIO RAÚL CARDOZO",
+              "position": "Sub-Administrador",
+              "email": "",
+              "phone": ""
+            },
+            "dependencies": []
+          },
+          {
+            "name": "Sub-Administracion Zona Sur",
+            "category": "directorate",
+            "authority": {
+              "name": "BENJAMIN MATIAS GIANETTI",
+              "position": "Sub-Administrador",
+              "email": "",
+              "phone": ""
+            },
+            "dependencies": []
+          }
+        ]
+      },
+      {
+        "name": "Dirección Provincial de Gestión para el Financiamiento Externo",
+        "category": "directorate",
+        "authority": {
+          "name": "MARÍA VICTORIA SANTI",
+          "position": "Directora Provincial",
+          "email": "",
+          "phone": ""
+        },
+        "dependencies": []
+      },
+      {
+        "name": "Dirección Provincial de Informática para la Gestión",
+        "category": "directorate",
+        "authority": {
+          "name": "ALEJANDRO AGUSTÍN PERALTA",
+          "position": "Director Provincial",
+          "email": "",
+          "phone": ""
+        },
+        "dependencies": []
+      },
+      {
+        "name": "Dirección Provincial de Auditoría y Control de Gestión",
+        "category": "directorate",
+        "authority": {
+          "name": "GABRIELA EDITH CABRERA",
+          "position": "Directora Provincial",
+          "email": "",
+          "phone": ""
+        },
+        "dependencies": []
+      },
+      {
+        "name": "Dirección Provincial de Administración y Logística",
+        "category": "directorate",
+        "authority": {
+          "name": "SERGIO NICOLÁS CATTANEO",
+          "position": "Director Provincial",
+          "email": "",
+          "phone": "0342 – 4506715, 4573570, 4573572, 4573573, 4573574"
+        },
+        "dependencies": []
+      },
+      {
+        "name": "Dirección Provincial de Estudios y Proyectos",
+        "category": "directorate",
+        "authority": {
+          "name": "JONATAN LUIS ROBERTO",
+          "position": "Director Provincial",
+          "email": "",
+          "phone": ""
+        },
+        "dependencies": []
+      },
+      {
+        "name": "Dirección Provincial de Obras Hídricas",
+        "category": "directorate",
+        "authority": {
+          "name": "MARCELA LETICIA REYNARES",
+          "position": "Directora Provincial",
+          "email": "",
+          "phone": ""
+        },
+        "dependencies": []
+      },
+      {
+        "name": "Dirección Provincial de Gestión Territorial",
+        "category": "directorate",
+        "authority": {
+          "name": "RAMIRO JOAQUÍN PIGHINI",
+          "position": "Director Provincial",
+          "email": "",
+          "phone": "0342 – 4506715, 4573570, 4573572, 4573573, 4573574"
+        },
+        "dependencies": []
+      },
+      {
+        "name": "Dirección Provincial de Gestión de Suelo",
+        "category": "directorate",
+        "authority": {
+          "name": "PILAR EGAÑA",
+          "position": "Directora Provincial",
+          "email": "",
+          "phone": ""
+        },
+        "dependencies": []
+      },
+      {
+        "name": "Dirección Provincial de Intervención de Hábitat Rosario",
+        "category": "directorate",
+        "authority": {
+          "name": "MARÍA LAURA LUCCI",
+          "position": "Directora Provincial",
+          "email": "",
+          "phone": ""
+        },
+        "dependencies": []
+      },
+      {
+        "name": "Dirección Provincial de Intervención de Hábitat Santa Fe",
+        "category": "directorate",
+        "authority": {
+          "name": "RAMSES MEDINA",
+          "position": "Director Provincial",
+          "email": "",
+          "phone": ""
+        },
+        "dependencies": []
+      },
+      {
+        "name": "Dirección Provincial de Vinculación de Hábitat",
+        "category": "directorate",
+        "authority": {
+          "name": "MARÍA PAOLA PALLERO",
+          "position": "Directora Provincial",
+          "email": "",
+          "phone": ""
+        },
+        "dependencies": []
+      },
+      {
+        "name": "Dirección Provincial de Planeamiento de Hábitat",
+        "category": "directorate",
+        "authority": {
+          "name": "JOSÉ ANTONIO CITRONI",
+          "position": "Director Provincial",
+          "email": "",
+          "phone": ""
+        },
+        "dependencies": []
+      },
+      {
+        "name": "Dirección Provincial de Gestión Obras",
+        "category": "directorate",
+        "authority": {
+          "name": "ARNOLD EDUARDO CURATOLO",
+          "position": "Director Provincial",
+          "email": "",
+          "phone": "0342 - 4573733, 4573745, 4573732, 4573707, 4573709"
+        },
+        "dependencies": []
+      },
+      {
+        "name": "Dirección Provincial de Acueductos",
+        "category": "directorate",
+        "authority": {
+          "name": "PAULA ROCÍO NARDIN",
+          "position": "Directora Provincial",
+          "email": "",
+          "phone": "0342 – 4573145"
+        },
+        "dependencies": []
+      },
+      {
+        "name": "Dirección Provincial de Agua y Saneamiento",
+        "category": "directorate",
+        "authority": {
+          "name": "JUAN ABEL SIEBENHAAR",
+          "position": "Directora Provincial",
+          "email": "",
+          "phone": "0342 – 4573133"
+        },
+        "dependencies": []
+      },
+      {
+        "name": "Dirección Provincial de Vivienda y Urbanismo",
+        "category": "directorate",
+        "authority": {
+          "name": "BRIAN ZICARELLI",
+          "position": "Director Provincial",
+          "email": "ceremonialdpvyu@santafe.gov.ar",
+          "phone": "0342 – 4815670 – 4815676"
+        },
+        "dependencies": []
+      },
+      {
+        "name": "Dirección Provincial de Planificacion",
+        "category": "directorate",
+        "authority": {
+          "name": "PABLO ALFREDO STORANI",
+          "position": "Director Provincial",
+          "email": "",
+          "phone": ""
+        },
+        "dependencies": []
+      },
+      {
+        "name": "Dirección Provincial de Arquitectura e Ingeniería – DIPAI",
+        "category": "directorate",
+        "authority": {
+          "name": "ANDRÉS FRANCESCONI",
+          "position": "Director Provincial",
+          "email": "",
+          "phone": "0342-4547992 - 4547994 - 4547995 – 4547996"
+        },
+        "dependencies": []
+      },
+      {
+        "name": "Dirección Provincial de Legal y Despacho",
+        "category": "directorate",
+        "authority": {
+          "name": "GABRIEL ADOLFO VOISARD",
+          "position": "Director Provincial",
+          "email": "",
+          "phone": ""
+        },
+        "dependencies": []
+      },
+      {
+        "name": "Subdirección Provincial de Vivienda y Urbanismo - Sede Central",
+        "category": "directorate",
+        "authority": {
+          "name": "GEORGINA MARÍA PAOLI",
+          "position": "Subdirectora Provincial",
+          "email": "ceremonialdpvyu@santafe.gov.ar",
+          "phone": "0342 – 4815670 – 4815676"
+        },
+        "dependencies": []
+      },
+      {
+        "name": "Subdirección Provincial de Arquitectura e Ingeniería Rosario",
+        "category": "directorate",
+        "authority": {
+          "name": "JOSÉ CARLOS RABASEDAS",
+          "position": "Subdirector Provincial",
+          "email": "",
+          "phone": ""
+        },
+        "dependencies": []
+      },
+      {
+        "name": "Subdirección Provincial de Arquitectura e Ingeniería Santa Fe",
+        "category": "directorate",
+        "authority": {
+          "name": "GUSTAVO RODOLFO CEFERINO LEVRINO",
+          "position": "Subdirector Provincial",
+          "email": "",
+          "phone": ""
+        },
+        "dependencies": []
+      },
+      {
+        "name": "Subdirección Provincial de Gestión Territorial del Hábitat",
+        "category": "directorate",
+        "authority": {
+          "name": "CLAUDIO MARCELO ARDISANA",
+          "position": "Subdirector Provincial",
+          "email": "",
+          "phone": ""
+        },
+        "dependencies": []
+      },
+      {
+        "name": "Dirección Provincial de Vialidad - Coordinación Zonal I y VIII",
+        "category": "directorate",
+        "authority": {
+          "name": "FEDERICO GABRIEL CARRARA",
+          "position": "Director",
+          "email": "",
+          "phone": ""
+        },
+        "dependencies": []
+      },
+      {
+        "name": "Dirección Provincial de Vialidad - Coordinación Zonal II y IX",
+        "category": "directorate",
+        "authority": {
+          "name": "CARLOS BENJAMIN CATTANEO",
+          "position": "Director",
+          "email": "",
+          "phone": ""
+        },
+        "dependencies": []
+      },
+      {
+        "name": "Dirección Provincial de Vialidad - Coordinación Zonal X y IV",
+        "category": "directorate",
+        "authority": {
+          "name": "HÉCTOR ANTONIO ROSSI",
+          "position": "Director",
+          "email": "",
+          "phone": ""
+        },
+        "dependencies": []
+      },
+      {
+        "name": "Dirección Provincial de Vialidad - Coordinación Zonal III y V",
+        "category": "directorate",
+        "authority": {
+          "name": "DANIEL CEJAS",
+          "position": "Director",
+          "email": "",
+          "phone": ""
+        },
+        "dependencies": []
+      },
+      {
+        "name": "Dirección Provincial de Vialidad - Coordinación Zonal VI y VII",
+        "category": "directorate",
+        "authority": {
+          "name": "",
+          "position": "Director",
+          "email": "",
+          "phone": ""
+        },
+        "dependencies": []
+      },
+      {
+        "name": "Aguas Santafesinas Sociedad Anónima (ASSA)",
+        "category": "entity",
+        "authority": {
+          "name": "ANAHÍ PATRICIA RODRÍGUEZ",
+          "position": "Presidenta",
+          "email": "",
+          "phone": "0342 - 4504540"
+        },
+        "dependencies": []
+      },
+      {
+        "name": "Ente Regulador de Servicios Sanitarios (ENRESS)",
+        "category": "entity",
+        "authority": {
+          "name": "JORGE LAGNA",
+          "position": "Presidente",
+          "email": "enress@enress.gov.ar",
+          "phone": "0342 - 4596853, 4597904, 4594072"
+        },
+        "dependencies": []
+      }
+    ]
+  },
+  {
+    "name": "Ministerio de Salud",
+    "category": "ministry",
+    "authority": {
+      "name": "SILVIA SUSANA CIANCIO",
+      "position": "Ministra",
+      "email": "",
+      "phone": "0342 – 4572359, 4572369, 4571933"
+    },
+    "dependencies": [
+      {
+        "name": "Secretaría Privada",
+        "category": "secretary",
+        "authority": {
+          "name": "JIMENA CELESTE OLVEIRA",
+          "position": "Secretaria Privada",
+          "email": "privadasalud@santafe.gov.ar",
+          "phone": "0342 - 4572359, 4572369, 4571933"
+        },
+        "dependencies": []
+      },
+      {
+        "name": "Secretaría General",
+        "category": "secretary",
+        "authority": {
+          "name": "RAMIRO OSCAR DALL AGLIO",
+          "position": "Secretario",
+          "email": "",
+          "phone": ""
+        },
+        "dependencies": []
+      },
+      {
+        "name": "Secretaría de Salud",
+        "category": "secretary",
+        "authority": {
+          "name": "MARÍA ANDREA UBOLDI",
+          "position": "Secretaria",
+          "email": "",
+          "phone": ""
+        },
+        "dependencies": []
+      },
+      {
+        "name": "Secretaría de Administración",
+        "category": "secretary",
+        "authority": {
+          "name": "GUILLERMO JAVIER ÁLVAREZ",
+          "position": "Secretario",
+          "email": "",
+          "phone": ""
+        },
+        "dependencies": []
+      },
+      {
+        "name": "Secretaría de Participación Social en Salud",
+        "category": "secretary",
+        "authority": {
+          "name": "MARCELO HELADIO DELLAPORTA",
+          "position": "Secretario",
+          "email": "",
+          "phone": ""
+        },
+        "dependencies": []
+      },
+      {
+        "name": "Secretaría de Gestión y Fortalecimiento Institucional",
+        "category": "secretary",
+        "authority": {
+          "name": "GONZALO CHIESA",
+          "position": "Secretario",
+          "email": "",
+          "phone": ""
+        },
+        "dependencies": []
+      },
+      {
+        "name": "Secretaría de Logística Integrada y Articulación de Redes",
+        "category": "secretary",
+        "authority": {
+          "name": "JORGE ALBERTO STETTLER",
+          "position": "Secretario",
+          "email": "",
+          "phone": ""
+        },
+        "dependencies": []
+      },
+      {
+        "name": "Secretaría de Gestión Territorial del Tercer Nivel de Salud",
+        "category": "secretary",
+        "authority": {
+          "name": "CESAR ALBERTO PAULONI",
+          "position": "Secretario",
+          "email": "",
+          "phone": ""
+        },
+        "dependencies": []
+      },
+      {
+        "name": "Subsecretaría de Gestión Territorial de Salud - Centro - Norte",
+        "category": "undersecretary",
+        "authority": {
+          "name": "LEONARDO ALEJANDRO MARTíNEZ DECHIARA",
+          "position": "Subsecretario",
+          "email": "",
+          "phone": ""
+        },
+        "dependencies": []
+      },
+      {
+        "name": "Subsecretaría de Gestión Territorial de Salud - Sur",
+        "category": "undersecretary",
+        "authority": {
+          "name": "MARCELO JAVIER KRENZ",
+          "position": "Subsecretario",
+          "email": "",
+          "phone": ""
+        },
+        "dependencies": []
+      },
+      {
+        "name": "Subsecretaría del Tercer Nivel de Atención",
+        "category": "undersecretary",
+        "authority": {
+          "name": "",
+          "position": "Subsecretaria",
+          "email": "",
+          "phone": ""
+        },
+        "dependencies": []
+      },
+      {
+        "name": "Subsecretaría de Administración",
+        "category": "undersecretary",
+        "authority": {
+          "name": "",
+          "position": "Subsecretario",
+          "email": "",
+          "phone": ""
+        },
+        "dependencies": []
+      },
+      {
+        "name": "Subsecretaría de Gestión de Recursos Humanos",
+        "category": "undersecretary",
+        "authority": {
+          "name": "GLORIA CRISTINA BLARASIN",
+          "position": "Subsecretaria",
+          "email": "",
+          "phone": ""
+        },
+        "dependencies": []
+      },
+      {
+        "name": "Subsecretaría de Medicamentos y Tecnología Sanitaria",
+        "category": "undersecretary",
+        "authority": {
+          "name": "EMILIANO ANDRES MELERO",
+          "position": "Subsecretario",
+          "email": "",
+          "phone": ""
+        },
+        "dependencies": []
+      },
+      {
+        "name": "Subsecretaría de Salud Mental",
+        "category": "undersecretary",
+        "authority": {
+          "name": "LILIANA GRACIELA OLGUÍN",
+          "position": "Subsecretaria",
+          "email": "saludmentalsfe.direccion@santafe.gov.ar",
+          "phone": "0342 – 4574803"
+        },
+        "dependencies": []
+      },
+      {
+        "name": "Subsecretaría de Logística Integrada y Articulación de Redes",
+        "category": "undersecretary",
+        "authority": {
+          "name": "MARTÍN RUBÉN PIRLES",
+          "position": "Subsecretario",
+          "email": "",
+          "phone": ""
+        },
+        "dependencies": []
+      },
+      {
+        "name": "Subsecretaría Legal y Técnica",
+        "category": "undersecretary",
+        "authority": {
+          "name": "JUAN PABLO GUTIÉRREZ",
+          "position": "Subsecretario",
+          "email": "",
+          "phone": ""
+        },
+        "dependencies": []
+      },
+      {
+        "name": "Subsecretaría de Gestión Territorial del Tercer Nivel de Salud",
+        "category": "undersecretary",
+        "authority": {
+          "name": "PATRICIA MARCELA GONZALES",
+          "position": "Subsecretaria",
+          "email": "",
+          "phone": ""
+        },
+        "dependencies": []
+      },
+      {
+        "name": "Subsecretaría de Administración",
+        "category": "undersecretary",
+        "authority": {
+          "name": "PAMELA SOLEDAD LA ORDEN",
+          "position": "Subsecretaria",
+          "email": "",
+          "phone": ""
+        },
+        "dependencies": []
+      },
+      {
+        "name": "Dirección Provincial de Promoción y Prevención de la Salud",
+        "category": "directorate",
+        "authority": {
+          "name": "ANALÍA CHUMPITAZ FILIPONE",
+          "position": "Directora Provincial",
+          "email": "",
+          "phone": ""
+        },
+        "dependencies": []
+      },
+      {
+        "name": "Dirección Provincial de Administración",
+        "category": "directorate",
+        "authority": {
+          "name": "MARIA BELEN VICENS",
+          "position": "Directora Provincial",
+          "email": "",
+          "phone": "0342 – 4588800"
+        },
+        "dependencies": []
+      },
+      {
+        "name": "Dirección Provincial de Programas y Financiamientos",
+        "category": "directorate",
+        "authority": {
+          "name": "JOSÉ MARÍA NOTTOLI",
+          "position": "Director Provincial",
+          "email": "",
+          "phone": ""
+        },
+        "dependencies": []
+      },
+      {
+        "name": "Dirección Provincial de Gestión de Recursos Humanos",
+        "category": "directorate",
+        "authority": {
+          "name": "ILEANA NOELI COLMAN",
+          "position": "Directora Provincial",
+          "email": "",
+          "phone": ""
+        },
+        "dependencies": [
+          {
+            "name": "Subdirectora Provincial",
+            "category": "directorate",
+            "authority": {
+              "name": "MARIA INES MÜLLER",
+              "position": "Subdirectora Provincial",
+              "email": "",
+              "phone": "0342 - 4588800"
+            },
+            "dependencies": []
+          }
+        ]
+      },
+      {
+        "name": "Dirección Provincial de Red de Medicamentos, Insumos y Tecnología Sanitaria",
+        "category": "directorate",
+        "authority": {
+          "name": "SILVINA GABRIELA FONTANA",
+          "position": "Directora Provincial",
+          "email": "",
+          "phone": ""
+        },
+        "dependencies": []
+      },
+      {
+        "name": "Dirección Provincial de Red de Laboratorios",
+        "category": "directorate",
+        "authority": {
+          "name": "EDUARDO GABRIEL ANCHART",
+          "position": "Director Provincial",
+          "email": "",
+          "phone": ""
+        },
+        "dependencies": []
+      },
+      {
+        "name": "Dirección Provincial de Red de Bioingeniería",
+        "category": "directorate",
+        "authority": {
+          "name": "MARÍA ALEJANDRA CENA",
+          "position": "Directora Provincial",
+          "email": "",
+          "phone": ""
+        },
+        "dependencies": []
+      },
+      {
+        "name": "Dirección Provincial de Red de Salud Bucal",
+        "category": "directorate",
+        "authority": {
+          "name": "EDUARDO MARTIN WILLIAMS",
+          "position": "Director Provincial",
+          "email": "",
+          "phone": ""
+        },
+        "dependencies": []
+      },
+      {
+        "name": "Dirección Provincial de Apoyo a Instituciones Locales",
+        "category": "directorate",
+        "authority": {
+          "name": "",
+          "position": "Director Provincial",
+          "email": "",
+          "phone": ""
+        },
+        "dependencies": []
+      },
+      {
+        "name": "Dirección Provincial de Logística Integrada",
+        "category": "directorate",
+        "authority": {
+          "name": "BEATRIZ ANDREA GULISANO",
+          "position": "Directora Provincial",
+          "email": "",
+          "phone": ""
+        },
+        "dependencies": []
+      },
+      {
+        "name": "Dirección Provincial de Cuidados Críticos",
+        "category": "directorate",
+        "authority": {
+          "name": "ROBERTO JORGE CEBALLOS",
+          "position": "Director Provincial",
+          "email": "",
+          "phone": ""
+        },
+        "dependencies": []
+      },
+      {
+        "name": "Dirección Provincial de Derivaciones, Traslados y Gestión de Camas",
+        "category": "directorate",
+        "authority": {
+          "name": "MARÍA JOSÉ FIGUEROA MASSEI",
+          "position": "Directora Provincial",
+          "email": "",
+          "phone": ""
+        },
+        "dependencies": []
+      },
+      {
+        "name": "Dirección Provincial Legal y Técnico",
+        "category": "directorate",
+        "authority": {
+          "name": "MARÍA CAROLINA CAPUTTO",
+          "position": "Directora Provincial",
+          "email": "",
+          "phone": "0342 – 4588800"
+        },
+        "dependencies": []
+      },
+      {
+        "name": "Dirección Provincial de Salud Mental",
+        "category": "directorate",
+        "authority": {
+          "name": "VICTORIA MANCINI",
+          "position": "Directora Provincial",
+          "email": "",
+          "phone": "0342 – 4574803"
+        },
+        "dependencies": []
+      },
+      {
+        "name": "Dirección Provincial de Control de Procesos y Planificación Estratégica",
+        "category": "directorate",
+        "authority": {
+          "name": "JUAN BAUTISTA MALANO",
+          "position": "Director Provincial",
+          "email": "",
+          "phone": ""
+        },
+        "dependencies": []
+      },
+      {
+        "name": "Dirección Provincial de Modernización y Transparencia en Salud",
+        "category": "directorate",
+        "authority": {
+          "name": "EMMANUEL ALEXIS JOLIAT",
+          "position": "Director Provincial",
+          "email": "",
+          "phone": ""
+        },
+        "dependencies": []
+      },
+      {
+        "name": "Dirección Provincial de Apoyo a Instituciones Locales",
+        "category": "directorate",
+        "authority": {
+          "name": "VALENTINA SIRTORI",
+          "position": "Directora Provincial",
+          "email": "",
+          "phone": ""
+        },
+        "dependencies": []
+      },
+      {
+        "name": "Dirección Provincial de Procesos Hospitalarios",
+        "category": "directorate",
+        "authority": {
+          "name": "EMILIO SEBASTIÁN NICOLÁS CAMUZZI",
+          "position": "Director Provincial",
+          "email": "",
+          "phone": ""
+        },
+        "dependencies": []
+      },
+      {
+        "name": "Dirección Provincial de Arquitectura",
+        "category": "directorate",
+        "authority": {
+          "name": "LISANDRO FABIO VACCARO",
+          "position": "Director Provincial",
+          "email": "",
+          "phone": ""
+        },
+        "dependencies": []
+      },
+      {
+        "name": "Coordinación Regional de Salud Mental - Nodo Santa Fe",
+        "category": "entity",
+        "authority": {
+          "name": "MARÍA DE LAS MERCEDES BARATTI",
+          "position": "Coordinadora",
+          "email": "saludmentalsfe.direccion@santafe.gov.ar",
+          "phone": "0342 – 4574803"
+        },
+        "dependencies": []
+      },
+      {
+        "name": "Coordinación Regional de Salud Mental - Nodo Rafaela",
+        "category": "entity",
+        "authority": {
+          "name": "LUCIANA LAURA GALLONI",
+          "position": "Coordinadora",
+          "email": "",
+          "phone": ""
+        },
+        "dependencies": []
+      },
+      {
+        "name": "Coordinación Regional de Salud Mental - Nodo Rosario",
+        "category": "entity",
+        "authority": {
+          "name": "SILVINA VERÓNICA OJEDA",
+          "position": "Coordinadora",
+          "email": "",
+          "phone": "0341 – 4721109"
+        },
+        "dependencies": []
+      },
+      {
+        "name": "Coordinación Regional de Salud Mental - Nodo Reconquista",
+        "category": "entity",
+        "authority": {
+          "name": "LAURA VERÓNICA DELAROSA",
+          "position": "Coordinadora",
+          "email": "",
+          "phone": ""
+        },
+        "dependencies": []
+      },
+      {
+        "name": "Coordinación Regional de Salud Mental - Nodo Venado Tuerto",
+        "category": "entity",
+        "authority": {
+          "name": "PATRICIA LIA BECERRA",
+          "position": "Coordinadora",
+          "email": "",
+          "phone": ""
+        },
+        "dependencies": []
+      },
+      {
+        "name": "Coordinación Regional de Logística Integrada y Articulación de Redes- Nodo Santa Fe",
+        "category": "entity",
+        "authority": {
+          "name": "KARINA ANDREA CERRA",
+          "position": "Coordinadora",
+          "email": "",
+          "phone": ""
+        },
+        "dependencies": []
+      },
+      {
+        "name": "Coordinación Regional de Logística Integrada y Articulación de Redes- Nodo Rafaela",
+        "category": "entity",
+        "authority": {
+          "name": "VANINA GABRIELA BONOMO",
+          "position": "Coordinadora",
+          "email": "",
+          "phone": ""
+        },
+        "dependencies": []
+      },
+      {
+        "name": "Coordinación Regional de Logística Integrada y Articulación de Redes- Nodo Reconquista",
+        "category": "entity",
+        "authority": {
+          "name": "ESTEBAN LEDESMA",
+          "position": "Coordinador",
+          "email": "",
+          "phone": ""
+        },
+        "dependencies": []
+      },
+      {
+        "name": "Coordinación Regional de Logística Integrada y Articulación de Redes- Nodo Rosario",
+        "category": "entity",
+        "authority": {
+          "name": "MARIA DEL CARMEN SALVIA",
+          "position": "Coordinadora",
+          "email": "",
+          "phone": ""
+        },
+        "dependencies": []
+      },
+      {
+        "name": "Coordinación Regional de Logística Integrada y Articulación de Redes - Nodo Venado Tuerto",
+        "category": "entity",
+        "authority": {
+          "name": "ERNESTO GUILLERMO RONCOLI",
+          "position": "Coordinador",
+          "email": "",
+          "phone": ""
+        },
+        "dependencies": []
+      },
+      {
+        "name": "Subdirección Provincial de Información Pública y Comunicación",
+        "category": "subdirectorate",
+        "authority": {
+          "name": "MARIA LAURA LOREFICCIO",
+          "position": "Subdirectora Provincial",
+          "email": "",
+          "phone": ""
+        },
+        "dependencies": []
+      },
+      {
+        "name": "Subdirección Provincial de calidad y evaluación de Tecnologías Sanitarias",
+        "category": "subdirectorate",
+        "authority": {
+          "name": "JOSÉ ARTURO BERNARDO",
+          "position": "Subdirector Provincial",
+          "email": "",
+          "phone": ""
+        },
+        "dependencies": []
+      },
+      {
+        "name": "Dirección Regional de Salud Nodo Santa Fe",
+        "category": "directorate",
+        "authority": {
+          "name": "NATALIA PAOLA SORIA",
+          "position": "Directora Regional",
+          "email": "",
+          "phone": "0342-4572543/ 4573719"
+        },
+        "dependencies": []
+      },
+      {
+        "name": "Dirección Regional de Salud Nodo Rafaela",
+        "category": "directorate",
+        "authority": {
+          "name": "MARIELA BEATRÍZ TALANI",
+          "position": "Directora Regional",
+          "email": "",
+          "phone": "03492 –437373"
+        },
+        "dependencies": []
+      },
+      {
+        "name": "Dirección Regional de Salud Nodo Rosario",
+        "category": "directorate",
+        "authority": {
+          "name": "ROSA MARÍA DEL VALLE DUTTO",
+          "position": "Directora Regional",
+          "email": "",
+          "phone": "0341 – 4721105, 4721159, 4721518"
+        },
+        "dependencies": []
+      },
+      {
+        "name": "Dirección Regional de Salud Nodo Reconquista",
+        "category": "directorate",
+        "authority": {
+          "name": "LUCIANA LILIAN RAMOA",
+          "position": "Directora Regional",
+          "email": "",
+          "phone": "03482 – 420173"
+        },
+        "dependencies": []
+      },
+      {
+        "name": "Dirección Regional de Salud Nodo Venado Tuerto",
+        "category": "directorate",
+        "authority": {
+          "name": "JOAQUÍN SÁNCHEZ DE BUSTAMANTE",
+          "position": "Director Regional",
+          "email": "",
+          "phone": "03462 – 422711,4 03462 – 429333"
+        },
+        "dependencies": []
+      },
+      {
+        "name": "Dirección Provincial de Información para la Gestión",
+        "category": "directorate",
+        "authority": {
+          "name": "RICARDO LUIS VANONI",
+          "position": "Director Provincial",
+          "email": "",
+          "phone": ""
+        },
+        "dependencies": []
+      },
+      {
+        "name": "Instituto Autárquico Provincial de Obra Social (I.A.P.O.S)",
+        "category": "entity",
+        "authority": {
+          "name": "NOLASCO ARSENIO SALAZAR",
+          "position": "Director Provincial",
+          "email": "iapos_dirprov@santafe.gov.ar",
+          "phone": "0342 – 4101860"
+        },
+        "dependencies": []
+      },
+      {
+        "name": "Agencia Santafesina de Seguridad Alimentaria – A.S.S.AL.",
+        "category": "entity",
+        "authority": {
+          "name": "EDUARDO FRANCISCO ELIZALDE",
+          "position": "Secretario",
+          "email": "direccion@assal.gov.ar",
+          "phone": "0342 – 4573718, 4572527, 4572530"
+        },
+        "dependencies": []
+      }
+    ]
+  },
+  {
+    "name": "Ministerio de Educación",
+    "category": "ministry",
+    "authority": {
+      "name": "JOSÉ LUDOVICO GOITY",
+      "position": "Ministro",
+      "email": "",
+      "phone": "0342 - 4506600 / 4506700 / 4506800"
+    },
+    "dependencies": [
+      {
+        "name": "Secretaría Privada",
+        "category": "secretary",
+        "authority": {
+          "name": "JUAN IGNACIO RUCCI",
+          "position": "Secretario Privado",
+          "email": "sprivada_educ@santafe.gov.ar",
+          "phone": "0342 – 4506818/4506820"
+        },
+        "dependencies": []
+      },
+      {
+        "name": "Secretaría de Educación",
+        "category": "secretary",
+        "authority": {
+          "name": "CAROLINA PIEDRABUENA",
+          "position": "Secretaria",
+          "email": "secretariaeducacion@santafe.gov.ar",
+          "phone": "0342 – 4506821"
+        },
+        "dependencies": []
+      },
+      {
+        "name": "Secretaría de Gestión Territorial Educativa",
+        "category": "secretary",
+        "authority": {
+          "name": "DAIANA SOLEDAD GALLO AMBROSIS",
+          "position": "Secretaria",
+          "email": "gestionterritorialeduc@santafe.gov.ar",
+          "phone": ""
+        },
+        "dependencies": []
+      },
+      {
+        "name": "Secretaría de Coordinación y Gestión de Recursos",
+        "category": "secretary",
+        "authority": {
+          "name": "MARÍA MARTÍN",
+          "position": "Secretaria",
+          "email": "",
+          "phone": "0342 - 4506816 / 4506828"
+        },
+        "dependencies": []
+      },
+      {
+        "name": "Subsecretaría de Innovación e Integración Digital",
+        "category": "undersecretary",
+        "authority": {
+          "name": "ANA JUDITH BACOLLA",
+          "position": "Subsecretaria",
+          "email": "",
+          "phone": ""
+        },
+        "dependencies": []
+      },
+      {
+        "name": "Subsecretaría de la Calidad Educativa",
+        "category": "undersecretary",
+        "authority": {
+          "name": "MARIANA MIGLIARO",
+          "position": "Subsecretaria",
+          "email": "",
+          "phone": ""
+        },
+        "dependencies": []
+      },
+      {
+        "name": "Subsecretaría de Educación Primaria",
+        "category": "undersecretary",
+        "authority": {
+          "name": "SILVANA CRISTINA AITA",
+          "position": "Subsecretaria",
+          "email": "",
+          "phone": "0342 - 4506823"
+        },
+        "dependencies": []
+      },
+      {
+        "name": "Subsecretaría de Educación Superior",
+        "category": "undersecretary",
+        "authority": {
+          "name": "EUGENIO RUBÉN FERNÁNDEZ",
+          "position": "Subsecretario",
+          "email": "educsuperior@santafe.gov.ar",
+          "phone": "0342 – 4506811"
+        },
+        "dependencies": []
+      },
+      {
+        "name": "Subsecretaría de Inclusión Educativa",
+        "category": "undersecretary",
+        "authority": {
+          "name": "BETINA INÉS FLORITO",
+          "position": "Subsecretaria",
+          "email": "secretariaeducacion@santafe.gov.ar",
+          "phone": "0342 – 4506821"
+        },
+        "dependencies": []
+      },
+      {
+        "name": "Subsecretaría de Planificación y Articulación Educativa",
+        "category": "undersecretary",
+        "authority": {
+          "name": "MARÍA DEL HUERTO PINI",
+          "position": "Subsecretaria",
+          "email": "",
+          "phone": "0342 – 4506821"
+        },
+        "dependencies": []
+      },
+      {
+        "name": "Subsecretaría Legal, Técnica y Despacho",
+        "category": "undersecretary",
+        "authority": {
+          "name": "MARIELA UBERTI",
+          "position": "Subsecretaria",
+          "email": "",
+          "phone": "0342 – 4506818/4506820"
+        },
+        "dependencies": []
+      },
+      {
+        "name": "Subsecretaría de Gestión de Recursos Humanos",
+        "category": "undersecretary",
+        "authority": {
+          "name": "ERICA AMALIA FIGUEROA",
+          "position": "Subsecretaria",
+          "email": "",
+          "phone": "0342 - 4506816 / 4506828"
+        },
+        "dependencies": []
+      },
+      {
+        "name": "Subsecretaría de Administración",
+        "category": "undersecretary",
+        "authority": {
+          "name": "MARIELA KARINA PERTICARA",
+          "position": "Subsecretaria",
+          "email": "",
+          "phone": "0342 - 4506816 / 4506828"
+        },
+        "dependencies": []
+      },
+      {
+        "name": "Subsecretaría de Innovación Organizacional",
+        "category": "undersecretary",
+        "authority": {
+          "name": "JUAN JOSÉ SARASOLA",
+          "position": "Subsecretario",
+          "email": "",
+          "phone": ""
+        },
+        "dependencies": []
+      },
+      {
+        "name": "Subsecretaría de Gestión Territorial Educativa",
+        "category": "undersecretary",
+        "authority": {
+          "name": "MARIANO MIGUEL SIRONI",
+          "position": "Subsecretario",
+          "email": "",
+          "phone": ""
+        },
+        "dependencies": []
+      },
+      {
+        "name": "Subsecretaría de Educación Inicial",
+        "category": "undersecretary",
+        "authority": {
+          "name": "MARCELA GABRIELA COMBIN",
+          "position": "Subsecretaria",
+          "email": "",
+          "phone": "0342 - 4506823"
+        },
+        "dependencies": []
+      },
+      {
+        "name": "Subsecretaría de Educación Secundaria",
+        "category": "undersecretary",
+        "authority": {
+          "name": "MARIELA MERCEDES BOSIO",
+          "position": "Subsecretaria",
+          "email": "",
+          "phone": "0342 – 4506889"
+        },
+        "dependencies": []
+      },
+      {
+        "name": "Subsecretaría para el Aprendizaje Continuo",
+        "category": "undersecretary",
+        "authority": {
+          "name": "VALENTINA PERESIN",
+          "position": "Subsecretaria",
+          "email": "",
+          "phone": "0342 – 4506821"
+        },
+        "dependencies": []
+      },
+      {
+        "name": "Subsecretaría de Convivencia y Construcción de Ciudadanía",
+        "category": "undersecretary",
+        "authority": {
+          "name": "LILIAN MABEL BARBIERI",
+          "position": "Subsecretaria",
+          "email": "",
+          "phone": ""
+        },
+        "dependencies": []
+      },
+      {
+        "name": "Subsecretaría de Comunicación y Prensa",
+        "category": "undersecretary",
+        "authority": {
+          "name": "LUCIANO ANDRÉS CÁMPORA",
+          "position": "Subsecretario",
+          "email": "",
+          "phone": "0342 - 4506826"
+        },
+        "dependencies": []
+      },
+      {
+        "name": "Subsecretaría de Infraestructura Escolar",
+        "category": "undersecretary",
+        "authority": {
+          "name": "VALERIA SCHVARTZ",
+          "position": "Subsecretaria",
+          "email": "infraestructura.sfe@gmail.com",
+          "phone": "0342 – 4506800"
+        },
+        "dependencies": []
+      },
+      {
+        "name": "Dirección Provincial de Sistemas, Procesos y Soportes",
+        "category": "directorate",
+        "authority": {
+          "name": "FEDERICO DAMIÁN LESCANO",
+          "position": "Director Provincial",
+          "email": "",
+          "phone": "0342 - 4506828-4506826"
+        },
+        "dependencies": []
+      },
+      {
+        "name": "Dirección Provincial de Prensa",
+        "category": "directorate",
+        "authority": {
+          "name": "GEORGINA VANESA GONZÁLEZ",
+          "position": "Directora Provincial",
+          "email": "",
+          "phone": "0342 - 4506826"
+        },
+        "dependencies": []
+      },
+      {
+        "name": "Dirección Provincial de Logística",
+        "category": "directorate",
+        "authority": {
+          "name": "MARINA FERNANDA ACEBAL",
+          "position": "Director Provincial",
+          "email": "",
+          "phone": "0342 - 4506826"
+        },
+        "dependencies": []
+      },
+      {
+        "name": "Dirección Provincial Observatorio de las Trayectorias Educativas",
+        "category": "directorate",
+        "authority": {
+          "name": "ANSELMO EDELMIRO ZAPATA",
+          "position": "Director Provincial",
+          "email": "",
+          "phone": ""
+        },
+        "dependencies": []
+      },
+      {
+        "name": "Dirección Provincial de Educación Técnica",
+        "category": "directorate",
+        "authority": {
+          "name": "MARIO LUIS ALLIOT",
+          "position": "Director Provincial",
+          "email": "",
+          "phone": "0342 – 4506889"
+        },
+        "dependencies": []
+      },
+      {
+        "name": "Dirección Provincial de Prácticas Educativas",
+        "category": "directorate",
+        "authority": {
+          "name": "SANTIAGO LUIS ROSENZVAIG",
+          "position": "Director Provincial",
+          "email": "",
+          "phone": "0342 – 4506889"
+        },
+        "dependencies": []
+      },
+      {
+        "name": "Dirección Provincial de Educación Especial",
+        "category": "directorate",
+        "authority": {
+          "name": "DANIELA SILVANA LEURINO",
+          "position": "Directora Provincial",
+          "email": "",
+          "phone": ""
+        },
+        "dependencies": []
+      },
+      {
+        "name": "Dirección Provincial de Educación Domiciliaria y Hospitalaria",
+        "category": "directorate",
+        "authority": {
+          "name": "MARIELA GUADALUPE SAFON",
+          "position": "Directora Provincial",
+          "email": "",
+          "phone": ""
+        },
+        "dependencies": []
+      },
+      {
+        "name": "Dirección Provincial de Educación Intercultural Bilingüe",
+        "category": "directorate",
+        "authority": {
+          "name": "HÉCTOR ANTONIO CERRONE",
+          "position": "Director Provincial",
+          "email": "",
+          "phone": ""
+        },
+        "dependencies": []
+      },
+      {
+        "name": "Dirección Provincial de Educación Rural",
+        "category": "directorate",
+        "authority": {
+          "name": "PEDRO JOSÉ OGGERO",
+          "position": "Director Provincial",
+          "email": "",
+          "phone": ""
+        },
+        "dependencies": []
+      },
+      {
+        "name": "Dirección Provincial de Educación Física",
+        "category": "directorate",
+        "authority": {
+          "name": "ADRIÁN MARCELO ALURRALDE",
+          "position": "Director Provincial",
+          "email": "",
+          "phone": ""
+        },
+        "dependencies": []
+      },
+      {
+        "name": "Dirección Provincial de Formación Profesional y Capacitación Laboral",
+        "category": "directorate",
+        "authority": {
+          "name": "NATALIA PAOLA VICENTINI",
+          "position": "Directora Provincial",
+          "email": "",
+          "phone": ""
+        },
+        "dependencies": []
+      },
+      {
+        "name": "Dirección Provincial de Vinculación Educativa",
+        "category": "directorate",
+        "authority": {
+          "name": "FLORENCIA NATALIA GONZÁLEZ",
+          "position": "Directora Provincial",
+          "email": "",
+          "phone": ""
+        },
+        "dependencies": []
+      },
+      {
+        "name": "Dirección Provincial de Asuntos Legales y Despacho",
+        "category": "directorate",
+        "authority": {
+          "name": "MARÍA INÉS GARCÍA ANGELINO",
+          "position": "Directora Provincial",
+          "email": "",
+          "phone": "0342 – 4506818/4506820"
+        },
+        "dependencies": []
+      },
+      {
+        "name": "Dirección Provincial de Arquitectura Escolar",
+        "category": "directorate",
+        "authority": {
+          "name": "LUCIANA HURI VIÑUELA",
+          "position": "Directora Provincial",
+          "email": "",
+          "phone": "0342 – 4506800"
+        },
+        "dependencies": []
+      },
+      {
+        "name": "Dirección Provincial de Bienestar Docente",
+        "category": "directorate",
+        "authority": {
+          "name": "IVANA GEORGINA MARCHI",
+          "position": "Directora Provincial",
+          "email": "bienestardocente@santafe.gov.ar",
+          "phone": "0342 - 4506811"
+        },
+        "dependencies": []
+      },
+      {
+        "name": "Dirección Provincial de Acompañamiento y Programas Socioeducativos",
+        "category": "directorate",
+        "authority": {
+          "name": "MARIO WALTER ANTONIO OTAZO PETROLI",
+          "position": "Director Provincial",
+          "email": "socioeducativo@santafe.gov.ar",
+          "phone": ""
+        },
+        "dependencies": []
+      },
+      {
+        "name": "Dirección Provincial de Coordinación Territorial — Zona Norte",
+        "category": "directorate",
+        "authority": {
+          "name": "SUSANA MABEL DÍAZ",
+          "position": "Directora Provincial",
+          "email": "",
+          "phone": ""
+        },
+        "dependencies": []
+      },
+      {
+        "name": "Dirección Provincial de Educación de Gestión Privada",
+        "category": "directorate",
+        "authority": {
+          "name": "ANALÍA ESTER MASSERA",
+          "position": "Directora Provincial",
+          "email": "",
+          "phone": "0342 - 4506810 / 4506814"
+        },
+        "dependencies": []
+      },
+      {
+        "name": "Dirección Provincial de Educación Permanente de Jóvenes y Adultos",
+        "category": "directorate",
+        "authority": {
+          "name": "NOEMÍ BEATRÍZ STARA",
+          "position": "Directora Provincial",
+          "email": "adultos@santafe.gov.ar",
+          "phone": "0342 – 4506822"
+        },
+        "dependencies": []
+      },
+      {
+        "name": "Dirección Provincial de Innovación Pedagógica",
+        "category": "directorate",
+        "authority": {
+          "name": "MARÍA CRISTINA GÓMEZ",
+          "position": "Directora Provincial",
+          "email": "",
+          "phone": ""
+        },
+        "dependencies": []
+      },
+      {
+        "name": "Dirección Provincial de Fortalecimiento Escolar",
+        "category": "directorate",
+        "authority": {
+          "name": "MARCOS DARÍO PALENA ESCALAS",
+          "position": "Director Provincial",
+          "email": "",
+          "phone": ""
+        },
+        "dependencies": []
+      },
+      {
+        "name": "Dirección Provincial de Servicios Alimentarios y Cooperación Escolar",
+        "category": "directorate",
+        "authority": {
+          "name": "VANESA SABRINA RODRÍGUEZ",
+          "position": "Directora Provincial",
+          "email": "",
+          "phone": ""
+        },
+        "dependencies": []
+      },
+      {
+        "name": "Dirección Provincial de Coordinación Territorial - Zona Sur",
+        "category": "directorate",
+        "authority": {
+          "name": "RUBÉN ALEJANDRO ROSA",
+          "position": "Director Provincial",
+          "email": "",
+          "phone": ""
+        },
+        "dependencies": []
+      },
+      {
+        "name": "Delegación Regional de Educación - Región VI",
+        "category": "entity",
+        "authority": {
+          "name": "",
+          "position": "",
+          "email": "",
+          "phone": ""
+        },
+        "dependencies": []
+      },
+      {
+        "name": "Coordinación Provincial Bienestar Asistentes Escolares",
+        "category": "entity",
+        "authority": {
+          "name": "CARLOS MANUEL POGGIO",
+          "position": "Coordinador",
+          "email": "bienestarasistentesescolares@santafe.gov.ar",
+          "phone": "0342 - 4506811"
+        },
+        "dependencies": []
+      },
+      {
+        "name": "Jefe Departamento Supervisión Escolar- Zona Sur (Región VI)- 05 Personal Docente de Conducción Política",
+        "category": "entity",
+        "authority": {
+          "name": "CLAUDIA PAULINA CARCAGNO",
+          "position": "Jefa",
+          "email": "",
+          "phone": ""
+        },
+        "dependencies": []
+      },
+      {
+        "name": "Delegación Región I",
+        "category": "entity",
+        "authority": {
+          "name": "GISELA DAGATTI",
+          "position": "Delegada Regional",
+          "email": "region1educacion@santafe.gov.ar",
+          "phone": "03491- 470868 / 471414 / 473919"
+        },
+        "dependencies": []
+      },
+      {
+        "name": "Delegación Región II",
+        "category": "entity",
+        "authority": {
+          "name": "SERGIO RUBÉN GARCÍA",
+          "position": "Delegado Regional",
+          "email": "region2educ@santafe.gov.ar",
+          "phone": "03482- 420281 / 420089"
+        },
+        "dependencies": []
+      },
+      {
+        "name": "Delegación Región III",
+        "category": "entity",
+        "authority": {
+          "name": "DELIA GLADYS COLUSSI",
+          "position": "Delegada Regional",
+          "email": "region3educ@santafe.gov.ar",
+          "phone": "03492- 429065 / 437496 / 437497"
+        },
+        "dependencies": []
+      },
+      {
+        "name": "Delegación Región IV",
+        "category": "entity",
+        "authority": {
+          "name": "VIVIANA EDITH VERGARA",
+          "position": "Delegada Regional",
+          "email": "region4educ@santafe.gov.ar",
+          "phone": "0342 – 4844700"
+        },
+        "dependencies": []
+      },
+      {
+        "name": "Delegación Región V",
+        "category": "entity",
+        "authority": {
+          "name": "MARISA DANIELA PRÍNCIPE",
+          "position": "Delegada Regional",
+          "email": "region5educ@santafe.gov.ar",
+          "phone": "03471- 422457 / 426095 / 429210"
+        },
+        "dependencies": []
+      },
+      {
+        "name": "Delegación Región VI",
+        "category": "entity",
+        "authority": {
+          "name": "VIRGINIA EDITH GAIBAZZI",
+          "position": "Delegada Regional",
+          "email": "region6educ@santafe.gov.ar",
+          "phone": "0341- 4369836/38"
+        },
+        "dependencies": []
+      },
+      {
+        "name": "Delegación VII",
+        "category": "entity",
+        "authority": {
+          "name": "VERÓNICA GABRIELA CAPORALETTI",
+          "position": "Delegada Regional",
+          "email": "region7educ@santafe.gov.ar",
+          "phone": "03462- 430114 / 408896 / 408897"
+        },
+        "dependencies": []
+      },
+      {
+        "name": "Delegación VIII",
+        "category": "entity",
+        "authority": {
+          "name": "DANISA LORENA ASTEGIANO",
+          "position": "Delegada Regional",
+          "email": "region8educ@santafe.gov.ar",
+          "phone": "03406-440086"
+        },
+        "dependencies": []
+      },
+      {
+        "name": "Delegación IX",
+        "category": "entity",
+        "authority": {
+          "name": "HORACIO PASCUAL RIGO",
+          "position": "Delegado/a Regional",
+          "email": "region9@santafe.gov.ar",
+          "phone": "03408- 423706 / 420014"
+        },
+        "dependencies": []
+      }
+    ]
+  },
+  {
+    "name": "Ministerio de Igualdad y Desarrollo Humano",
+    "category": "ministry",
+    "authority": {
+      "name": "MARÍA VICTORIA TEJEDA",
+      "position": "Ministra",
+      "email": "",
+      "phone": "0342 - 4578954"
+    },
+    "dependencies": [
+      {
+        "name": "Secretaría Privada",
+        "category": "secretary",
+        "authority": {
+          "name": "CAROLINA SUSANA KRÖHLING",
+          "position": "Secretaria Privada",
+          "email": "privadamiydh@santafe.gov.ar",
+          "phone": "0342 – 4578954"
+        },
+        "dependencies": []
+      },
+      {
+        "name": "Secretaría de Desarrollo Territorial",
+        "category": "secretary",
+        "authority": {
+          "name": "SERGIO JOSÉ BASILE",
+          "position": "Secretario",
+          "email": "",
+          "phone": "342- 48155558/59"
+        },
+        "dependencies": []
+      },
+      {
+        "name": "Secretaría de Derechos de Niñez, Adolescencia y Familia",
+        "category": "secretary",
+        "authority": {
+          "name": "DANIELA CRISTINA LEÓN",
+          "position": "Secretaria",
+          "email": "",
+          "phone": "0342 – 4577074 – 4815580"
+        },
+        "dependencies": []
+      },
+      {
+        "name": "Secretaría de Mujeres, Género y Diversidad",
+        "category": "secretary",
+        "authority": {
+          "name": "ALICIA ESTHER TATE",
+          "position": "Secretaria",
+          "email": "privadasecmujeres@santafe.gov.ar",
+          "phone": "342- 4815818/ 19/ 20"
+        },
+        "dependencies": []
+      },
+      {
+        "name": "Secretaría de Políticas Sociales e Integración Social",
+        "category": "secretary",
+        "authority": {
+          "name": "VIVIANA BEATRIZ FORESI",
+          "position": "Secretaria",
+          "email": "",
+          "phone": ""
+        },
+        "dependencies": []
+      },
+      {
+        "name": "Agencia de Prevención del Consumo de Drogas y Tratamiento de las Adicciones",
+        "category": "entity",
+        "authority": {
+          "name": "LUCIANO FEDERICO SCIARRA",
+          "position": "Secretario",
+          "email": "",
+          "phone": "0341 – 4467223"
+        },
+        "dependencies": []
+      },
+      {
+        "name": "Secretaría de Deportes",
+        "category": "secretary",
+        "authority": {
+          "name": "FLAVIA VALERIA PADIN",
+          "position": "Secretaria",
+          "email": "",
+          "phone": "0342 - 4574834, 4574836"
+        },
+        "dependencies": []
+      },
+      {
+        "name": "Secretaría de Políticas de Inclusión y Abordajes Sociales",
+        "category": "secretary",
+        "authority": {
+          "name": "RAMÓN PEDRO SOQUES",
+          "position": "Secretario",
+          "email": "",
+          "phone": "0341 – 4725640/41"
+        },
+        "dependencies": []
+      },
+      {
+        "name": "Subsecretaría de Promoción y Protección Integral de los Derechos de Niñas, Niños, y Adolescentes",
+        "category": "undersecretary",
+        "authority": {
+          "name": "DANIELA SUSANA QÜESTA",
+          "position": "Subsecretaria",
+          "email": "",
+          "phone": "0342 – 4577074"
+        },
+        "dependencies": []
+      },
+      {
+        "name": "Subsecretaría de Personas Mayores",
+        "category": "undersecretary",
+        "authority": {
+          "name": "FABIÁN FRANCISCO PERALTA",
+          "position": "Subsecretario",
+          "email": "",
+          "phone": "0342 – 4571959"
+        },
+        "dependencies": []
+      },
+      {
+        "name": "Subsecretaría de Difusión y Educación sobre los Derechos de Niñas, Niños, y Adolescentes",
+        "category": "undersecretary",
+        "authority": {
+          "name": "MARILINA ANA GRANDE",
+          "position": "Subsecretaria",
+          "email": "",
+          "phone": ""
+        },
+        "dependencies": []
+      },
+      {
+        "name": "Subsecretaría de Mujeres, Género y Diversidad",
+        "category": "undersecretary",
+        "authority": {
+          "name": "SONIA GRACIELA OYOLA",
+          "position": "Subsecretaria",
+          "email": "",
+          "phone": ""
+        },
+        "dependencies": []
+      },
+      {
+        "name": "Subsecretaría de Personas con Discapacidad",
+        "category": "undersecretary",
+        "authority": {
+          "name": "FLORENCIA OTTOLINI",
+          "position": "Subsecretaria",
+          "email": "",
+          "phone": "0342 - 4572475"
+        },
+        "dependencies": []
+      },
+      {
+        "name": "Subsecretaría de Deportes",
+        "category": "undersecretary",
+        "authority": {
+          "name": "FERNANDO GABRIEL MALETTI",
+          "position": "Subsecretario",
+          "email": "",
+          "phone": "0342 - 4574834, 4574836"
+        },
+        "dependencies": []
+      },
+      {
+        "name": "Subsecretaría de Administración y Recursos Humanos",
+        "category": "undersecretary",
+        "authority": {
+          "name": "GABRIEL EMILIO GRIVARELLO",
+          "position": "Subsecretario",
+          "email": "",
+          "phone": "0342 – 4579078 / 41"
+        },
+        "dependencies": []
+      },
+      {
+        "name": "Subsecretaría de Seguridad Alimentaria",
+        "category": "undersecretary",
+        "authority": {
+          "name": "JORGE ALBERTO MARQUEZ",
+          "position": "Subsecretario",
+          "email": "",
+          "phone": ""
+        },
+        "dependencies": []
+      },
+      {
+        "name": "Subsecretaría de Abordajes Sociales",
+        "category": "undersecretary",
+        "authority": {
+          "name": "JORGE ALBERTO ELDER",
+          "position": "Subsecretario",
+          "email": "",
+          "phone": ""
+        },
+        "dependencies": []
+      },
+      {
+        "name": "Subsecretaría de Desarrollo Territorial",
+        "category": "undersecretary",
+        "authority": {
+          "name": "MARIANO CEJAS",
+          "position": "Subsecretario",
+          "email": "",
+          "phone": ""
+        },
+        "dependencies": []
+      },
+      {
+        "name": "Subsecretaría de Gestión y Promoción de Políticas Sociales",
+        "category": "undersecretary",
+        "authority": {
+          "name": "FEDERICO GUSTAVO PEZZ",
+          "position": "Subsecretario",
+          "email": "",
+          "phone": ""
+        },
+        "dependencies": []
+      },
+      {
+        "name": "Subsecretaría de Deportes Federados",
+        "category": "undersecretary",
+        "authority": {
+          "name": "SILVINA LIDIA RODRIGUEZ MESON",
+          "position": "Subsecretaria",
+          "email": "",
+          "phone": "0342 - 4574834, 4574836"
+        },
+        "dependencies": []
+      },
+      {
+        "name": "Subsecretaría de Legal y Técnico",
+        "category": "undersecretary",
+        "authority": {
+          "name": "EZEQUIEL MAURICIO COSTAMAGNA",
+          "position": "Subsecretario",
+          "email": "",
+          "phone": "0342 - 4579250"
+        },
+        "dependencies": []
+      },
+      {
+        "name": "Subsecretaría de Inclusión Social",
+        "category": "undersecretary",
+        "authority": {
+          "name": "SILVINA CECILIA BRACCO",
+          "position": "Subsecretaria",
+          "email": "",
+          "phone": "0342 - 4835377"
+        },
+        "dependencies": []
+      },
+      {
+        "name": "Subsecretaría de Plan Abre",
+        "category": "undersecretary",
+        "authority": {
+          "name": "YASMIN ANDREA LIFSCHITZ",
+          "position": "Subsecretaria",
+          "email": "",
+          "phone": ""
+        },
+        "dependencies": []
+      },
+      {
+        "name": "Subsecretaría de Planificación, Gestión y Evaluación Estratégica de la Secretaría de Mujeres",
+        "category": "undersecretary",
+        "authority": {
+          "name": "DANIELA SUSANA QUESTA",
+          "position": "Subsecretaria",
+          "email": "",
+          "phone": ""
+        },
+        "dependencies": []
+      },
+      {
+        "name": "Dirección Provincial de Desarrollo Territorial Zona Sur",
+        "category": "directorate",
+        "authority": {
+          "name": "LUCIANO FONTANA",
+          "position": "Director Provincial",
+          "email": "",
+          "phone": "0341 – 4725526, 4725548"
+        },
+        "dependencies": []
+      },
+      {
+        "name": "Dirección Provincial de Desarrollo Territorial Zona Rosario",
+        "category": "directorate",
+        "authority": {
+          "name": "NADIA ALEJANDRA PEZZUTI",
+          "position": "Directora Provincial",
+          "email": "",
+          "phone": ""
+        },
+        "dependencies": []
+      },
+      {
+        "name": "Dirección Provincial de Desarrollo Territorial Zona Oeste",
+        "category": "directorate",
+        "authority": {
+          "name": "PABLO MAXIMILIANO DORO",
+          "position": "Director Provincial",
+          "email": "",
+          "phone": ""
+        },
+        "dependencies": []
+      },
+      {
+        "name": "Dirección Provincial de Desarrollo Territorial Zona Centro",
+        "category": "directorate",
+        "authority": {
+          "name": "ALDO HERNAN RIVAS",
+          "position": "Director Provincial",
+          "email": "",
+          "phone": "0342 - 4833086"
+        },
+        "dependencies": []
+      },
+      {
+        "name": "Dirección Provincial de Economía Social",
+        "category": "directorate",
+        "authority": {
+          "name": "MARÍA CELESTE RUIZ DIAZ",
+          "position": "Directora Provincial",
+          "email": "",
+          "phone": ""
+        },
+        "dependencies": []
+      },
+      {
+        "name": "Dirección Provincial de Soporte de Gestión y Procesos de Trabajo",
+        "category": "directorate",
+        "authority": {
+          "name": "HORACIO ALFREDO CRESPO",
+          "position": "Director Provincial",
+          "email": "",
+          "phone": ""
+        },
+        "dependencies": []
+      },
+      {
+        "name": "Dirección Provincial de Gestión",
+        "category": "directorate",
+        "authority": {
+          "name": "PABLO ANDRÉS NASI MURUA",
+          "position": "Director Provincial",
+          "email": "",
+          "phone": ""
+        },
+        "dependencies": []
+      },
+      {
+        "name": "Dirección Provincial de Gestión de Políticas Sociales",
+        "category": "directorate",
+        "authority": {
+          "name": "FABIÁN MARCELO FERREIRA",
+          "position": "Director Provincial",
+          "email": "",
+          "phone": ""
+        },
+        "dependencies": []
+      },
+      {
+        "name": "Dirección Provincial de Legal y Técnica",
+        "category": "directorate",
+        "authority": {
+          "name": "CARMEN URQUIJO",
+          "position": "Directora Provincial",
+          "email": "",
+          "phone": ""
+        },
+        "dependencies": []
+      },
+      {
+        "name": "Dirección Provincial de Administración y Recursos Humanos",
+        "category": "directorate",
+        "authority": {
+          "name": "JUAN FRANCISCO MOTTA",
+          "position": "Director Provincial",
+          "email": "",
+          "phone": ""
+        },
+        "dependencies": []
+      },
+      {
+        "name": "Dirección Provincial de Juventudes",
+        "category": "directorate",
+        "authority": {
+          "name": "GASTÓN NOYJOVICH",
+          "position": "Director Provincial",
+          "email": "",
+          "phone": ""
+        },
+        "dependencies": []
+      },
+      {
+        "name": "Dirección Provincial de Inclusión para Personas con Discapacidad Zona Sur",
+        "category": "directorate",
+        "authority": {
+          "name": "MIRCO ARIEL RODRÍGUEZ",
+          "position": "Director Provincial",
+          "email": "",
+          "phone": "341- 4721155/1160/ 1164/ 1165"
+        },
+        "dependencies": []
+      },
+      {
+        "name": "Dirección Provincial de Inclusión para Personas con Discapacidad Zona Norte",
+        "category": "directorate",
+        "authority": {
+          "name": "FEDERICO DE LOS REYES",
+          "position": "Director Provincial",
+          "email": "fottolini@santafe.gov.ar",
+          "phone": "342- 4572475"
+        },
+        "dependencies": []
+      },
+      {
+        "name": "Dirección Provincial de Desarrollo Territorial – Zona Norte",
+        "category": "directorate",
+        "authority": {
+          "name": "MARÍA LAURA CORGNIALI",
+          "position": "Directora Provincial",
+          "email": "",
+          "phone": "0342 – 4833086"
+        },
+        "dependencies": []
+      },
+      {
+        "name": "Dirección Provincial de Seguridad Alimentaria",
+        "category": "directorate",
+        "authority": {
+          "name": "SILVIA DANIELA DIEZ",
+          "position": "Directora Provincial",
+          "email": "",
+          "phone": ""
+        },
+        "dependencies": []
+      },
+      {
+        "name": "Dirección Provincial de Promoción y Protección de los Derechos de la Niñez, Adolescencia y Familia – Santa Fe",
+        "category": "directorate",
+        "authority": {
+          "name": "INÉS LARRIERA",
+          "position": "Directora Provincial",
+          "email": "",
+          "phone": "0342 – 4577074 - 4815580"
+        },
+        "dependencies": []
+      },
+      {
+        "name": "Dirección Provincial de Promoción y Protección de los Derechos de la Niñez, Adolescencia y Familia – Interior",
+        "category": "directorate",
+        "authority": {
+          "name": "MELANIA HEINZEN",
+          "position": "Directora Provincial",
+          "email": "",
+          "phone": ""
+        },
+        "dependencies": []
+      },
+      {
+        "name": "Dirección Provincial de Promoción de los Derechos de la Niñez, Adolescencia y Familia – Rosario",
+        "category": "directorate",
+        "authority": {
+          "name": "RODRIGO IGNACIO LIOI",
+          "position": "Directora Provincial",
+          "email": "direcciondeninezrosario@santafe.gov.ar",
+          "phone": "0341- 4721863 al 67"
+        },
+        "dependencies": []
+      },
+      {
+        "name": "Dirección Provincial de Políticas contra la Violencia por razones de Género",
+        "category": "directorate",
+        "authority": {
+          "name": "MELISA BELÉN MANZINO",
+          "position": "Directora Provincial",
+          "email": "",
+          "phone": ""
+        },
+        "dependencies": []
+      },
+      {
+        "name": "Dirección Provincial de Políticas de Igualdad y Diversidad",
+        "category": "directorate",
+        "authority": {
+          "name": "PAMELA ROCHI",
+          "position": "Directora Provincial",
+          "email": "",
+          "phone": ""
+        },
+        "dependencies": []
+      },
+      {
+        "name": "Dirección Provincial de Fortalecimiento Territorial en Políticas de Igualdad",
+        "category": "directorate",
+        "authority": {
+          "name": "SUSANA BARTOLOMÉ",
+          "position": "Directora Provincial",
+          "email": "",
+          "phone": ""
+        },
+        "dependencies": []
+      },
+      {
+        "name": "Dirección Provincial de Regularización Dominial",
+        "category": "directorate",
+        "authority": {
+          "name": "MARIANO RODRÍGUEZ GRANCELLI",
+          "position": "Director Provincial",
+          "email": "",
+          "phone": ""
+        },
+        "dependencies": []
+      },
+      {
+        "name": "Dirección Provincial de Prevención y Monitoreo Territorial",
+        "category": "directorate",
+        "authority": {
+          "name": "ARIEL OSVALDO RODAZ",
+          "position": "Director Provincial",
+          "email": "",
+          "phone": ""
+        },
+        "dependencies": []
+      },
+      {
+        "name": "Dirección Provincial de Abordaje Terapéutico",
+        "category": "directorate",
+        "authority": {
+          "name": "ANDRES DARIO CARASSAI",
+          "position": "Director Provincial",
+          "email": "",
+          "phone": ""
+        },
+        "dependencies": []
+      },
+      {
+        "name": "Dirección Provincial de Deportes Comunitarios y Recreación- Zona Norte",
+        "category": "directorate",
+        "authority": {
+          "name": "BRIAN MACKIEWICZ",
+          "position": "Director Provincial",
+          "email": "",
+          "phone": ""
+        },
+        "dependencies": []
+      },
+      {
+        "name": "Dirección Provincial de Deportes Comunitarios y Recreación- Zona Sur",
+        "category": "directorate",
+        "authority": {
+          "name": "JUAN JOSÉ ARCIERI",
+          "position": "Director Provincial",
+          "email": "",
+          "phone": ""
+        },
+        "dependencies": []
+      },
+      {
+        "name": "Dirección Provincial de Clubes",
+        "category": "directorate",
+        "authority": {
+          "name": "MARÍA LUZ BUDASSI PABLICICH",
+          "position": "Directora Provincial",
+          "email": "",
+          "phone": ""
+        },
+        "dependencies": []
+      },
+      {
+        "name": "Dirección Provincial de Inclusión Social Centro Sur",
+        "category": "directorate",
+        "authority": {
+          "name": "PABLO ANTONIO SUÁREZ",
+          "position": "Director Provincial",
+          "email": "",
+          "phone": ""
+        },
+        "dependencies": []
+      },
+      {
+        "name": "Dirección Provincial Nueva Oportunidad",
+        "category": "directorate",
+        "authority": {
+          "name": "ANDREA PAOLA TRAVAINI",
+          "position": "Directora Provincial",
+          "email": "",
+          "phone": ""
+        },
+        "dependencies": []
+      },
+      {
+        "name": "Dirección Provincial de Inclusión de Personas Mayores",
+        "category": "directorate",
+        "authority": {
+          "name": "ILEANA MARÍA ALVARENGA",
+          "position": "Directora Provincial",
+          "email": "",
+          "phone": ""
+        },
+        "dependencies": []
+      },
+      {
+        "name": "Dirección Provincial de Coordinacion Tecnico Administrativa Zona Sur",
+        "category": "directorate",
+        "authority": {
+          "name": "MARÍA FLORENCIA TRILLO",
+          "position": "Directora Provincial",
+          "email": "",
+          "phone": ""
+        },
+        "dependencies": []
+      },
+      {
+        "name": "Dirección Provincial de Planificacion Estrategica y Gestion",
+        "category": "directorate",
+        "authority": {
+          "name": "SONIA MARIA COLACELLI",
+          "position": "Directora Provincial",
+          "email": "",
+          "phone": ""
+        },
+        "dependencies": []
+      },
+      {
+        "name": "Dirección Provincial Psicoemocional en Niñez, Adolescencia y Familia",
+        "category": "directorate",
+        "authority": {
+          "name": "CAROLINA EDIT CANCIAN",
+          "position": "Directora Provincial",
+          "email": "",
+          "phone": ""
+        },
+        "dependencies": []
+      },
+      {
+        "name": "Delegacion de Niñez, Adolescencia y Familia de Villa Constitución",
+        "category": "entity",
+        "authority": {
+          "name": "MARÍA JOSÉ COMAS",
+          "position": "Delegada",
+          "email": "",
+          "phone": ""
+        },
+        "dependencies": []
+      }
+    ]
+  },
+  {
+    "name": "Ministerio de Trabajo, Empleo y Seguridad Social",
+    "category": "ministry",
+    "authority": {
+      "name": "ROALD NÉSTOR BÁSCOLO",
+      "position": "Ministro",
+      "email": "",
+      "phone": "0342 - 4846200"
+    },
+    "dependencies": [
+      {
+        "name": "Secretaría Privada",
+        "category": "secretary",
+        "authority": {
+          "name": "BIANCA ARMOA",
+          "position": "Secretaria Privada",
+          "email": "spgtrabajo@santafe.gov.ar",
+          "phone": "0342 - 4846200"
+        },
+        "dependencies": []
+      },
+      {
+        "name": "Secretaría de Trabajo",
+        "category": "secretary",
+        "authority": {
+          "name": "JULIO CÉSAR GENESINI",
+          "position": "Secretario",
+          "email": "jgenesini@santafe.gov.ar",
+          "phone": "0342 - 4846200"
+        },
+        "dependencies": []
+      },
+      {
+        "name": "Secretaría de Empleo y Desarrollo Emprendedor",
+        "category": "secretary",
+        "authority": {
+          "name": "HERNÁN EZEQUIEL FRANCO",
+          "position": "Secretario",
+          "email": "hefranco@santafe.gov.ar",
+          "phone": "342 5310158"
+        },
+        "dependencies": []
+      },
+      {
+        "name": "Secretaría de Seguridad Social",
+        "category": "secretary",
+        "authority": {
+          "name": "JORGE ROSARIO BOASSO",
+          "position": "Secretario",
+          "email": "jboasso@santafe.gov.ar",
+          "phone": "0342- 4846230"
+        },
+        "dependencies": []
+      },
+      {
+        "name": "Secretaría de Coordinación y Relaciones Institucionales",
+        "category": "secretary",
+        "authority": {
+          "name": "GUSTAVO ZIGNAGO",
+          "position": "Secretario",
+          "email": "zignagog@santafe.gov.ar",
+          "phone": "0342 - 4846200"
+        },
+        "dependencies": []
+      },
+      {
+        "name": "Subsecretaría de Legal y Técnica",
+        "category": "undersecretary",
+        "authority": {
+          "name": "NOELIA TRINDADE",
+          "position": "Subsecretaria",
+          "email": "ntrindade@santafe.gov.ar",
+          "phone": "0342 - 4846200"
+        },
+        "dependencies": []
+      },
+      {
+        "name": "Subsecretaría de Administración",
+        "category": "undersecretary",
+        "authority": {
+          "name": "GUILLERMO NICOLÁS SPESOT",
+          "position": "Subsecretario",
+          "email": "gspesot@santafe.gov.ar",
+          "phone": "0342 - 4846200"
+        },
+        "dependencies": []
+      },
+      {
+        "name": "Subsecretaría de Trabajo",
+        "category": "undersecretary",
+        "authority": {
+          "name": "RENZO BERTAPELLE",
+          "position": "Subsecretario",
+          "email": "rbertapelle@santafe.gov.ar",
+          "phone": "0342 - 4846200"
+        },
+        "dependencies": []
+      },
+      {
+        "name": "Subsecretaría de Fiscalización del Trabajo",
+        "category": "undersecretary",
+        "authority": {
+          "name": "JONATAN JESÚS PÁEZ",
+          "position": "Subsecretario",
+          "email": "jpaez@santafe.gov.ar",
+          "phone": "0342 - 4846200"
+        },
+        "dependencies": []
+      },
+      {
+        "name": "Subsecretaría de Intermediación e Innovación Laboral",
+        "category": "undersecretary",
+        "authority": {
+          "name": "LUIS ALBERTO DOLCE",
+          "position": "Subsecretario",
+          "email": "ldolce@santafe.gov.ar",
+          "phone": "0341-4772565"
+        },
+        "dependencies": []
+      },
+      {
+        "name": "Subsecretaría de Capacitación y Trabajo Decente",
+        "category": "undersecretary",
+        "authority": {
+          "name": "GABRIELA EUSEBIA ESTRELLA",
+          "position": "Subsecretaria",
+          "email": "gestrella@santafe.gov.ar",
+          "phone": "0341 - 4772565"
+        },
+        "dependencies": []
+      },
+      {
+        "name": "Subsecretaría de Seguridad Social",
+        "category": "undersecretary",
+        "authority": {
+          "name": "CIRIACO LUCAS INCICCO",
+          "position": "Subsecretario",
+          "email": "lincicco@santafe.gov.ar",
+          "phone": "0342- 4846230"
+        },
+        "dependencies": []
+      },
+      {
+        "name": "Dirección Provincial de Relaciones Laborales",
+        "category": "directorate",
+        "authority": {
+          "name": "MARISA SOLEDAD CASTRO",
+          "position": "Directora Provincial",
+          "email": "mscastro@santafe.gov.ar",
+          "phone": "0341- 4467246"
+        },
+        "dependencies": []
+      },
+      {
+        "name": "Dirección Regional Santa Fe",
+        "category": "directorate",
+        "authority": {
+          "name": "EMILIANO LAUTARO MONACA",
+          "position": "Director Regional",
+          "email": "",
+          "phone": "0342 - 4573174/4573177"
+        },
+        "dependencies": []
+      },
+      {
+        "name": "Dirección Regional Rosario",
+        "category": "directorate",
+        "authority": {
+          "name": "IVÁN ARIEL LUDUEÑA",
+          "position": "Director Provincial",
+          "email": "privadaregionalrosario@santafe.gov.ar",
+          "phone": "0341-4467246 / 0341-4467248"
+        },
+        "dependencies": []
+      },
+      {
+        "name": "Dirección Provincial de Asuntos Gremiales",
+        "category": "directorate",
+        "authority": {
+          "name": "GERMÁN ERNESTO MASTROCOLA",
+          "position": "Director Provincial",
+          "email": "",
+          "phone": "0342-4846200"
+        },
+        "dependencies": []
+      },
+      {
+        "name": "Dirección Provincial de Planificación y Estadísticas",
+        "category": "directorate",
+        "authority": {
+          "name": "MARIANO MARCELO GIUNTA",
+          "position": "Director Provincial",
+          "email": "mgiunta@santafe.gov.ar",
+          "phone": "0342 - 4846200"
+        },
+        "dependencies": []
+      },
+      {
+        "name": "Dirección Provincial de Desarrollo Emprendedor e Innovación Laboral",
+        "category": "directorate",
+        "authority": {
+          "name": "LEANDRO DANIEL BARAVALLE",
+          "position": "Director Provincial",
+          "email": "lbaravalle@santafe.gov.ar",
+          "phone": "0342 – 5310158"
+        },
+        "dependencies": []
+      },
+      {
+        "name": "Dirección Provincial de Promoción e Intermediación Laboral",
+        "category": "directorate",
+        "authority": {
+          "name": "ELIZABET ANGELINA LITVAC",
+          "position": "Directora Provincial",
+          "email": "elitvac@santafe.gov.ar",
+          "phone": "0342 – 4846200"
+        },
+        "dependencies": []
+      },
+      {
+        "name": "Dirección Provincial de Autoseguro de Riesgos de Trabajo",
+        "category": "directorate",
+        "authority": {
+          "name": "LAURA EVANGELINA PRIMUCCI",
+          "position": "Directora Provincial",
+          "email": "lprimucci@santafe.gov.ar",
+          "phone": ""
+        },
+        "dependencies": []
+      },
+      {
+        "name": "Dirección Provincial de Capacitación y Formación Profesional",
+        "category": "directorate",
+        "authority": {
+          "name": "GABRIEL ANDRÉS VEGA",
+          "position": "Director Provincial",
+          "email": "gabrielvega@santafe.gov.ar",
+          "phone": "342 5310158"
+        },
+        "dependencies": []
+      },
+      {
+        "name": "Dirección Provincial de Bienestar Laboral",
+        "category": "directorate",
+        "authority": {
+          "name": "MARCELO HUMBERTO SOSA",
+          "position": "Director Provincial",
+          "email": "",
+          "phone": "0342 - 4846200"
+        },
+        "dependencies": []
+      },
+      {
+        "name": "Dirección Provincial de Trabajo Decente",
+        "category": "directorate",
+        "authority": {
+          "name": "FRANCISCO JAVIER OREL",
+          "position": "Director Provincial",
+          "email": "forell@santafe.gov.ar",
+          "phone": "341 4772565"
+        },
+        "dependencies": []
+      },
+      {
+        "name": "Dirección Provincial de Coordinación, Control y Supervisión de la Inspección en Salud y Seguridad en el Trabajo",
+        "category": "directorate",
+        "authority": {
+          "name": "MIGUEL ÁNGEL FIORITO",
+          "position": "Director Provincial",
+          "email": "",
+          "phone": ""
+        },
+        "dependencies": []
+      },
+      {
+        "name": "Dirección Provincial en Prevención y Gestión en Salud y Seguridad en el Trabajo",
+        "category": "directorate",
+        "authority": {
+          "name": "LUCILA BEATRIZ DIPAOLO",
+          "position": "Directora Provincial",
+          "email": "",
+          "phone": ""
+        },
+        "dependencies": []
+      },
+      {
+        "name": "Dirección Provincial de Medidas No Privativas de Libertad",
+        "category": "directorate",
+        "authority": {
+          "name": "MATÍAS ALEJANDRO LANFRANCHI",
+          "position": "Director Provincial",
+          "email": "",
+          "phone": ""
+        },
+        "dependencies": []
+      },
+      {
+        "name": "Caja de Previsión Social de los Agentes Civiles del Estado",
+        "category": "entity",
+        "authority": {
+          "name": "",
+          "position": "Presidente del Directorio y Representante del Poder Ejecutivo",
+          "email": "secretariaprivada@cajadeprevisionsf.org.ar",
+          "phone": "0342-452-1203"
+        },
+        "dependencies": []
+      },
+      {
+        "name": "Caja de Pensiones Sociales Ley 5110",
+        "category": "entity",
+        "authority": {
+          "name": "ULISES JOSÉ PUNTONET",
+          "position": "Director Provincial",
+          "email": "",
+          "phone": "0342 – 4846240"
+        },
+        "dependencies": []
+      },
+      {
+        "name": "Caja de Jubilaciones y Pensiones",
+        "category": "entity",
+        "authority": {
+          "name": "ALICIA ERMELINDA BERZERO",
+          "position": "Directora Provincial",
+          "email": "secretariaprivadacjp@santafe.gov.ar",
+          "phone": "0342 – 4846404 - 4846400"
+        },
+        "dependencies": []
+      }
+    ]
+  },
+  {
+    "name": "Ministerio de Cultura",
+    "category": "ministry",
+    "authority": {
+      "name": "SUSANA ESTELA RUEDA",
+      "position": "Ministra",
+      "email": "privadacultura@santafe.gov.ar",
+      "phone": "0342 - 4508910 - 4815562"
+    },
+    "dependencies": [
+      {
+        "name": "Secretaría Privada",
+        "category": "secretary",
+        "authority": {
+          "name": "IGNACIO JAVIER NOGUEROL",
+          "position": "Secretario Privado",
+          "email": "privadacultura@santafe.gov.ar",
+          "phone": "0342 - 4508910 - 4815562"
+        },
+        "dependencies": []
+      },
+      {
+        "name": "Secretaría de Gestión Cultural",
+        "category": "secretary",
+        "authority": {
+          "name": "SEBASTIÁN LUIS CÁCERES",
+          "position": "Secretario",
+          "email": "",
+          "phone": "0342 - 4508910 - 4815562"
+        },
+        "dependencies": []
+      },
+      {
+        "name": "Secretaría de Desarrollos Culturales",
+        "category": "secretary",
+        "authority": {
+          "name": "PAULO ALBERTO RICCI",
+          "position": "Secretario",
+          "email": "",
+          "phone": "0342 - 4508910 - 4815562"
+        },
+        "dependencies": []
+      },
+      {
+        "name": "Secretaría de Integración Cultural",
+        "category": "secretary",
+        "authority": {
+          "name": "GUILLERMO NICOLÁS LASALA",
+          "position": "Secretario",
+          "email": "",
+          "phone": ""
+        },
+        "dependencies": []
+      },
+      {
+        "name": "Subsecretaría de Coordinación Técnica y Administrativa",
+        "category": "undersecretary",
+        "authority": {
+          "name": "TERESA JUANA BEREN",
+          "position": "Secretaria",
+          "email": "",
+          "phone": "0342 – 4506667, 4572357"
+        },
+        "dependencies": []
+      },
+      {
+        "name": "Subsecretaría de Fortalecimiento Institucional",
+        "category": "undersecretary",
+        "authority": {
+          "name": "MATÍAS MÜLLER",
+          "position": "Subsecretario",
+          "email": "",
+          "phone": "0342 – 4506667, 4572357"
+        },
+        "dependencies": []
+      },
+      {
+        "name": "Subsecretaría de Identidad y Territorio",
+        "category": "undersecretary",
+        "authority": {
+          "name": "LUCIANO DAVID REY ZAPATA",
+          "position": "Subsecretario",
+          "email": "",
+          "phone": ""
+        },
+        "dependencies": []
+      },
+      {
+        "name": "Subsecretaría de Educación Artística",
+        "category": "undersecretary",
+        "authority": {
+          "name": "MARTÍN CARLOS ILLIA",
+          "position": "Subsecretario",
+          "email": "",
+          "phone": "0342 – 4506667, 4572357"
+        },
+        "dependencies": []
+      },
+      {
+        "name": "Subsecretaría de Programaciones Culturales",
+        "category": "undersecretary",
+        "authority": {
+          "name": "LUCRECIA CRISTINA MORAS",
+          "position": "Subsecretaria",
+          "email": "",
+          "phone": ""
+        },
+        "dependencies": []
+      },
+      {
+        "name": "Subsecretaría de Políticas Socioculturales",
+        "category": "undersecretary",
+        "authority": {
+          "name": "MARÍA SOLEDAD ARTIGAS",
+          "position": "Subsecretario",
+          "email": "",
+          "phone": "0342 – 4506667, 4572357"
+        },
+        "dependencies": []
+      },
+      {
+        "name": "Dirección Provincial de Articulación Interinstitucional",
+        "category": "directorate",
+        "authority": {
+          "name": "FEDERICO BASTÍAS",
+          "position": "Director Provincial",
+          "email": "",
+          "phone": ""
+        },
+        "dependencies": []
+      },
+      {
+        "name": "Dirección Provincial de Espacios y Programas Socioculturales",
+        "category": "directorate",
+        "authority": {
+          "name": "PATRICIA DONNELLY",
+          "position": "Director Provincial",
+          "email": "",
+          "phone": ""
+        },
+        "dependencies": []
+      },
+      {
+        "name": "Dirección Provincial de Integración Territorial y Comunitaria",
+        "category": "directorate",
+        "authority": {
+          "name": "GINO FRANCO SVEGLIATI",
+          "position": "Director Provincial",
+          "email": "",
+          "phone": ""
+        },
+        "dependencies": []
+      },
+      {
+        "name": "Dirección Provincial de Programas Estratégicos",
+        "category": "directorate",
+        "authority": {
+          "name": "ALEJANDRO LUIS MARTÍN",
+          "position": "Director Provincial",
+          "email": "",
+          "phone": ""
+        },
+        "dependencies": []
+      },
+      {
+        "name": "Dirección Provincial de Fomento Cultural",
+        "category": "directorate",
+        "authority": {
+          "name": "NATALIA GAMBOA",
+          "position": "Directora Provincial",
+          "email": "",
+          "phone": ""
+        },
+        "dependencies": []
+      },
+      {
+        "name": "Dirección Provincial de Espacios y Organismos Culturales",
+        "category": "directorate",
+        "authority": {
+          "name": "PATRICIA CARLA HEIN",
+          "position": "Directora Provincial",
+          "email": "",
+          "phone": ""
+        },
+        "dependencies": []
+      },
+      {
+        "name": "Dirección Provincial de Producciones Culturales",
+        "category": "directorate",
+        "authority": {
+          "name": "PABLO FLORENCIO LAMBERTO",
+          "position": "Director Provincial",
+          "email": "",
+          "phone": ""
+        },
+        "dependencies": []
+      },
+      {
+        "name": "Dirección Provincial de Prensa y Comunicación",
+        "category": "directorate",
+        "authority": {
+          "name": "ACELIA YRURE",
+          "position": "Directora Provincial",
+          "email": "",
+          "phone": ""
+        },
+        "dependencies": []
+      }
+    ]
+  },
+  {
+    "name": "Ministerio de Ambiente y Cambio Climático",
+    "category": "ministry",
+    "authority": {
+      "name": "ENRIQUE ELOY ESTÉVEZ",
+      "position": "Ministro",
+      "email": "ambienteycambioclimatico@santafe.gov.ar",
+      "phone": "0342 – 4579212"
+    },
+    "dependencies": [
+      {
+        "name": "Secretaría de Ambiente",
+        "category": "secretary",
+        "authority": {
+          "name": "GUSTAVO FEDERICO LEONE",
+          "position": "Secretario",
+          "email": "",
+          "phone": "0342 – 4579212"
+        },
+        "dependencies": []
+      },
+      {
+        "name": "Secretaría de Biodiversidad",
+        "category": "secretary",
+        "authority": {
+          "name": "ALEJANDRO DAMIÁN LUCIANI",
+          "position": "Secretario",
+          "email": "",
+          "phone": "0342 – 4579212"
+        },
+        "dependencies": []
+      },
+      {
+        "name": "Secretaría de Cambio Climático",
+        "category": "secretary",
+        "authority": {
+          "name": "DIEGO MANUEL MARTÍN",
+          "position": "Secretario",
+          "email": "",
+          "phone": "0342 – 4579212"
+        },
+        "dependencies": []
+      },
+      {
+        "name": "Subsecretaría de Administración",
+        "category": "undersecretary",
+        "authority": {
+          "name": "SANTIAGO DARÍO ASEGURADO",
+          "position": "Subsecretario",
+          "email": "",
+          "phone": "0342 – 4579212"
+        },
+        "dependencies": []
+      },
+      {
+        "name": "Subsecretaría Legal y Técnica",
+        "category": "undersecretary",
+        "authority": {
+          "name": "CRISTHIAN ADOLFO SCHEIFLER GRIEVE",
+          "position": "Subsecretario",
+          "email": "",
+          "phone": "0342 – 4579212"
+        },
+        "dependencies": []
+      },
+      {
+        "name": "Subsecretaría de Gestión de Residuos y Economía Circular",
+        "category": "undersecretary",
+        "authority": {
+          "name": "JUAN MARTÍN",
+          "position": "Subsecretario",
+          "email": "",
+          "phone": "0342 – 4579212"
+        },
+        "dependencies": []
+      },
+      {
+        "name": "Subsecretaría de Innovación y Proyectos Estratégicos",
+        "category": "undersecretary",
+        "authority": {
+          "name": "MARINA BORGATELLO",
+          "position": "Subsecretaria",
+          "email": "",
+          "phone": "0342 – 4579212"
+        },
+        "dependencies": []
+      },
+      {
+        "name": "Subsecretaría de Gestión y Control Ambiental",
+        "category": "undersecretary",
+        "authority": {
+          "name": "FERNANDO MURUAGA",
+          "position": "Subsecretario",
+          "email": "",
+          "phone": "0342 – 4579212"
+        },
+        "dependencies": []
+      },
+      {
+        "name": "Subsecretaría de Bosques y Áreas Protegidas",
+        "category": "undersecretary",
+        "authority": {
+          "name": "GERMÁN FALO",
+          "position": "Subsecretario",
+          "email": "",
+          "phone": "0342 – 4579212"
+        },
+        "dependencies": []
+      },
+      {
+        "name": "Subsecretaría de Fauna y Pesca",
+        "category": "undersecretary",
+        "authority": {
+          "name": "ENRIQUE LUIS PADUÁN",
+          "position": "Subsecretario",
+          "email": "",
+          "phone": "0342 – 4579212"
+        },
+        "dependencies": []
+      },
+      {
+        "name": "Subsecretaría de Acción Climática",
+        "category": "undersecretary",
+        "authority": {
+          "name": "MÓNICA CECILIA PERALTA",
+          "position": "Subsecretaria",
+          "email": "",
+          "phone": "0342 – 4579212"
+        },
+        "dependencies": []
+      },
+      {
+        "name": "Dirección Provincial Delegación Sur",
+        "category": "directorate",
+        "authority": {
+          "name": "ANDRÉS BÁRBARO",
+          "position": "Director Provincial",
+          "email": "",
+          "phone": ""
+        },
+        "dependencies": []
+      },
+      {
+        "name": "Dirección Provincial Delegación Centro",
+        "category": "directorate",
+        "authority": {
+          "name": "MAURO ANDRÉS PERGAZERE",
+          "position": "Director Provincial",
+          "email": "",
+          "phone": "0342 – 4579212"
+        },
+        "dependencies": []
+      },
+      {
+        "name": "Dirección Provincial de Planificación",
+        "category": "directorate",
+        "authority": {
+          "name": "CESAR ELIECER MACKLER",
+          "position": "Director Provincial",
+          "email": "",
+          "phone": "0342 – 4579212"
+        },
+        "dependencies": []
+      },
+      {
+        "name": "Dirección Provincial de Coordinación Gobiernos Locales",
+        "category": "directorate",
+        "authority": {
+          "name": "FEDERICO EZEQUIEL PISACCO",
+          "position": "Director Provincial",
+          "email": "",
+          "phone": "0342 – 4579212"
+        },
+        "dependencies": []
+      },
+      {
+        "name": "Dirección Provincial de Ordenamiento Territorial",
+        "category": "directorate",
+        "authority": {
+          "name": "PABLO BARESE",
+          "position": "Director Provincial",
+          "email": "",
+          "phone": "0342 – 4579212"
+        },
+        "dependencies": []
+      },
+      {
+        "name": "Dirección Provincial de Comunicación",
+        "category": "directorate",
+        "authority": {
+          "name": "SEBASTIÁN GARAVELLI",
+          "position": "Director Provincial",
+          "email": "",
+          "phone": "0342 – 4579212"
+        },
+        "dependencies": []
+      },
+      {
+        "name": "Dirección Provincial de Administración",
+        "category": "directorate",
+        "authority": {
+          "name": "PABLO HÉCTOR GANDOLFO",
+          "position": "Director Provincial",
+          "email": "",
+          "phone": "0342 – 4579212"
+        },
+        "dependencies": []
+      },
+      {
+        "name": "Dirección Provincial de Asuntos Jurídicos",
+        "category": "directorate",
+        "authority": {
+          "name": "FLAVIA PETROCELLI",
+          "position": "Director Provincial",
+          "email": "",
+          "phone": "0342 – 4579212"
+        },
+        "dependencies": []
+      },
+      {
+        "name": "Dirección Provincial de Acción Climática",
+        "category": "directorate",
+        "authority": {
+          "name": "DANIELA MASTRANGELO",
+          "position": "Directora Provincial",
+          "email": "",
+          "phone": "0342 – 4579212"
+        },
+        "dependencies": []
+      },
+      {
+        "name": "Dirección Provincial de Bosques y Áreas Protegidas",
+        "category": "directorate",
+        "authority": {
+          "name": "LUCIANA MANELLI",
+          "position": "Directora Provincial",
+          "email": "",
+          "phone": "0342 – 4579212"
+        },
+        "dependencies": []
+      },
+      {
+        "name": "Dirección Provincial de Gestión de Residuos y Economía Circular",
+        "category": "directorate",
+        "authority": {
+          "name": "MARÍA CECILIA ÁLVAREZ",
+          "position": "Directora Provincial",
+          "email": "",
+          "phone": "0342 – 4579212"
+        },
+        "dependencies": []
+      },
+      {
+        "name": "Dirección Provincial de Gestión y Control Ambiental",
+        "category": "directorate",
+        "authority": {
+          "name": "MARÍA JIMENA GARROFE",
+          "position": "Directora Provincial",
+          "email": "",
+          "phone": "0342 – 4579212"
+        },
+        "dependencies": []
+      },
+      {
+        "name": "Dirección Provincial de Fauna y Pesca",
+        "category": "directorate",
+        "authority": {
+          "name": "FRANCO IVAN PONCE DE LEÓN",
+          "position": "Director Provincial",
+          "email": "",
+          "phone": "0342 – 4579212"
+        },
+        "dependencies": []
+      },
+      {
+        "name": "Dirección Provincial de Buenas Prácticas Ambientales",
+        "category": "directorate",
+        "authority": {
+          "name": "RAÚL BENEDICTO STEFFANAZZI",
+          "position": "Director Provincial",
+          "email": "",
+          "phone": "0342 – 4579212"
+        },
+        "dependencies": []
+      },
+      {
+        "name": "Dirección Provincial de Movilidad Sustentable",
+        "category": "directorate",
+        "authority": {
+          "name": "ANDREA MAGNANI",
+          "position": "Directora Provincial",
+          "email": "",
+          "phone": "0342 – 4579212"
+        },
+        "dependencies": []
+      },
+      {
+        "name": "Dirección Provincial de Financiamiento Internacional",
+        "category": "directorate",
+        "authority": {
+          "name": "MARÍA ROSA AGUIRRE",
+          "position": "Directora Provincial",
+          "email": "",
+          "phone": ""
+        },
+        "dependencies": []
+      }
+    ]
+  },
+  {
+    "name": "Fiscalía de Estado",
+    "category": "entity",
+    "authority": {
+      "name": "DOMINGO JOSÉ RONDINA",
+      "position": "Fiscal",
+      "email": "fiscaliadeestado@santafe.gov.ar",
+      "phone": "0342 - 4571915, 4571914, 4571912"
+    },
+    "dependencies": [
+      {
+        "name": "Secretaría Privada",
+        "category": "secretary",
+        "authority": {
+          "name": "RODRIGO LUCAS DEMARCHI",
+          "position": "Secretario Privado",
+          "email": "fiscaliadeestado@santafe.gov.ar",
+          "phone": "0342 - 4571915, 4571914, 4571912"
+        },
+        "dependencies": []
+      },
+      {
+        "name": "Subsecretaría de Administración y Despacho",
+        "category": "undersecretary",
+        "authority": {
+          "name": "JULIETA PORATTI",
+          "position": "Subsecretaria",
+          "email": "",
+          "phone": ""
+        },
+        "dependencies": []
+      }
+    ]
+  },
+  {
+    "name": "Sindicatura General de la Provincia",
+    "category": "entity",
+    "authority": {
+      "name": "LAURA CAROLINA CASTETS",
+      "position": "Síndica",
+      "email": "sigep@santafe.gov.ar",
+      "phone": "0342 – 4574760 – 4574784 - 4574797"
+    },
+    "dependencies": [
+      {
+        "name": "Síndico Adjunto de la Provincia",
+        "category": "entity",
+        "authority": {
+          "name": "PABLO JORGE BUTTARO",
+          "position": "Síndico Adjunto",
+          "email": "sigep@santafe.gov.ar",
+          "phone": "0342 – 4574760 – 4574784 – 4574797"
+        },
+        "dependencies": []
+      },
+      {
+        "name": "Director Provincial de Control",
+        "category": "directorate",
+        "authority": {
+          "name": "EDUARDO ANDRÉS GALLO",
+          "position": "Director Provincial",
+          "email": "sigep@santafe.gov.ar",
+          "phone": "0342 – 4574760 – 4574784 – 4574797"
+        },
+        "dependencies": []
+      }
+    ]
+  }
+]

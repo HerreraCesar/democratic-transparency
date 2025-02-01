@@ -1,0 +1,44 @@
+name: Notify on Cloudflare Deploy
+
+on: 
+  check_run:
+    types: [completed]
+
+jobs:
+  notify:
+    if: github.event.check_run.output.title == 'Deployed successfully'
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Determine variables based on environment
+        run: |
+          if [ "${{ github.event.check_run.check_suite.head_branch }}" == "main" ]; then
+            echo "DEPLOY_URL=${{ vars.MAIN_DEPLOY_URL }}" >> $GITHUB_ENV
+            echo "DEPLOY_BRANCH=production" >> $GITHUB_ENV
+          else
+            echo "DEPLOY_URL=${{ vars.DEVELOP_DEPLOY_URL }}" >> $GITHUB_ENV
+            echo "DEPLOY_BRANCH=develop" >> $GITHUB_ENV
+          fi
+
+      - name: Send email notification via Zoho Mail
+        env:
+          ZOHO_SMTP_SERVER: "smtppro.zoho.com"
+          ZOHO_SMTP_PORT: "465"
+          ZOHO_EMAIL_ADDRESS: ${{ secrets.ZOHO_EMAIL_ADDRESS }}
+          ZOHO_APP_PASSWORD: ${{ secrets.ZOHO_APP_PASSWORD }}
+          TO_EMAIL_ADDRESSES: ${{ vars.TO_EMAIL_ADDRESSES }}
+          PROJECT_NAME: ${{ vars.PROJECT_NAME }}
+          DEPLOY_URL: ${{ env.DEPLOY_URL }}
+          DEPLOY_BRANCH: ${{ env.DEPLOY_BRANCH }}
+        run: |
+          SUBJECT="Despliegue exitoso en Cloudflare (${DEPLOY_BRANCH})"
+          BODY="¡El despliegue de ${PROJECT_NAME} en Cloudflare se completó exitosamente!\n\nPuedes ver el despliegue haciendo click en el siguiente enlace: ${DEPLOY_URL}"
+
+          EMAIL_CONTENT="From: ${ZOHO_EMAIL_ADDRESS}\nTo: ${TO_EMAIL_ADDRESSES}\nSubject: ${SUBJECT}\n\n${BODY}"
+
+          for TO_EMAIL_ADDRESS in $(echo $TO_EMAIL_ADDRESSES | tr ',' '\n'); do
+            echo -e "$EMAIL_CONTENT" | curl --ssl-reqd --url smtps://${ZOHO_SMTP_SERVER}:${ZOHO_SMTP_PORT} \
+                --mail-from "${ZOHO_EMAIL_ADDRESS}" \
+                --mail-rcpt "${TO_EMAIL_ADDRESS}" \
+                --user "${ZOHO_EMAIL_ADDRESS}:${ZOHO_APP_PASSWORD}" -T -
+          done

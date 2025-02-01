@@ -1,0 +1,43 @@
+---
+import "@styles/global.css";
+import "@fontsource-variable/inter";
+import { Footer, Header } from "@components";
+import { getLangFromUrl } from "@internationalization";
+import { ClientRouter } from "astro:transitions";
+
+const lang = getLangFromUrl(Astro.url);
+
+interface Props {
+  title: string;
+}
+
+const { title } = Astro.props;
+---
+
+<!doctype html>
+<html lang={lang} class="dark bg-black font-inter scroll-smooth">
+  <head>
+    <!-- TODO: actualizar valores -->
+    <meta charset="UTF-8" />
+    <meta name="description" content="Astro description" />
+    <meta name="viewport" content="width=device-width" />
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <!-- TODO: agregar tracking -->
+    <meta name="generator" content={Astro.generator} />
+    <title>{title}</title>
+    <ClientRouter />
+  </head>
+  <body
+    class="bg-gradient-to-t from-black to-blue-900/30 min-h-[100dvh] min-w-[100dvw] overflow-x-hidden p-8 flex items-center justify-center"
+  >
+    <div
+      class="min-h-[100dvh] w-full max-w-[500px] lg:max-w-[900px] flex flex-col justify-between"
+    >
+      <Header />
+      <main>
+        <slot />
+      </main>
+      <Footer />
+    </div>
+  </body>
+</html>

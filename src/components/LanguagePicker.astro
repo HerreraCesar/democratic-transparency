@@ -1,0 +1,19 @@
+---
+import {
+  getLangFromUrl,
+  useTranslatedPath,
+  languages,
+} from "@internationalization";
+const lang = getLangFromUrl(Astro.url);
+const translatePath = useTranslatedPath(lang);
+---
+
+<ul>
+  {
+    Object.entries(languages).map(([lang, label]) => (
+      <li class="text-custom-light-blue">
+        <a href={translatePath("/santa-fe", lang)}>{label}</a>
+      </li>
+    ))
+  }
+</ul>
