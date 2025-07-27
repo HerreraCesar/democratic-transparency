@@ -3,7 +3,8 @@ import { getLangFromUrl, useTranslations } from "@internationalization";
 import { Image } from "astro:assets";
 import { getCollection } from "astro:content";
 import type { defaultLang, dictionary } from "src/i18n/dictionary";
-import { speedometer } from "@assets/icons";
+// import { speedometer } from "@assets/icons";
+import { speedometer } from "@assets/videos";
 
 //TODO: extraer interfaces
 type Category =
@@ -93,7 +94,7 @@ const statistics: Statistics = {
 };
 ---
 
-<header class="flex flex-col lg:flex-row justify-between mb-10 gap-2">
+<header class="flex flex-col lg:flex-row justify-between gap-2 mb-2">
   <div class="flex flex-col gap-4 mb-4">
     <h2 class="text-custom-white/80 text-xl lg:text-4xl">
       {t("header_title")}
@@ -113,15 +114,13 @@ const statistics: Statistics = {
         </p>
       ))
     }
-    <!-- TODO: animar svg -->
-    <Image
+    <video
       src={speedometer}
-      alt={"Loupe"}
-      width={100}
-      class="absolute right-8 bottom-2 opacity-50 stroke-custom-red text-custom-red fill-custom-red"
-      color={"#e84d5b"}
-    />
+      autoplay
+      loop
+      width={150}
+      class="absolute right-0 bottom-0 opacity-50 translate-y-4"></video>
   </div>
-  <!-- TODO: usar collection y diccionario -->
-  <span class="text-gray-500 text-sm text-end">Updated at: 29/01/2025</span>
 </header>
+<!-- TODO: usar collection y diccionario -->
+<span class="text-gray-500 text-sm text-end mb-6">Updated at: 29/01/2025</span>

@@ -2,7 +2,7 @@
 import { General } from "@layouts";
 import { getLangFromUrl, useTranslations } from "@internationalization";
 import { getCollection } from "astro:content";
-import { loupe } from "@assets/icons";
+import { loupe, avatar } from "@assets/icons";
 import { Image } from "astro:assets";
 
 const lang = getLangFromUrl(Astro.url);
@@ -20,7 +20,13 @@ const entities = collection.shift()?.data;
         entities.map((entity) => (
           // TODO: usar componente
           <div class="min-w-[300px] max-w-[400px] h-[200px] bg-custom-grey/20 shadow-md rounded-md cursor-pointer p-6 hover:shadow-none hover:bg-custom-green/10 transition-all border-custom-light-blue/20 border overflow-hidden relative group">
-            <h1 class="text-lg text-custom-blue">{entity.name}</h1>
+            <p class="text-2xl text-custom-blue">{entity.name}</p>
+            <div class="flex gap-2">
+              <Image src={avatar} alt={"Avatar"} width={20} class="" />
+              <p class="text-custom-white/50 text-lg capitalize">
+                {entity.authority.name.toLowerCase()}
+              </p>
+            </div>
             <Image
               src={loupe}
               alt={"Loupe"}

@@ -1,0 +1,57 @@
+---
+import { Blank } from "@layouts";
+import { getLangFromUrl, useTranslations } from "@internationalization";
+import { getCollection } from "astro:content";
+import { loupe, avatar } from "@assets/icons";
+import { Image } from "astro:assets";
+
+const lang = getLangFromUrl(Astro.url);
+const t = useTranslations(lang);
+// const collection = await getCollection("entities", ({ id }) =>
+//   id.startsWith(`${lang}/`)
+// );
+// const entities = collection.shift()?.data;
+---
+
+<Blank title={"Salud"}>
+  <div class="text-center max-w-[600px]">
+    <div class="mb-8">
+      <div
+        class="w-16 h-16 mx-auto bg-blue-100 rounded-full flex items-center justify-center"
+      >
+        <svg
+          class="w-8 h-8 text-custom-black"
+          fill="none"
+          stroke="currentColor"
+          viewBox="0 0 24 24"
+        >
+          <path
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            stroke-width="2"
+            d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z"></path>
+        </svg>
+      </div>
+    </div>
+
+    <h1 class="text-4xl md:text-5xl font-light text-custom-light-blue mb-4">
+      Sitio en construcción
+    </h1>
+
+    <p class="text-custom-white/70 text-lg mb-8 font-light">
+      Próximamente podrás encontrar información sobre los servicios de salud del
+      país de manera totalmente transparente.
+    </p>
+
+    <p class="text-sm text-gray-500 mb-2">
+      Para más información o por sugerencias, puedes contactarnos a través de
+      nuestro correo electrónico:
+    </p>
+    <a
+      href="mailto:info@tudominio.com"
+      class="text-sm text-custom-blue hover:text-blue-800 transition-colors"
+    >
+      contacto@herreracesar.com.ar
+    </a>
+  </div>
+</Blank>
